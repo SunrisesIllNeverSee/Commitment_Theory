@@ -169,7 +169,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^14]: *See* Press Release, Thomson Reuters, *Westlaw Precision with CoCounsel, Practical Law, and CoCounsel to be provided to US Federal Courts as the essential information provider for the Federal Judiciary* (Apr. 9, 2025), https://www.thomsonreuters.com/en/press-releases/2025/april/westlaw-precision-with-cocounsel-practical-law-and-cocounsel-to-be-provided-to-us-federal-courts-as-the-essential-information-provider-for-the-federal-judiciary (announcing multi-year contract with the Administrative Office of the U.S. Courts). [**Archive via perma.cc.**]
 
-[^15]: *See, e.g.*, LexisNexis, *Lexis+ AI*, https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page (last visited Apr. 29, 2026) (describing enterprise-grade security and confidentiality for legal work). [**Archive via perma.cc.**]
+[^15]: *See, e.g.*, LexisNexis, *Lexis+ with Protégé* (formerly Lexis+ AI), https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page (last visited Apr. 29, 2026) (describing enterprise-grade security and confidentiality for legal work). [**Archive via perma.cc.**]
 
 [^16]: *See* Heppner, 2026 WL 436479, at *4 (citing the consumer AI platform's terms of service as a basis for finding no reasonable expectation of confidentiality).
 
@@ -193,7 +193,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^26]: U.S. CONST. amend. XIV, § 1.
 
-[^27]: *See* Clio, *AI and the Future of Criminal Defense: Privilege Risks for Indigent Defendants*, CLIO BLOG (Feb. 2026), https://www.clio.com/blog/ai-criminal-defense-privilege. [**Archive via perma.cc. Consider supplementing with a more authoritative source—public defender report or amicus brief—if available.**]
+[^27]: *See* Clio, *Does Using AI Waive Attorney-Client Privilege? Breaking Down the United States v. Heppner Case*, CLIO BLOG (2026), https://www.clio.com/blog/ai-attorney-client-privilege-heppner/ (analyzing privilege risks where defendants use consumer AI without counsel direction). [**Archive via perma.cc.**]
 
 [^28]: *See supra* note 12.
 
