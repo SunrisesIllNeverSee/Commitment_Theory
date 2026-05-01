@@ -19,7 +19,7 @@ This Essay contends that this emerging regime implicates core concerns of civil 
 
 On February 10, 2026, two federal courts decided the same question and reached opposite conclusions.[^1] The split is not a procedural anomaly. It is the first visible surface of a structural inequality forming inside AI-mediated legal systems. The question was whether materials a person created with the assistance of a publicly available AI platform—legal research, case analysis, strategic planning—are protected work product, or whether they are discoverable because the AI platform is not an attorney and its terms of service disclaim confidentiality. The answer, it turns out, depends on who the person is.
 
-In *United States v. Heppner*, the U.S. District Court for the Southern District of New York held that a criminal defendant's AI-generated legal documents were not protected work product.[^2] Bradley Heppner, facing securities fraud charges, had used a consumer AI platform to create thirty-one documents containing defense strategies, factual analyses, and legal arguments. He did so without his attorney's direction. The court, applying what it called "the core purpose of the Work Product Doctrine"—"to protect the mental strategies of counsel in anticipation of litigation"—found that materials created by a non-lawyer without attorney involvement fell outside the doctrine's shelter.[^3] The AI's terms of service, which permitted data collection and disclosure to third parties, reinforced the conclusion that Heppner had no reasonable expectation of confidentiality. The documents were deemed fully discoverable.
+In *United States v. Heppner*, the U.S. District Court for the Southern District of New York held that a criminal defendant's AI-generated legal documents were not protected work product.[^2] Bradley Heppner, facing securities fraud charges, had used a consumer AI platform to create thirty-one documents containing defense strategies, factual analyses, and legal arguments. He did so without his attorney's direction. The court, applying what it called the "core" of the work-product doctrine—"shelter[ing] the mental processes of the attorney, providing a privileged area within which he can analyze and prepare his client's case"—found that materials created by a non-lawyer without attorney involvement fell outside the doctrine's shelter.[^3] The AI's terms of service, which permitted data collection and disclosure to third parties, reinforced the conclusion that Heppner had no reasonable expectation of confidentiality. The documents were deemed fully discoverable.
 
 On the same day, in the Eastern District of Michigan, *Warner v. Gilbarco, Inc.* reached the opposite result.[^4] Sohyon Warner, a pro se plaintiff in an employment discrimination case, had used consumer AI to prepare her case. When the defendants moved to compel production of all AI-related materials, the court denied the motion. Pro se litigants, it reasoned, occupy a unique dual role—"simultaneously the party and the advocate."[^5] Their AI-assisted materials reflect their own mental impressions as the person litigating, and compelling production "would nullify work-product protection in nearly every modern drafting environment, a result no court has endorsed."[^6] The AI was a tool, not a person; disclosure to a tool did not waive protection.
 
@@ -145,7 +145,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^2]: Heppner, 2026 WL 436479.
 
-[^3]: *Id.* at *4 (quoting Upjohn Co. v. United States, 449 U.S. 383, 395 (1981)).
+[^3]: *Id.* at *3 (quoting United States v. Nobles, 422 U.S. 225, 238 (1975)).
 
 [^4]: Warner, 2026 WL 373043.
 
@@ -201,11 +201,11 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^30]: Courts have begun drawing distinctions between technical processing and legally meaningful disclosure in other digital contexts. *Cf.* Carpenter v. United States, 138 S. Ct. 2206, 2220 (2018) (by analogy, distinguishing the content of communications from routing information); *see also* Nichol v. City of Springfield, No. 6:14-cv-1983-AA, 2015 U.S. Dist. LEXIS 169901 (D. Or. Dec. 18, 2015) (extending work-product protection to materials prepared by a non-attorney friend assisting a pro se litigant in anticipation of litigation).
 
-[^31]: 565 F. Supp. 3d 557 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).
+[^31]: 565 F. Supp. 3d 557, 574 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).
 
 [^32]: *See* Warner, 2026 WL 373043, at *4 ("Generative AI programs are tools, not persons.").
 
-[^33]: Fed. R. Civ. P. 26(b)(3)(A). The rule's text covers "a party or its representative," which on its face does not limit the representative to an attorney. *See also Shih*, 565 F. Supp. 3d 557 (extending protection to a non-attorney representative); *Nichol*, 2015 U.S. Dist. LEXIS 169901 (same for non-attorney friend of pro se litigant).
+[^33]: Fed. R. Civ. P. 26(b)(3)(A). The rule's text covers "a party or its representative," which on its face does not limit the representative to an attorney. *See also Shih*, 565 F. Supp. 3d at 574 (extending protection to a non-attorney representative); *Nichol*, 2015 U.S. Dist. LEXIS 169901 (same for non-attorney friend of pro se litigant).
 
 [^34]: 18 U.S.C. § 3771. The Act currently provides victims with the right to be heard, the right to notice, and the right to restitution, but does not address the protection of their litigation preparation materials.
 
@@ -247,10 +247,10 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 ### Still Requires Verification Before Submission
 
-- [ ] **Heppner fn 3 (Upjohn 395 quote)** — confirm via Westlaw that Heppner at *4 quotes Upjohn at 449 U.S. 395 (page may differ in actual opinion)
+- [x] **Heppner fn 3** — Westlaw verified. Original cite was wrong (Heppner does NOT quote Upjohn). Corrected to: *Id.* at *3 (quoting United States v. Nobles, 422 U.S. 225, 238 (1975)). Body quote also corrected to match Rakoff's actual language.
+- [x] **Shih pin cite** — Westlaw verified via Heppner's own pin cite to Shih at 574. Updated fns 31 and 33 to `565 F. Supp. 3d at 574`.
 - [ ] **Carpenter pin cite** — fn 30 cites 138 S. Ct. at 2220 for the content/routing distinction; verify exact page via Westlaw
 - [ ] **Nichol LEXIS number** — fn 30 cites 2015 U.S. Dist. LEXIS 169901; confirm exact LEXIS number
-- [ ] **Shih pin cite** — fn 31 currently cites 565 F. Supp. 3d 557 case-level only; verify page within opinion for the work-product extension via Casetext
 - [x] **Footnote 15** — Lexis+ AI — archived (perma.cc/J9K6-SWYZ)
 - [x] **Footnote 19** — SLRO call URL — archived (perma.cc/AYZ4-YXSJ)
 - [x] **Footnote 27** — Clio blog — archived (perma.cc/GE4K-94G4)
