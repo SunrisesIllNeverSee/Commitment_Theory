@@ -37,19 +37,21 @@
 |---|---|---|
 | *United States v. Heppner* | No. 25-cr-00503-JSR, 2026 WL 436479 (S.D.N.Y. Feb. 17, 2026) | ✅ VERIFIED |
 | *Warner v. Gilbarco, Inc.* | No. 2:24-cv-12333, 2026 WL 373043 (E.D. Mich. Feb. 10, 2026) | ✅ VERIFIED |
-| *Morgan v. V2X, Inc.* | No. 24-CV-03199, 2026 WL 1069587 (D. Colo. Mar. 30, 2026) | ⚠️ UNVERIFIED — check PACER/Westlaw. If unverifiable, cut — paper holds on Heppner/Warner alone. |
+| *Morgan v. V2X, Inc.* | No. 25-cv-01991-SKC-MDB, 2026 WL 864223 (D. Colo. Mar. 30, 2026) | ✅ VERIFIED — citation corrected (was wrong: No. 24-CV-03199, 2026 WL 1069587). Sources: Osherow Law Advisor, Lexology, ACEDS, Sidley, Logikcull, Clio, Everlaw, Sergenian Law, BSK. |
+| *Shih v. Petal Card, Inc.* | 565 F. Supp. 3d 557 (S.D.N.Y. 2021) | ✅ VERIFIED — citation corrected (was wrong: 2021 WL 1966870 (JPC); judge initials JPC→JFK; should use published reporter cite per Heppner's own opinion). Pin cite within opinion still needs Casetext/Westlaw verification. |
 
 ### Footnotes Requiring Fix
 
-| Fn | Issue | Action |
-|---|---|---|
-| 13 | Harvey/Claude — cited to Harvey homepage | Replace with legal alert or reporting confirming Claude foundation. Proskauer/Debevoise/Gibson Dunn alerts all reference Anthropic/Claude in the Heppner context. Archive via perma.cc. |
-| 14 | CoCounsel judiciary contract — cited to TPG/Elite sale (wrong source) | Find direct source for the judiciary contract. Remove TPG/Elite reference. |
-| 15 | Lexis+ AI URL | Archive via perma.cc |
-| 17 | Legaltech Hub — vague | Confirm URL or report title. Archive via perma.cc. |
-| 19 | SLRO call URL | Archive via perma.cc |
-| 27 | Clio blog — weak | Archive via perma.cc. Supplement with authoritative source if available. |
-| 35 | Marsy's Law URL | Archive via perma.cc |
+| Fn | Issue | Action | Status |
+|---|---|---|---|
+| 13 | Harvey/Claude — cited to Proskauer alert only | Replaced with: Proskauer + Harvey blog (Opus 4.6) + Anthropic customer story. Body claim also corrected from "built on Anthropic's Claude" to "integrates Anthropic's Claude alongside OpenAI's GPT models." Archive via perma.cc. | ✅ Cite fixed; perma.cc pending |
+| 14 | CoCounsel judiciary contract — cited to TR product page (wrong source) | Replaced with: Thomson Reuters press release Apr. 9, 2025 announcing AOUSC contract. | ✅ Cite fixed; perma.cc pending |
+| 15 | Lexis+ AI URL | Archive via perma.cc | ⚠️ User action |
+| 17 | Legaltech Hub — vague | Replaced with: Legaltech Hub Generative AI Toolkit + UC Davis libguide confirming "1,014 product placements." | ✅ Cite fixed; perma.cc pending |
+| 19 | SLRO call URL | Archive via perma.cc | ⚠️ User action |
+| 27 | Clio blog — weak | Archive via perma.cc. Supplement with authoritative source if available. | ⚠️ User action |
+| 35 | Marsy's Law URL | Archive via perma.cc | ⚠️ User action |
+| 31 | Shih v. Petal Card cite was wrong | Changed from `2021 WL 1966870 (JPC)` to `565 F. Supp. 3d 557 (S.D.N.Y. 2021)`. Pin cite within opinion still needs Casetext verification. | ✅ Cite fixed; pin pending |
 
 ### All Other Cases — Verify Page Numbers
 
@@ -70,11 +72,11 @@
 
 ### Law Review Articles — Verify Volume and Page
 
-- [ ] Citron & Pasquale, 89 WASH. L. REV. 1 (2014)
-- [ ] Citron, 85 WASH. U. L. REV. 1249 (2008)
-- [ ] Coglianese & Lehr, 105 GEO. L.J. 1147 (2017)
-- [ ] Barocas & Selbst, 104 CALIF. L. REV. 671 (2016)
-- [ ] Prince & Schwarcz, 105 IOWA L. REV. 1257 (2020)
+- [x] Citron & Pasquale, 89 WASH. L. REV. 1 (2014) — ✅ Verified via UW Law digital commons
+- [x] Citron, 85 WASH. U. L. REV. 1249 (2008) — ✅ Verified via WUSTL OpenScholarship
+- [x] Coglianese & Lehr, 105 GEO. L.J. 1147 (2017) — ✅ Verified via Penn Law repository
+- [x] Barocas & Selbst, 104 CALIF. L. REV. 671 (2016) — ✅ Verified via Berkeley Law Review
+- [x] Prince & Schwarcz, 105 IOWA L. REV. 1257 (2020) — ✅ Verified via Minnesota Law repository
 
 ### Statutes — Verify
 - [ ] 18 U.S.C. § 3771 (Crime Victims' Rights Act)
@@ -171,17 +173,19 @@ online@stanfordlawreview.org
 |---|---|
 | Heppner verified | ✅ Done |
 | Warner verified | ✅ Done |
-| Morgan — check PACER/Westlaw | ⚠️ Pending |
-| Fix footnotes 13, 14, 17 | ⚠️ Pending |
-| Perma.cc all URLs | ⬜ April 28–29 |
-| Verify all case page numbers | ⬜ April 28–29 |
-| Verify all law review citations | ⬜ April 28–29 |
-| Bluebook format check | ⬜ April 28–29 |
-| Word count confirm under 5,000 | ⬜ April 29 |
-| Voice edit pass | ⬜ April 29 |
-| Anonymize + clean metadata | ⬜ April 29 |
-| Rename file | ⬜ April 29 |
-| Complete AI Disclosure Form | ⬜ April 29 |
+| Morgan verified (citation corrected) | ✅ Done — was wrong: corrected to No. 25-cv-01991-SKC-MDB, 2026 WL 864223 |
+| Shih verified (citation corrected) | ✅ Done — was wrong: corrected to 565 F. Supp. 3d 557 (S.D.N.Y. 2021) |
+| Fix footnotes 13, 14, 17 | ✅ Done |
+| Verify law review citations (5 articles) | ✅ Done |
+| Word count confirm under 5,000 | ✅ Done — 4,937 words (paper + footnotes, excl. internal checklist) |
+| Anonymize body | ✅ Done — grep clean for name/affiliation |
+| Bluebook format check | ✅ Done — spot-check found no structural fixes needed |
+| Perma.cc all URLs | ⬜ User action (fns 13, 14, 15, 17, 19, 27, 35) |
+| Verify pin cites via Westlaw | ⬜ User action (Heppner→Upjohn 395, Carpenter 2220, Nichol LEXIS, Shih pin) |
+| Convert to .docx | ⬜ User decision — pandoc available |
+| Clean Word metadata | ⬜ User action (in Word: File → Info → Inspect Document → Remove All) |
+| Rename file (e.g., SLRO-Submission-2026.docx) | ⬜ User action |
+| Complete AI Disclosure Form | ⬜ User action |
 | Final read-aloud | ⬜ April 30 morning |
 | **SUBMIT** | **April 30** |
 | Hard deadline | May 1, 11:59 PM PT |
@@ -196,4 +200,4 @@ online@stanfordlawreview.org
 
 ---
 
-*Two cases verified. Morgan pending. Everything else is execution. Submit April 30.*
+*Four cases verified (Heppner, Warner, Morgan, Shih). All five law review citations verified. Footnotes 13, 14, 17 sourced. Word count 4,937 (under 5,000). Anonymization clean. Remaining: perma.cc archiving, Westlaw pin verifications, .docx conversion + Word metadata scrub, AI Disclosure Form, submit April 30.*

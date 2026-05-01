@@ -51,7 +51,7 @@ The fracture is compounded by the technological and contractual architecture thr
 
 ### A. The Wrapper Ecosystem
 
-The leading AI tools marketed specifically to the legal profession are built on the same foundation models available to the public. Harvey, an AI platform used by major law firms, is built on Anthropic's Claude.[^13] CoCounsel, Thomson Reuters's AI assistant, is built on OpenAI's GPT-4 and holds a contract with the federal judiciary.[^14] Lexis+ AI and Protégé draw on multiple foundation models. These enterprise platforms are sold through subscription tiers that range from tens of thousands to hundreds of thousands of dollars annually. They are marketed with the promise that materials created within their environments are protected as attorney work product.[^15]
+The leading AI tools marketed specifically to the legal profession are built on the same foundation models available to the public. Harvey, an AI platform used by major law firms, integrates Anthropic's Claude alongside OpenAI's GPT models.[^13] CoCounsel, Thomson Reuters's AI assistant, is built on OpenAI's GPT-4 and holds a contract with the federal judiciary.[^14] Lexis+ AI and Protégé draw on multiple foundation models. These enterprise platforms are sold through subscription tiers that range from tens of thousands to hundreds of thousands of dollars annually. They are marketed with the promise that materials created within their environments are protected as attorney work product.[^15]
 
 Consumer versions of the same underlying models—Claude, ChatGPT, Gemini—are available for free or at modest monthly cost. They produce outputs of materially comparable analytical quality. But the legal profession's discourse, reinforced by *Heppner*'s reasoning, treats materials created on consumer platforms by non-lawyers as presumptively unprotected.[^16]
 
@@ -153,7 +153,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^6]: *Id.* at *4.
 
-[^7]: Morgan v. V2X, Inc., No. 24-CV-03199, 2026 WL 1069587 (D. Colo. Mar. 30, 2026). [**VERIFICATION REQUIRED: Confirm docket number and WL citation against PACER/Westlaw before submission.**]
+[^7]: Morgan v. V2X, Inc., No. 25-cv-01991-SKC-MDB, 2026 WL 864223 (D. Colo. Mar. 30, 2026).
 
 [^8]: 329 U.S. 495 (1947); Fed. R. Civ. P. 26(b)(3)(A). The criminal equivalent in New York is CPL § 245.65.
 
@@ -165,15 +165,15 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^12]: Crime victims are not parties to the criminal proceeding; the prosecutor represents the state. *See* Linda R.S. v. Richard D., 410 U.S. 614, 619 (1973). Their statutory rights under 18 U.S.C. § 3771 do not include the right to appointed counsel or to work-product protection for their own preparation materials.
 
-[^13]: *See* Proskauer Rose LLP, *SDNY Addresses Privilege and Work Product Implications of Using Unsecured Public AI Tools* (Feb. 18, 2026), https://www.proskauer.com/alert/sdny-addresses-privilege-and-work-product-implications-of-using-unsecured-public-ai-tools (noting that the Heppner decision addressed use of "Anthropic's Claude AI" and that Harvey is built on the same foundation model). [**VERIFICATION REQUIRED: Confirm Harvey/Claude relationship via Harvey's public documentation or dedicated reporting. Archive via perma.cc.**]
+[^13]: *See* Proskauer Rose LLP, *SDNY Addresses Privilege and Work Product Implications of Using Unsecured Public AI Tools* (Feb. 18, 2026), https://www.proskauer.com/alert/sdny-addresses-privilege-and-work-product-implications-of-using-unsecured-public-ai-tools (confirming Heppner's use of Anthropic's Claude); Harvey, *Opus 4.6, Now Live in Harvey* (2026), https://www.harvey.ai/blog/opus-4-6-now-live-in-harvey (announcing integration of Anthropic's Claude Opus into the Harvey platform); *see also* Anthropic, *Customer Story: Harvey*, https://claude.com/customers/harvey (describing Harvey's use of Claude). [**Archive via perma.cc.**]
 
-[^14]: *See* Thomson Reuters, *CoCounsel*, https://legal.thomsonreuters.com/en/products/cocounsel (last visited Apr. 29, 2026). [**VERIFICATION REQUIRED: Source the federal judiciary contract directly—the prior citation to the TPG/Elite sale was incorrect for this claim. Archive via perma.cc.**]
+[^14]: *See* Press Release, Thomson Reuters, *Westlaw Precision with CoCounsel, Practical Law, and CoCounsel to be provided to US Federal Courts as the essential information provider for the Federal Judiciary* (Apr. 9, 2025), https://www.thomsonreuters.com/en/press-releases/2025/april/westlaw-precision-with-cocounsel-practical-law-and-cocounsel-to-be-provided-to-us-federal-courts-as-the-essential-information-provider-for-the-federal-judiciary (announcing multi-year contract with the Administrative Office of the U.S. Courts). [**Archive via perma.cc.**]
 
 [^15]: *See, e.g.*, LexisNexis, *Lexis+ AI*, https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page (last visited Apr. 29, 2026) (describing enterprise-grade security and confidentiality for legal work). [**Archive via perma.cc.**]
 
 [^16]: *See* Heppner, 2026 WL 436479, at *4 (citing the consumer AI platform's terms of service as a basis for finding no reasonable expectation of confidentiality).
 
-[^17]: *See generally* Legaltech Hub, *Generative AI in Legal Tech* (Mar. 2026) (mapping over 1,000 generative AI products for the legal industry, most built on Claude, GPT-4, or Gemini). [**VERIFICATION REQUIRED: Confirm specific URL or report title. Archive via perma.cc.**]
+[^17]: *See generally* Legaltech Hub, *Generative AI Toolkit*, https://www.legaltechnologyhub.com/topics/process-improvement/generative-ai-toolkit/ (last visited Apr. 29, 2026); *see also* UC Davis Mabie Law Library, *Generative AI Tools and Resources for Law Students*, https://libguides.law.ucdavis.edu/genaiforlawstudents/tools (citing Legaltech Hub's March 2026 mapping of 1,014 generative AI product placements in legal tech). [**Archive via perma.cc.**]
 
 [^18]: Publicly available terms of service, privacy policies, and industry descriptions reviewed as of April 2026 do not identify architectural segregation commitments between enterprise and consumer processing paths.
 
@@ -201,11 +201,11 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^30]: Courts have begun drawing distinctions between technical processing and legally meaningful disclosure in other digital contexts. *Cf.* Carpenter v. United States, 138 S. Ct. 2206, 2220 (2018) (by analogy, distinguishing the content of communications from routing information); *see also* Nichol v. City of Springfield, No. 6:14-cv-1983-AA, 2015 U.S. Dist. LEXIS 169901 (D. Or. Dec. 18, 2015) (extending work-product protection to materials prepared by a non-attorney friend assisting a pro se litigant in anticipation of litigation).
 
-[^31]: No. 18-CV-5495 (JPC), 2021 WL 1966870, at *4 (S.D.N.Y. May 17, 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).
+[^31]: 565 F. Supp. 3d 557 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).
 
 [^32]: *See* Warner, 2026 WL 373043, at *4 ("Generative AI programs are tools, not persons.").
 
-[^33]: Fed. R. Civ. P. 26(b)(3)(A). The rule's text covers "a party or its representative," which on its face does not limit the representative to an attorney. *See also Shih*, 2021 WL 1966870, at *4 (extending protection to a non-attorney representative); *Nichol*, 2015 U.S. Dist. LEXIS 169901 (same for non-attorney friend of pro se litigant).
+[^33]: Fed. R. Civ. P. 26(b)(3)(A). The rule's text covers "a party or its representative," which on its face does not limit the representative to an attorney. *See also Shih*, 565 F. Supp. 3d 557 (extending protection to a non-attorney representative); *Nichol*, 2015 U.S. Dist. LEXIS 169901 (same for non-attorney friend of pro se litigant).
 
 [^34]: 18 U.S.C. § 3771. The Act currently provides victims with the right to be heard, the right to notice, and the right to restitution, but does not address the protection of their litigation preparation materials.
 
@@ -233,6 +233,13 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 | Heppner WL | 2026 WL 566081 | 2026 WL 436479 | Haynes Boone, RPJ Law |
 | Warner docket | No. 23-12531 | No. 2:24-cv-12333 | Proskauer, Justia, Cleary |
 | Warner WL | 2026 WL 460146 | 2026 WL 373043 | Multiple firm alerts |
+| Morgan docket | No. 24-CV-03199 | No. 25-cv-01991-SKC-MDB | Osherow Law Advisor, Lexology, ACEDS, Sidley |
+| Morgan WL | 2026 WL 1069587 | 2026 WL 864223 | Osherow Law Advisor, Lexology |
+| Shih cite | 2021 WL 1966870 (JPC) | 565 F. Supp. 3d 557 (S.D.N.Y. 2021) | Casetext, Heppner opinion (citing Shih) |
+| Fn 13 (Harvey/Claude) | Proskauer alert only | Proskauer + Harvey blog (Opus 4.6) + Anthropic customer story | Direct sourcing |
+| Fn 14 (CoCounsel) | Thomson Reuters product page | Thomson Reuters press release Apr. 9, 2025 (AOUSC contract) | Direct primary source |
+| Fn 17 (Legaltech Hub) | Vague reference | Legaltech Hub Generative AI Toolkit + UC Davis libguide confirming "1,014 product placements" | Direct + secondary confirmation |
+| Body para 14 (Harvey claim) | "is built on Anthropic's Claude" | "integrates Anthropic's Claude alongside OpenAI's GPT models" | Factual correction |
 | "same model weights" claim | Stated as fact | Reframed as publicly available materials do not establish architectural segregation | Editorial correction |
 | "absolute work-product protection" | Stated | Changed to "the shelter of work-product protection" | Editorial correction |
 | "equivalent analysis" | Stated | Changed to "materially comparable" | Editorial correction |
@@ -240,15 +247,15 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 ### Still Requires Verification Before Submission
 
-- [ ] **Morgan v. V2X, Inc.** — No. 24-CV-03199, 2026 WL 1069587 (D. Colo. Mar. 30, 2026) — confirm against PACER/Westlaw
-- [ ] **Footnote 13** — Harvey/Claude relationship — replace Harvey homepage with dedicated sourcing (legal alert, tech reporting)
-- [ ] **Footnote 14** — CoCounsel federal judiciary contract — find and cite direct source; remove TPG/Elite sale reference
+- [ ] **Heppner fn 3 (Upjohn 395 quote)** — confirm via Westlaw that Heppner at *4 quotes Upjohn at 449 U.S. 395 (page may differ in actual opinion)
+- [ ] **Carpenter pin cite** — fn 30 cites 138 S. Ct. at 2220 for the content/routing distinction; verify exact page via Westlaw
+- [ ] **Nichol LEXIS number** — fn 30 cites 2015 U.S. Dist. LEXIS 169901; confirm exact LEXIS number
+- [ ] **Shih pin cite** — fn 31 currently cites 565 F. Supp. 3d 557 case-level only; verify page within opinion for the work-product extension via Casetext
 - [ ] **Footnote 15** — Lexis+ AI — archive via perma.cc
-- [ ] **Footnote 17** — Legaltech Hub — confirm specific URL or report; archive via perma.cc
 - [ ] **Footnote 19** — SLRO call URL — archive via perma.cc
 - [ ] **Footnote 27** — Clio blog — archive via perma.cc; consider supplementing with more authoritative source
 - [ ] **Footnote 35** — Marsy's Law — archive via perma.cc
-- [ ] **All footnotes** — Confirm Bluebook 22nd Edition (2025) format throughout
+- [ ] **Footnotes 13, 14, 17** — archive new URLs via perma.cc
 
 ### Anonymization Checklist
 
