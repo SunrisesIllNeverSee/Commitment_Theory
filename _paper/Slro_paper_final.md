@@ -199,7 +199,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^29]: *See generally* Solon Barocas & Andrew D. Selbst, *Big Data's Disparate Impact*, 104 CALIF. L. REV. 671 (2016) (arguing that facially neutral data processing can produce discriminatory outcomes); Anya E.R. Prince & Daniel Schwarcz, *Proxy Discrimination in the Age of Artificial Intelligence and Big Data*, 105 IOWA L. REV. 1257 (2020).
 
-[^30]: Courts have begun drawing distinctions between technical processing and legally meaningful disclosure in other digital contexts. *Cf.* Carpenter v. United States, 138 S. Ct. 2206, 2220 (2018) (by analogy, distinguishing the content of communications from routing information); *see also* Nichol v. City of Springfield, No. 6:14-cv-1983-AA, 2015 U.S. Dist. LEXIS 169901 (D. Or. Dec. 18, 2015) (extending work-product protection to materials prepared by a non-attorney friend assisting a pro se litigant in anticipation of litigation).
+[^30]: Courts have begun drawing distinctions between technical processing and legally meaningful disclosure in other digital contexts. *Cf.* Carpenter v. United States, 138 S. Ct. 2206 (2018) (by analogy, holding that the automatic generation of records by a third-party service does not constitute the kind of voluntary disclosure that defeats reasonable expectations of privacy); *see also* Nichol v. City of Springfield, No. 6:14-cv-1983-AA, 2015 U.S. Dist. LEXIS 169901 (D. Or. Dec. 18, 2015) (extending work-product protection to materials prepared by a non-attorney friend assisting a pro se litigant in anticipation of litigation).
 
 [^31]: 565 F. Supp. 3d 557, 574 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).
 
@@ -249,7 +249,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 - [x] **Heppner fn 3** — Westlaw verified. Original cite was wrong (Heppner does NOT quote Upjohn). Corrected to: *Id.* at *3 (quoting United States v. Nobles, 422 U.S. 225, 238 (1975)). Body quote also corrected to match Rakoff's actual language.
 - [x] **Shih pin cite** — Westlaw verified via Heppner's own pin cite to Shih at 574. Updated fns 31 and 33 to `565 F. Supp. 3d at 574`.
-- [ ] **Carpenter pin cite** — fn 30 cites 138 S. Ct. at 2220 for the content/routing distinction; verify exact page via Westlaw
+- [x] **Carpenter** — Reframed: original "content vs. routing" parenthetical did not match Carpenter's actual holding (which is about CSLI/location data and the voluntary exposure rationale). Updated to: "(by analogy, holding that the automatic generation of records by a third-party service does not constitute the kind of voluntary disclosure that defeats reasonable expectations of privacy)." Pin dropped — case-level cite suffices for an analogical *Cf.*
 - [ ] **Nichol LEXIS number** — fn 30 cites 2015 U.S. Dist. LEXIS 169901; confirm exact LEXIS number
 - [x] **Footnote 15** — Lexis+ AI — archived (perma.cc/J9K6-SWYZ)
 - [x] **Footnote 19** — SLRO call URL — archived (perma.cc/AYZ4-YXSJ)
