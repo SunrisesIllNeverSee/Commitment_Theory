@@ -44,13 +44,13 @@
 
 | Fn | Issue | Action | Status |
 |---|---|---|---|
-| 13 | Harvey/Claude — cited to Proskauer alert only | Replaced with: Proskauer + Harvey blog (Opus 4.6) + Anthropic customer story. Body claim also corrected from "built on Anthropic's Claude" to "integrates Anthropic's Claude alongside OpenAI's GPT models." Archive via perma.cc. | ✅ Cite fixed; perma.cc pending |
-| 14 | CoCounsel judiciary contract — cited to TR product page (wrong source) | Replaced with: Thomson Reuters press release Apr. 9, 2025 announcing AOUSC contract. | ✅ Cite fixed; perma.cc pending |
-| 15 | Lexis+ AI URL | Archive via perma.cc | ⚠️ User action |
-| 17 | Legaltech Hub — vague | Replaced with: Legaltech Hub Generative AI Toolkit + UC Davis libguide confirming "1,014 product placements." | ✅ Cite fixed; perma.cc pending |
-| 19 | SLRO call URL | Archive via perma.cc | ⚠️ User action |
-| 27 | Clio blog — weak | Archive via perma.cc. Supplement with authoritative source if available. | ⚠️ User action |
-| 35 | Marsy's Law URL | Archive via perma.cc | ⚠️ User action |
+| 13 | Harvey/Claude — cited to Proskauer alert only | Replaced with: Proskauer + Harvey blog (Opus 4.6) + Anthropic customer story. Body claim also corrected from "built on Anthropic's Claude" to "integrates Anthropic's Claude alongside OpenAI's GPT models." | ✅ Cite fixed; perma.cc done (4JWU-BPWQ, 7JGW-EWA5, E2R7-98JK) |
+| 14 | CoCounsel judiciary contract — cited to TR product page (wrong source) | Replaced with: Thomson Reuters press release Apr. 9, 2025 announcing AOUSC contract. | ✅ Cite fixed; perma.cc done (Q5EU-KE4L) |
+| 15 | Lexis+ AI URL | Archived | ✅ Done (J9K6-SWYZ) |
+| 17 | Legaltech Hub — vague | Replaced with: Legaltech Hub Generative AI Toolkit + UC Davis libguide confirming "1,014 product placements." | ✅ Cite fixed; perma.cc done (98ER-ZTT3, GRE9-VP5E) |
+| 19 | SLRO call URL | Archived | ✅ Done (AYZ4-YXSJ) |
+| 27 | Clio blog — was 404; replaced with real Heppner explainer | Archived | ✅ Done (GE4K-94G4) |
+| 35 | Marsy's Law URL | Archived | ✅ Done (4G8H-2WWF) |
 | 31 | Shih v. Petal Card cite was wrong | Changed from `2021 WL 1966870 (JPC)` to `565 F. Supp. 3d 557 (S.D.N.Y. 2021)`. Pin cite within opinion still needs Casetext verification. | ✅ Cite fixed; pin pending |
 
 ### All Other Cases — Verify Page Numbers
@@ -180,7 +180,7 @@ online@stanfordlawreview.org
 | Word count confirm under 5,000 | ✅ Done — 4,937 words (paper + footnotes, excl. internal checklist) |
 | Anonymize body | ✅ Done — grep clean for name/affiliation |
 | Bluebook format check | ✅ Done — spot-check found no structural fixes needed |
-| Perma.cc all URLs | ⬜ User action (fns 13, 14, 15, 17, 19, 27, 35) |
+| Perma.cc all URLs | ✅ Done — 10 captures across fns 13, 14, 15, 17, 19, 27, 35 |
 | Verify pin cites via Westlaw | ⬜ User action (Heppner→Upjohn 395, Carpenter 2220, Nichol LEXIS, Shih pin) |
 | Convert to .docx | ⬜ User decision — pandoc available |
 | Clean Word metadata | ⬜ User action (in Word: File → Info → Inspect Document → Remove All) |

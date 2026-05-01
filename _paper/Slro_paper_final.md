@@ -165,19 +165,19 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^12]: Crime victims are not parties to the criminal proceeding; the prosecutor represents the state. *See* Linda R.S. v. Richard D., 410 U.S. 614, 619 (1973). Their statutory rights under 18 U.S.C. § 3771 do not include the right to appointed counsel or to work-product protection for their own preparation materials.
 
-[^13]: *See* Proskauer Rose LLP, *SDNY Addresses Privilege and Work Product Implications of Using Unsecured Public AI Tools* (Feb. 18, 2026), https://www.proskauer.com/alert/sdny-addresses-privilege-and-work-product-implications-of-using-unsecured-public-ai-tools (confirming Heppner's use of Anthropic's Claude); Harvey, *Opus 4.6, Now Live in Harvey* (2026), https://www.harvey.ai/blog/opus-4-6-now-live-in-harvey (announcing integration of Anthropic's Claude Opus into the Harvey platform); *see also* Anthropic, *Customer Story: Harvey*, https://claude.com/customers/harvey (describing Harvey's use of Claude). [**Archive via perma.cc.**]
+[^13]: *See* Proskauer Rose LLP, *SDNY Addresses Privilege and Work Product Implications of Using Unsecured Public AI Tools* (Feb. 18, 2026), https://www.proskauer.com/alert/sdny-addresses-privilege-and-work-product-implications-of-using-unsecured-public-ai-tools [https://perma.cc/4JWU-BPWQ] (confirming Heppner's use of Anthropic's Claude); Harvey, *Opus 4.6, Now Live in Harvey* (2026), https://www.harvey.ai/blog/opus-4-6-now-live-in-harvey [https://perma.cc/7JGW-EWA5] (announcing integration of Anthropic's Claude Opus into the Harvey platform); *see also* Anthropic, *Customer Story: Harvey*, https://claude.com/customers/harvey [https://perma.cc/E2R7-98JK] (describing Harvey's use of Claude).
 
-[^14]: *See* Press Release, Thomson Reuters, *Westlaw Precision with CoCounsel, Practical Law, and CoCounsel to be provided to US Federal Courts as the essential information provider for the Federal Judiciary* (Apr. 9, 2025), https://www.thomsonreuters.com/en/press-releases/2025/april/westlaw-precision-with-cocounsel-practical-law-and-cocounsel-to-be-provided-to-us-federal-courts-as-the-essential-information-provider-for-the-federal-judiciary (announcing multi-year contract with the Administrative Office of the U.S. Courts). [**Archive via perma.cc.**]
+[^14]: *See* Press Release, Thomson Reuters, *Westlaw Precision with CoCounsel, Practical Law, and CoCounsel to be provided to US Federal Courts as the essential information provider for the Federal Judiciary* (Apr. 9, 2025), https://www.thomsonreuters.com/en/press-releases/2025/april/westlaw-precision-with-cocounsel-practical-law-and-cocounsel-to-be-provided-to-us-federal-courts-as-the-essential-information-provider-for-the-federal-judiciary [https://perma.cc/Q5EU-KE4L] (announcing multi-year contract with the Administrative Office of the U.S. Courts).
 
-[^15]: *See, e.g.*, LexisNexis, *Lexis+ with Protégé* (formerly Lexis+ AI), https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page (describing enterprise-grade security and confidentiality for legal work). [**Archive via perma.cc.**]
+[^15]: *See, e.g.*, LexisNexis, *Lexis+ with Protégé* (formerly Lexis+ AI), https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page [https://perma.cc/J9K6-SWYZ] (describing enterprise-grade security and confidentiality for legal work).
 
 [^16]: *See* Heppner, 2026 WL 436479, at *4 (citing the consumer AI platform's terms of service as a basis for finding no reasonable expectation of confidentiality).
 
-[^17]: *See generally* Legaltech Hub, *Generative AI Toolkit*, https://www.legaltechnologyhub.com/topics/process-improvement/generative-ai-toolkit/; *see also* UC Davis Mabie Law Library, *Generative AI Tools and Resources for Law Students*, https://libguides.law.ucdavis.edu/genaiforlawstudents/tools (citing Legaltech Hub's March 2026 mapping of 1,014 generative AI product placements in legal tech). [**Archive via perma.cc.**]
+[^17]: *See generally* Legaltech Hub, *Generative AI Toolkit*, https://www.legaltechnologyhub.com/topics/process-improvement/generative-ai-toolkit/ [https://perma.cc/98ER-ZTT3]; *see also* UC Davis Mabie Law Library, *Generative AI Tools and Resources for Law Students*, https://libguides.law.ucdavis.edu/genaiforlawstudents/tools [https://perma.cc/GRE9-VP5E] (citing Legaltech Hub's March 2026 mapping of 1,014 generative AI product placements in legal tech).
 
 [^18]: Publicly available terms of service, privacy policies, and industry descriptions reviewed as of April 2026 do not identify architectural segregation commitments between enterprise and consumer processing paths.
 
-[^19]: *See* Stanford Law Review Online, Call for Submissions: *Technology, Artificial Intelligence, and the Future of Civil Rights* (2026), https://www.stanfordlawreview.org/online/. [**Archive via perma.cc.**]
+[^19]: *See* Stanford Law Review Online, Call for Submissions: *Technology, Artificial Intelligence, and the Future of Civil Rights* (2026), https://www.stanfordlawreview.org/online/ [https://perma.cc/AYZ4-YXSJ].
 
 [^20]: *Cf.* Griffin v. Illinois, 351 U.S. 12, 19 (1956) ("There can be no equal justice where the kind of trial a man gets depends on the amount of money he has."); *see also* M.L.B. v. S.L.J., 519 U.S. 102 (1996) (extending Griffin's principle to civil proceedings involving fundamental interests); Douglas v. California, 372 U.S. 353 (1963) (right to counsel on first appeal for indigent defendants).
 
@@ -193,7 +193,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^26]: U.S. CONST. amend. XIV, § 1.
 
-[^27]: *See* Clio, *Does Using AI Waive Attorney-Client Privilege? Breaking Down the United States v. Heppner Case*, CLIO BLOG (2026), https://www.clio.com/blog/ai-attorney-client-privilege-heppner/ (analyzing privilege risks where defendants use consumer AI without counsel direction). [**Archive via perma.cc.**]
+[^27]: *See* Clio, *Does Using AI Waive Attorney-Client Privilege? Breaking Down the United States v. Heppner Case*, CLIO BLOG (2026), https://www.clio.com/blog/ai-attorney-client-privilege-heppner/ [https://perma.cc/GE4K-94G4] (analyzing privilege risks where defendants use consumer AI without counsel direction).
 
 [^28]: *See supra* note 12.
 
@@ -209,7 +209,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^34]: 18 U.S.C. § 3771. The Act currently provides victims with the right to be heard, the right to notice, and the right to restitution, but does not address the protection of their litigation preparation materials.
 
-[^35]: *See* Marsy's Law for All, *Model Amendment Language*, https://www.marsyslaw.us. The model amendment does not include provisions for AI-assisted preparation or work-product protection. [**Archive via perma.cc.**]
+[^35]: *See* Marsy's Law for All, *Model Amendment Language*, https://www.marsyslaw.us [https://perma.cc/4G8H-2WWF]. The model amendment does not include provisions for AI-assisted preparation or work-product protection.
 
 [^36]: [Author], *A Conservation Law for Commitment in Language Under Transformative Compression and Recursive Application* (Mar. 19, 2026) (unpublished preprint), https://doi.org/10.5281/zenodo.18792459.
 
@@ -251,11 +251,11 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 - [ ] **Carpenter pin cite** — fn 30 cites 138 S. Ct. at 2220 for the content/routing distinction; verify exact page via Westlaw
 - [ ] **Nichol LEXIS number** — fn 30 cites 2015 U.S. Dist. LEXIS 169901; confirm exact LEXIS number
 - [ ] **Shih pin cite** — fn 31 currently cites 565 F. Supp. 3d 557 case-level only; verify page within opinion for the work-product extension via Casetext
-- [ ] **Footnote 15** — Lexis+ AI — archive via perma.cc
-- [ ] **Footnote 19** — SLRO call URL — archive via perma.cc
-- [ ] **Footnote 27** — Clio blog — archive via perma.cc; consider supplementing with more authoritative source
-- [ ] **Footnote 35** — Marsy's Law — archive via perma.cc
-- [ ] **Footnotes 13, 14, 17** — archive new URLs via perma.cc
+- [x] **Footnote 15** — Lexis+ AI — archived (perma.cc/J9K6-SWYZ)
+- [x] **Footnote 19** — SLRO call URL — archived (perma.cc/AYZ4-YXSJ)
+- [x] **Footnote 27** — Clio blog — archived (perma.cc/GE4K-94G4)
+- [x] **Footnote 35** — Marsy's Law — archived (perma.cc/4G8H-2WWF)
+- [x] **Footnotes 13, 14, 17** — all URLs archived (10 perma.cc captures total)
 
 ### Anonymization Checklist
 
