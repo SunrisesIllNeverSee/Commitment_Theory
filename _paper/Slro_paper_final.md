@@ -169,11 +169,11 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^14]: *See* Press Release, Thomson Reuters, *Westlaw Precision with CoCounsel, Practical Law, and CoCounsel to be provided to US Federal Courts as the essential information provider for the Federal Judiciary* (Apr. 9, 2025), https://www.thomsonreuters.com/en/press-releases/2025/april/westlaw-precision-with-cocounsel-practical-law-and-cocounsel-to-be-provided-to-us-federal-courts-as-the-essential-information-provider-for-the-federal-judiciary (announcing multi-year contract with the Administrative Office of the U.S. Courts). [**Archive via perma.cc.**]
 
-[^15]: *See, e.g.*, LexisNexis, *Lexis+ with Protégé* (formerly Lexis+ AI), https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page (last visited Apr. 29, 2026) (describing enterprise-grade security and confidentiality for legal work). [**Archive via perma.cc.**]
+[^15]: *See, e.g.*, LexisNexis, *Lexis+ with Protégé* (formerly Lexis+ AI), https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page (describing enterprise-grade security and confidentiality for legal work). [**Archive via perma.cc.**]
 
 [^16]: *See* Heppner, 2026 WL 436479, at *4 (citing the consumer AI platform's terms of service as a basis for finding no reasonable expectation of confidentiality).
 
-[^17]: *See generally* Legaltech Hub, *Generative AI Toolkit*, https://www.legaltechnologyhub.com/topics/process-improvement/generative-ai-toolkit/ (last visited Apr. 29, 2026); *see also* UC Davis Mabie Law Library, *Generative AI Tools and Resources for Law Students*, https://libguides.law.ucdavis.edu/genaiforlawstudents/tools (citing Legaltech Hub's March 2026 mapping of 1,014 generative AI product placements in legal tech). [**Archive via perma.cc.**]
+[^17]: *See generally* Legaltech Hub, *Generative AI Toolkit*, https://www.legaltechnologyhub.com/topics/process-improvement/generative-ai-toolkit/; *see also* UC Davis Mabie Law Library, *Generative AI Tools and Resources for Law Students*, https://libguides.law.ucdavis.edu/genaiforlawstudents/tools (citing Legaltech Hub's March 2026 mapping of 1,014 generative AI product placements in legal tech). [**Archive via perma.cc.**]
 
 [^18]: Publicly available terms of service, privacy policies, and industry descriptions reviewed as of April 2026 do not identify architectural segregation commitments between enterprise and consumer processing paths.
 
@@ -209,13 +209,13 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^34]: 18 U.S.C. § 3771. The Act currently provides victims with the right to be heard, the right to notice, and the right to restitution, but does not address the protection of their litigation preparation materials.
 
-[^35]: *See* Marsy's Law for All, *Model Amendment Language*, https://www.marsyslaw.us (last visited Apr. 29, 2026). The model amendment does not include provisions for AI-assisted preparation or work-product protection. [**Archive via perma.cc.**]
+[^35]: *See* Marsy's Law for All, *Model Amendment Language*, https://www.marsyslaw.us. The model amendment does not include provisions for AI-assisted preparation or work-product protection. [**Archive via perma.cc.**]
 
-[^36]: [Author], *A Conservation Law for Commitment in Language Under Transformative Compression and Recursive Application* (Mar. 19, 2026) (preprint, Zenodo DOI: 10.5281/zenodo.18792459).
+[^36]: [Author], *A Conservation Law for Commitment in Language Under Transformative Compression and Recursive Application* (Mar. 19, 2026) (unpublished preprint), https://doi.org/10.5281/zenodo.18792459.
 
 [^37]: *See* [Author], *supra* note 36, at §§ 4–5 (describing the six-gate verification protocol and recursion testing methodology).
 
-[^38]: [Author], *Experimental Record for A Conservation Law for Commitment in Language Under Transformative Compression and Recursive Application* (EXP-001 to EXP-007), Zenodo DOI: 10.5281/zenodo.19105225.
+[^38]: [Author], *Experimental Record for A Conservation Law for Commitment in Language Under Transformative Compression and Recursive Application* (EXP-001 to EXP-007), https://doi.org/10.5281/zenodo.19105225.
 
 ---
 
