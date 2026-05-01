@@ -40,11 +40,10 @@
 
 > The author originated and is solely responsible for:
 >
-> - The identification of the *Heppner / Warner / Morgan* doctrinal fracture as a civil rights problem rather than a privilege problem. Independent verification via Westlaw AI Deep Research confirms that no law review article published since 2024 has framed the AI work-product issue as implicating equal protection, procedural due process, or access to courts. The civil rights AI scholarship to date concerns AI used *against* people (employment, housing, criminal sentencing); the AI work-product scholarship concerns AI used *by* people in litigation. This Essay bridges those two bodies of thought.
+> - The identification of the *Heppner / Warner / Morgan* doctrinal fracture as a civil rights problem rather than a privilege problem.
 > - The civil rights framing — connecting work-product doctrine to *Griffin*, *Gideon*, and *Faretta* lineage and to equal-protection, procedural-fairness, and access-to-courts principles.
 > - The proposed functional rule (Part V) tying protection to the nature of preparation rather than the credential of the preparer.
 > - The crime-victim gap analysis (Part IV.C) recognizing that crime victims fall outside both the represented-party and self-represented-litigant frameworks.
-> - The preemptive response to the "AI lacks human mental impressions" counterargument (Part V), distinguishing the work-product preparation activity from the algorithmic output and the *Thaler v. Perlmutter* copyright authorship requirement.
 > - The Conservation Law of Commitment referenced in Part VI (Zenodo DOI: 10.5281/zenodo.18792459) and its experimental record (Zenodo DOI: 10.5281/zenodo.19105225) — both authored by, and deposited under the name of, the submitter, with timestamps **predating** any AI-assisted drafting of this Essay.
 
 ---
