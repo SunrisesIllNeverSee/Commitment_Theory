@@ -1,184 +1,199 @@
-# SLRO Submission Checklist
+# SLRO Submission Checklist — UPDATED
 
 **Stanford Law Review Online — Vol. 79 Special Collection**
 **Technology, Artificial Intelligence, and the Future of Civil Rights**
+**Paper: "Protected Legal Thought in the Age of AI"**
 
 **Deadline: May 1, 2026, 11:59 PM Pacific Time**
-
----
-
-## Before You Write
-
-- [ ] Read the full call for submissions PDF (you have this)
-- [ ] Read the SLRO general ethics policy (linked on their submissions page)
-- [ ] Review Bluebook 22nd Edition (2025) citation format — this is the CURRENT edition, not 21st
-- [ ] Review SLRO's footnoting example (linked on submissions page — "An example of the appropriate level of footnoting can be found here")
+**Target Submit: April 30 — not May 1**
 
 ---
 
 ## Document Requirements
 
 ### Format
-- [ ] File must be **.doc, .docx, .rtf, or .otf** — NO PDFs
+- [ ] File must be **.doc or .docx** — NO PDFs
 - [ ] Maximum file size: 10 MB
+- [ ] Title in normal upper and lower case (not ALL CAPS)
 
 ### Length
-- [ ] **2,000–5,000 words** including footnotes
-- [ ] Strong preference for under 5,000 words
-- [ ] Anything over 10,000 words is auto-rejected
-- [ ] Current draft target: ~4,500 words including footnotes
+- [ ] **2,000–5,000 words** including footnotes — verify word count before submission
+- [ ] Current paper is approximately 4,600–4,800 words — **confirm under 5,000**
+- [ ] If over: trim Part III.B and Part IV.B — most room there
 
-### Style
-- [ ] All citations conform to **Bluebook 22nd Edition (2025)**
-- [ ] Footnote density: ~30 footnotes per 3,000 words of text (their benchmark)
-- [ ] Current draft has ~5 footnotes — **needs 20-25 more for a 4,500 word essay**
-- [ ] Footnotes required for: direct quotations, primary materials (cases, statutes, news articles), and obscure materials
+### Footnotes
+- [ ] Current draft has 38 footnotes — adequate for length
+- [ ] All footnotes conform to **Bluebook 22nd Edition (2025)**
+- [ ] Every direct quotation is footnoted
+- [ ] Every case citation has correct reporter, volume, page, and year
+
+---
+
+## Citation Verification — CRITICAL
+
+### Cases — Verify Against Westlaw or PACER
+
+| Case | Citation in Paper | Status |
+|---|---|---|
+| *United States v. Heppner* | No. 25-cr-00503-JSR, 2026 WL 436479 (S.D.N.Y. Feb. 17, 2026) | ✅ VERIFIED |
+| *Warner v. Gilbarco, Inc.* | No. 2:24-cv-12333, 2026 WL 373043 (E.D. Mich. Feb. 10, 2026) | ✅ VERIFIED |
+| *Morgan v. V2X, Inc.* | No. 24-CV-03199, 2026 WL 1069587 (D. Colo. Mar. 30, 2026) | ⚠️ UNVERIFIED — check PACER/Westlaw. If unverifiable, cut — paper holds on Heppner/Warner alone. |
+
+### Footnotes Requiring Fix
+
+| Fn | Issue | Action |
+|---|---|---|
+| 13 | Harvey/Claude — cited to Harvey homepage | Replace with legal alert or reporting confirming Claude foundation. Proskauer/Debevoise/Gibson Dunn alerts all reference Anthropic/Claude in the Heppner context. Archive via perma.cc. |
+| 14 | CoCounsel judiciary contract — cited to TPG/Elite sale (wrong source) | Find direct source for the judiciary contract. Remove TPG/Elite reference. |
+| 15 | Lexis+ AI URL | Archive via perma.cc |
+| 17 | Legaltech Hub — vague | Confirm URL or report title. Archive via perma.cc. |
+| 19 | SLRO call URL | Archive via perma.cc |
+| 27 | Clio blog — weak | Archive via perma.cc. Supplement with authoritative source if available. |
+| 35 | Marsy's Law URL | Archive via perma.cc |
+
+### All Other Cases — Verify Page Numbers
+
+- [ ] Hickman v. Taylor, 329 U.S. 495 (1947)
+- [ ] Upjohn Co. v. United States, 449 U.S. 383, **395** (1981) — paper now uses 395; confirm
+- [ ] Linda R.S. v. Richard D., 410 U.S. 614, 619 (1973)
+- [ ] Griffin v. Illinois, 351 U.S. 12, 19 (1956)
+- [ ] M.L.B. v. S.L.J., 519 U.S. 102 (1996)
+- [ ] Douglas v. California, 372 U.S. 353 (1963)
+- [ ] Gideon v. Wainwright, 372 U.S. 335 (1963)
+- [ ] Faretta v. California, 422 U.S. 806 (1975)
+- [ ] Bounds v. Smith, 430 U.S. 817 (1977)
+- [ ] Lewis v. Casey, 518 U.S. 343 (1996)
+- [ ] Mathews v. Eldridge, 424 U.S. 319, 335 (1976)
+- [ ] Carpenter v. United States, 138 S. Ct. 2206, 2220 (2018)
+- [ ] Shih v. Petal Card, No. 18-CV-5495 (JPC), 2021 WL 1966870 (S.D.N.Y. May 17, 2021)
+- [ ] Nichol v. City of Springfield, No. 6:14-cv-1983-AA, 2015 U.S. Dist. LEXIS 169901 (D. Or. Dec. 18, 2015)
+
+### Law Review Articles — Verify Volume and Page
+
+- [ ] Citron & Pasquale, 89 WASH. L. REV. 1 (2014)
+- [ ] Citron, 85 WASH. U. L. REV. 1249 (2008)
+- [ ] Coglianese & Lehr, 105 GEO. L.J. 1147 (2017)
+- [ ] Barocas & Selbst, 104 CALIF. L. REV. 671 (2016)
+- [ ] Prince & Schwarcz, 105 IOWA L. REV. 1257 (2020)
+
+### Statutes — Verify
+- [ ] 18 U.S.C. § 3771 (Crime Victims' Rights Act)
+- [ ] Fed. R. Civ. P. 26(b)(3)(A)
+- [ ] U.S. CONST. amend. I
+- [ ] U.S. CONST. amend. XIV, § 1
+
+### Perma.cc — All URLs
+- [ ] Fn 13 (Harvey or replacement source)
+- [ ] Fn 14 (CoCounsel replacement source)
+- [ ] Fn 15 (Lexis+ AI)
+- [ ] Fn 17 (Legaltech Hub)
+- [ ] Fn 19 (SLRO call)
+- [ ] Fn 27 (Clio blog)
+- [ ] Fn 35 (Marsy's Law)
 
 ---
 
 ## Anonymization — CRITICAL
 
-The review is **fully blind**. Voting editors do not know who you are. Only the Editor-in-Chief and Executive Editor see your identity.
+### Remove from document body
+- [ ] Your name — nowhere in the body
+- [ ] Ello Cello LLC, burnmydays™, signomy.xyz — not mentioned anywhere
+- [ ] No acknowledgements
+- [ ] Self-citations in footnotes 36–38 already use **[Author]** ✅
 
-### Remove from the document
-- [ ] Your name — nowhere in the document body
-- [ ] Your institutional affiliation (Ello Cello LLC, burnmydays, signomy.xyz)
-- [ ] Any acknowledgements
-- [ ] Any self-citations that identify you by name
-- [ ] **The filename** — rename to something generic like "SLRO-Submission.docx"
+### Filename
+- [ ] Rename to generic: **SLRO-Submission-2026.docx** or similar
+- [ ] No name, no identifying title fragment in filename
 
-### Remove metadata from the file
-- [ ] Open document properties and remove author name
-- [ ] Remove any identifying metadata
-- [ ] Microsoft Word instructions:
-  - Word 2016+: File → Info → Check for Issues → Inspect Document → Remove All (for Document Properties and Personal Information)
-  - Or: File → Info → Properties → remove Author field manually
-
-### Self-citation problem
-- [ ] Footnotes 4 and 5 currently cite "Deric J. McHenry" by name
-- [ ] For blind review: change to "Author, [Title] (2026) (preprint, Zenodo DOI: [DOI])" — check Bluebook format for anonymized self-citation
-- [ ] Or cite as "[Author name redacted for blind review], A Conservation Law for Commitment in Language Under Transformative Compression and Recursive Application (2026)"
-- [ ] Ask Hannah Dahleen (online@stanfordlawreview.org) if unsure about self-citation anonymization format
+### Document metadata
+- [ ] Word: File → Info → Check for Issues → Inspect Document → Remove All
+- [ ] Clear "Author" and "Last Modified By" fields
+- [ ] Verify no identifying information in document properties
 
 ---
 
-## Submission Platform
+## Submission Form — Have These Ready
 
-You have TWO options — use only ONE:
+### Essay
+- [ ] **Title:** Protected Legal Thought in the Age of AI: Work Product and the Civil Rights of Legal Preparation
+- [ ] Response/reply fields: Leave blank
+- [ ] Exclusive submission: YES
+- [ ] Exclusive Until: June 15, 2026
+- [ ] Expedite Date: Leave blank
 
-### Option A: SLRO Website Form
-Submit at: stanfordlawreview.org/submissions/online-article/
+### Author (submitted separately, not in blind document)
+- [ ] Name: Deric J. McHenry
+- [ ] Title: Founder, Ello Cello LLC
+- [ ] Email: [your email]
+- [ ] Phone: [your phone]
+- [ ] Affiliation: Ello Cello LLC
 
-### Option B: Scholastica Portal
-Submit at: Stanford Law Review Online Scholastica portal
-
-**Do NOT submit on both. Do NOT submit via email.**
-
----
-
-## Form Fields — What You'll Need Ready
-
-### Submission Information
-- [ ] **Essay Title:** "The Uncertainty That Invites Building: Civil Rights in an Age of Neutral Machines"
-  - Submit in normal upper and lower case (not ALL CAPS)
-- [ ] **Response/reply fields:** Leave blank (this is not a response piece)
-- [ ] **Exclusive submission checkbox:** You must confirm this is submitted exclusively to SLRO — do NOT submit to any other journal simultaneously
-- [ ] **Exclusive Until:** Set a date (standard is 4-6 weeks from submission — e.g., June 15, 2026)
-- [ ] **Expedite Date:** Leave blank unless you have a competing offer
-- [ ] **Publication Offer Is From:** Leave blank
-
-### Author Information
-- [ ] **Author's Name:** Deric J. McHenry (no "Professor" or titles)
-- [ ] **Author's Title or Position:** Founder, Ello Cello LLC (or whatever you prefer)
-- [ ] **Author's Email Address:** [your email]
-- [ ] **Author's Phone Number:** [your phone]
-- [ ] **Author's Institutional Affiliation:** Ello Cello LLC
-- [ ] **Author's Address:** [your address]
-
-### Confirmations — all required
-- [ ] "I confirm I have blinded my submission, including the filename and metadata"
-- [ ] "I certify that my submission is entirely my own original work and that any material that is drawn from other sources is attributed to those sources"
-- [ ] "I certify that I have filled out the SLR AI Disclosure Form"
-- [ ] "I agree to the Terms of Use"
+### Confirmations
+- [ ] Blinded submission including filename and metadata
+- [ ] Entirely own original work, sources attributed
+- [ ] AI Disclosure Form completed
+- [ ] Agree to Terms of Use
 
 ---
 
-## AI Disclosure Form — MUST COMPLETE SEPARATELY
+## AI Disclosure Form — Complete BEFORE Submitting
 
 **URL:** https://forms.gle/Dh9yqtYp8BWDwa4s7
 
-- [ ] Fill out the Google Form BEFORE submitting the essay
-- [ ] You MUST complete this regardless of whether you used AI
-- [ ] You DID use generative AI (DeepSeek and Claude) — disclose this honestly
-- [ ] Draft disclosure language (adapt for the form's questions):
+Complete this Google Form before hitting submit on the essay.
 
-> "Generative AI (DeepSeek and Claude) was used in the drafting process to assist with structuring the legal argument for a law review audience, identifying relevant legal citations and Bluebook formatting, and refining prose for clarity and concision. All substantive analysis, the underlying framework, and final editorial judgment are the author's own. The author has personally verified every citation. The conceptual framework referenced in the essay — the Conservation Law of Commitment — is the author's original work, documented in a Zenodo preprint (DOI: 10.5281/zenodo.18792459) and associated experimental record (DOI: 10.5281/zenodo.19105225) predating any AI-assisted drafting."
+**Draft disclosure language:**
 
----
-
-## Final Pre-Submission Checklist
-
-### Content
-- [ ] Essay addresses the call's specific topic: Technology, AI, and the Future of Civil Rights
-- [ ] Essay addresses as many of the nine sample questions as possible
-- [ ] Word count is between 2,000 and 5,000 (including footnotes)
-- [ ] Footnote density is appropriate (~8-10 footnotes per 1,000 words of body text)
-- [ ] All citations are Bluebook 22nd Edition compliant
-- [ ] Every case citation is verified (correct volume, reporter, page, year)
-- [ ] Every article citation is verified (correct author, title, volume, journal, page, year)
-- [ ] Every URL citation has a perma.cc link if possible
-
-### Anonymization
-- [ ] No author name in document body
-- [ ] No institutional affiliation in document body
-- [ ] No acknowledgements
-- [ ] Self-citations anonymized
-- [ ] Filename is generic (no name in filename)
-- [ ] Document metadata cleaned (author field, properties)
-
-### Formatting
-- [ ] File is .doc or .docx (NOT PDF)
-- [ ] File is under 10 MB
-- [ ] Title is in normal case
-
-### External
-- [ ] AI Disclosure Form completed at Google Forms link
-- [ ] Essay submitted on ONLY ONE platform (website form OR Scholastica, not both)
-- [ ] Exclusive submission confirmed (not submitted elsewhere)
+> "Generative AI (DeepSeek and Claude) was used in the drafting process to assist with structuring the legal argument, identifying case law and legal citations, Bluebook formatting, and refining prose. All substantive analysis, identification of the Heppner/Warner/Morgan doctrinal fracture, the civil rights framing, and the proposed functional rule are the author's own. The author has independently verified all case citations against published legal alerts and Westlaw. The Conservation Law of Commitment referenced in Part VI is the author's original framework, documented in a Zenodo preprint (DOI: 10.5281/zenodo.18792459) and experimental record (DOI: 10.5281/zenodo.19105225) predating any AI-assisted drafting."
 
 ---
 
-## Key Contacts
+## Submission Platform — ONE Only
+
+**Option A:** https://review.law.stanford.edu/submissions/online-article/
+
+**Option B:** Stanford Law Review Online Scholastica portal
+
+**Do NOT use both. Do NOT email.**
+
+---
+
+## Key Contact
 
 **Hannah Dahleen** — Online Editor-in-Chief, SLRO Volume 79
-Email: online@stanfordlawreview.org
-(For any questions about the submission process or special collection)
+online@stanfordlawreview.org
 
 ---
 
 ## Timeline
 
-| Task | Deadline |
+| Task | Status |
 |---|---|
-| Final voice edit | April 20-22 |
-| Attorney review | April 22-26 |
-| Incorporate attorney feedback | April 26-28 |
-| Bluebook citation check (every footnote) | April 28-29 |
-| Anonymize document + clean metadata | April 29 |
-| Complete AI Disclosure Form | April 29 |
-| Final read-aloud pass | April 30 |
-| **SUBMIT** | **April 30 (one day buffer before deadline)** |
-| Deadline | May 1, 2026, 11:59 PM PT |
+| Heppner verified | ✅ Done |
+| Warner verified | ✅ Done |
+| Morgan — check PACER/Westlaw | ⚠️ Pending |
+| Fix footnotes 13, 14, 17 | ⚠️ Pending |
+| Perma.cc all URLs | ⬜ April 28–29 |
+| Verify all case page numbers | ⬜ April 28–29 |
+| Verify all law review citations | ⬜ April 28–29 |
+| Bluebook format check | ⬜ April 28–29 |
+| Word count confirm under 5,000 | ⬜ April 29 |
+| Voice edit pass | ⬜ April 29 |
+| Anonymize + clean metadata | ⬜ April 29 |
+| Rename file | ⬜ April 29 |
+| Complete AI Disclosure Form | ⬜ April 29 |
+| Final read-aloud | ⬜ April 30 morning |
+| **SUBMIT** | **April 30** |
+| Hard deadline | May 1, 11:59 PM PT |
 
 ---
 
-## Deposit P-000 and L-000 BEFORE Submission
+## P-000 and L-000 Deposits (Separate from SLRO)
 
-- [ ] P-000 (CCT Propositions Prospectus) deposited on Zenodo — so it exists as a citable record
-- [ ] L-000 (Legal Propositions) deposited on SSRN — so it exists as a citable record
-- [ ] Both deposited before April 30 so the essay can reference them if needed
-- [ ] Note: the anonymized SLRO submission cannot cite these by your name — but having them deposited establishes priority regardless
+- [ ] P-000 (CT Propositions Prospectus) — deposit on Zenodo this week
+- [ ] L-000 (Legal Propositions) — deposit on SSRN this week
+- [ ] Both establish priority before SLRO submission date
 
 ---
 
-*Submit one day early. Internet goes down, servers crash, forms break. May 1 at 11:59 PM is the wall. Hit April 30.*
+*Two cases verified. Morgan pending. Everything else is execution. Submit April 30.*
