@@ -199,13 +199,13 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^29]: *See generally* Solon Barocas & Andrew D. Selbst, *Big Data's Disparate Impact*, 104 CALIF. L. REV. 671 (2016) (arguing that facially neutral data processing can produce discriminatory outcomes); Anya E.R. Prince & Daniel Schwarcz, *Proxy Discrimination in the Age of Artificial Intelligence and Big Data*, 105 IOWA L. REV. 1257 (2020).
 
-[^30]: Courts have begun drawing distinctions between technical processing and legally meaningful disclosure in other digital contexts. *Cf.* Carpenter v. United States, 138 S. Ct. 2206 (2018) (by analogy, holding that diminished privacy interests in information shared with a third party do not categorically defeat constitutional protection); *see also* Nichol v. City of Springfield, No. 6:14-cv-01983-AA (D. Or. 2015) (extending work-product protection under Rule 26(b)(3) to materials prepared by a non-attorney for a party in anticipation of litigation).
+[^30]: Courts have begun drawing distinctions between technical processing and legally meaningful disclosure in other digital contexts. *Cf.* Carpenter v. United States, 138 S. Ct. 2206 (2018) (by analogy, holding that diminished privacy interests in information shared with a third party do not categorically defeat constitutional protection).
 
 [^31]: 565 F. Supp. 3d 557, 574 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).
 
 [^32]: *See* Warner, 2026 WL 373043, at *4 ("Generative AI programs are tools, not persons.").
 
-[^33]: Fed. R. Civ. P. 26(b)(3)(A). The rule's text covers "a party or its representative," which on its face does not limit the representative to an attorney. *See also Shih*, 565 F. Supp. 3d at 574 (extending protection to a non-attorney representative); *Nichol*, No. 6:14-cv-01983-AA (same for materials prepared by a non-attorney).
+[^33]: Fed. R. Civ. P. 26(b)(3)(A). The rule's text covers "a party or its representative," which on its face does not limit the representative to an attorney. *See also Shih*, 565 F. Supp. 3d at 574 (extending protection to a non-attorney representative).
 
 [^34]: 18 U.S.C. § 3771. The Act currently provides victims with the right to be heard, the right to notice, and the right to restitution, but does not address the protection of their litigation preparation materials.
 
@@ -250,7 +250,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 - [x] **Heppner fn 3** — Westlaw verified. Original cite was wrong (Heppner does NOT quote Upjohn). Corrected to: *Id.* at *3 (quoting United States v. Nobles, 422 U.S. 225, 238 (1975)). Body quote also corrected to match Rakoff's actual language.
 - [x] **Shih pin cite** — Westlaw verified via Heppner's own pin cite to Shih at 574. Updated fns 31 and 33 to `565 F. Supp. 3d at 574`.
 - [x] **Carpenter** — Reframed: original "content vs. routing" parenthetical did not match Carpenter's actual holding (which is about CSLI/location data and the voluntary exposure rationale). Updated to: "(by analogy, holding that the automatic generation of records by a third-party service does not constitute the kind of voluntary disclosure that defeats reasonable expectations of privacy)." Pin dropped — case-level cite suffices for an analogical *Cf.*
-- [x] **Nichol** — LEXIS number 169901 unverifiable via public sources; the original "pro se litigant" parenthetical was also incorrect (Nichol had counsel; Umenhofer was the non-attorney). Updated to docket-only citation `No. 6:14-cv-01983-AA (D. Or. 2015)` with corrected parenthetical. Fns 30 and 33 both updated.
+- [x] **Nichol** — Removed from both fns 30 and 33. LEXIS number unverifiable, original "pro se" framing was incorrect (Nichol had counsel; Umenhofer was the non-attorney). The propositions are now cleanly handled by Carpenter (fn 30, disclosure analogy) and Shih at 574 (fn 33, non-attorney representative).
 - [x] **Footnote 15** — Lexis+ AI — archived (perma.cc/J9K6-SWYZ)
 - [x] **Footnote 19** — SLRO call URL — archived (perma.cc/AYZ4-YXSJ)
 - [x] **Footnote 27** — Clio blog — archived (perma.cc/GE4K-94G4)
