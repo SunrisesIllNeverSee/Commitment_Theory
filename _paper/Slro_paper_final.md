@@ -55,7 +55,7 @@ The leading AI tools marketed specifically to the legal profession are built on 
 
 Consumer versions of the same underlying models—Claude, ChatGPT, Gemini—are available for free or at modest monthly cost. They produce outputs of materially comparable analytical quality. But the legal profession's discourse, reinforced by *Heppner*'s reasoning, treats materials created on consumer platforms by non-lawyers as presumptively unprotected.[^16]
 
-Publicly available information suggests that the distinction between enterprise and consumer tools lies primarily in contractual terms, data handling policies, and integration layers, not in demonstrable differences in the underlying analytical models.[^17] Enterprise agreements typically prohibit the model provider from training on customer data, include SOC 2 compliance certifications, and add confidentiality provisions. They do not, however, publicly establish that the model's internal computation is segregated between enterprise and consumer data paths. Publicly available materials do not establish that enterprise and consumer processing paths are architecturally segregated. The separation is addressed through data governance promises, not architectural isolation.[^18]
+Publicly available information suggests that the distinction between enterprise and consumer tools lies primarily in contractual terms, data handling policies, and integration layers, not in demonstrable differences in the underlying analytical models.[^17] Enterprise agreements typically prohibit the model provider from training on customer data, include SOC 2 compliance certifications, and add confidentiality provisions. They do not, however, publicly establish that the model's internal computation is segregated between enterprise and consumer data paths. The separation is addressed through data governance promises, not architectural isolation.[^18]
 
 As a result, the distinction between protected and unprotected AI-assisted legal preparation appears, in practice and as emerging cases suggest, to track access tier and user status rather than demonstrable differences in underlying analytical capability. This is not a technology distinction dressed in legal clothing. It is a credentialing product that signals: *this is attorney work, accessed through attorney channels, therefore the output is protected.* The same model, accessed through the consumer platform by a non-attorney, produces output that is not protected—not because the work is different, but because the access tier identifies the user as a non-attorney.
 
@@ -157,7 +157,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^7]: Morgan v. V2X, Inc., No. 25-cv-01991-SKC-MDB, 2026 WL 864223 (D. Colo. Mar. 30, 2026).
 
-[^8]: 329 U.S. 495 (1947); Fed. R. Civ. P. 26(b)(3)(A). The criminal equivalent in New York is CPL § 245.65.
+[^8]: Hickman v. Taylor, 329 U.S. 495 (1947); Fed. R. Civ. P. 26(b)(3)(A). The criminal equivalent in New York is CPL § 245.65.
 
 [^9]: *See generally* Danielle Keats Citron & Frank Pasquale, *The Scored Society: Due Process for Automated Predictions*, 89 WASH. L. REV. 1 (2014) (discussing the shift in analytical capability from human professionals to automated systems).
 
@@ -191,7 +191,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^24]: U.S. CONST. amend. I.
 
-[^25]: 422 U.S. 806 (1975).
+[^25]: *Faretta*, 422 U.S. 806.
 
 [^26]: U.S. CONST. amend. XIV, § 1.
 
@@ -205,7 +205,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^cnt]: *See* Hickman v. Taylor, 329 U.S. 495, 510–11 (1947); United States v. Nobles, 422 U.S. 225, 238 (1975); *see also* Roberts v. Americable Int'l, Inc., 883 F. Supp. 499 (E.D. Cal. 1995) (denying work-product protection where materials revealed only the conversants' thought processes, not the attorney's); Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025) (holding AI cannot be a copyright author because authorship requires a human creator).
 
-[^31]: 565 F. Supp. 3d 557, 574 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).
+[^31]: Shih v. Petal Card, Inc., 565 F. Supp. 3d 557, 574 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).
 
 [^32]: *See* Warner, 2026 WL 373043, at *4 ("Generative AI programs are tools, not persons.").
 
