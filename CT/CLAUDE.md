@@ -83,3 +83,4 @@ The term "semantic continuity" appears in L-001's title as a plain-language entr
 - `workspace/index/RAW_INVENTORY.md` — source thread pipeline map
 - `workspace/naming-architecture/Naming_Architecture.md` — naming rules
 - `workspace/patent-strategy/Patent_Strategy.md` — patent memo
+- `workspace/source-docs/` — raw research materials, drop zone for reference docs

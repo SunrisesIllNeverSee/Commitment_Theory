@@ -68,3 +68,4 @@ All legal papers cite P-000 and Paper 0 (Zenodo DOI: 10.5281/zenodo.18792459) as
 - `workspace/source-thread/Thread_Summary.md` — primary source thread
 - `workspace/seeds/` — 6 SEED files tracing constitutional fracture argument
 - `workspace/case-research/carpenter.md`, `shih.md` — case research
+- `workspace/source-docs/` — raw research materials, drop zone for reference docs

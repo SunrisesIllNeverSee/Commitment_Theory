@@ -29,5 +29,6 @@
 | workspace/source-thread/ | Thread_Summary.md — primary source thread |
 | workspace/case-research/ | carpenter.md, shih.md |
 | workspace/seeds/ | 6 SEED files (constitutional fracture argument development) |
+| workspace/source-docs/ | Raw research materials — case law pulls, statutory research, AI conversation outputs |
 
 See [CLAUDE.md](CLAUDE.md) for full context, citation chain, and immediate todos.

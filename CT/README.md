@@ -32,5 +32,6 @@
 | workspace/index/ | Document registry, table of contents, search index, RAW_INVENTORY |
 | workspace/context/ | Whitespace analysis, platform map, Blackhole Law notes, misc roadmap notes |
 | workspace/context/_archive/ | cct-paper-roadmap.md (v1, superseded) |
+| workspace/source-docs/ | Raw research materials — downloaded papers, AI conversation outputs, reference docs |
 
 See [CLAUDE.md](CLAUDE.md) for full context, citation rules, and immediate todos.
