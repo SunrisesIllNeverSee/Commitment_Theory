@@ -1,4 +1,4 @@
-# AI Disclosure Form — SLRO Submission
+# AI Disclosure Form ,  SLRO Submission
 
 **Form URL:** https://forms.gle/Dh9yqtYp8BWDwa4s7
 **Complete this BEFORE clicking Submit on the essay portal.**
@@ -13,34 +13,34 @@
 | Affiliation | Ello Cello LLC |
 | Email | deric.mchenry@gmail.com |
 | Essay Title | Protected Legal Thought in the Age of AI: Work Product and the Civil Rights of Legal Preparation |
-| Submission Type | Online Essay (Vol. 79 Special Collection — Technology, Artificial Intelligence, and the Future of Civil Rights) |
+| Submission Type | Online Essay (Vol. 79 Special Collection ,  Technology, Artificial Intelligence, and the Future of Civil Rights) |
 | Did you use generative AI in preparing this submission? | **Yes** |
 
 ---
 
 ## Q1. Have you engaged in any use of generative AI that has significantly affected the substance, originality, or reliability of the submission?
 
-> **Yes.** Generative AI was used substantively across the research, drafting, editing, and verification stages. The author's role was to direct, constrain, verify, and integrate AI-assisted work — not merely to receive AI output.
+> **Yes.** Generative AI was used substantively across the research, drafting, editing, and verification stages. The author's role was to direct, constrain, verify, and integrate AI-assisted work ,  not merely to receive AI output.
 
 ## Q1a. List of significant uses
 
-> **(1) Claude (Anthropic)** — research, conceptual organization, doctrinal analysis, structural editing.
+> **(1) Claude (Anthropic)** ,  research, conceptual organization, doctrinal analysis, structural editing.
 >
-> **(2) ChatGPT (OpenAI)** — research, analytical sounding board, rough-outline drafting.
+> **(2) ChatGPT (OpenAI)** ,  research, analytical sounding board, rough-outline drafting.
 >
-> **(3) DeepSeek** — drafting and prose generation; initial framing of the doctrinal fracture.
+> **(3) DeepSeek** ,  drafting and prose generation; initial framing of the doctrinal fracture.
 >
-> **(4) Claude Code (Anthropic)** — final packaging and copy-editing within VS Code: citation formatting, Bluebook conformance, perma.cc integration, output conversion to LaTeX/Word.
+> **(4) Claude Code (Anthropic)** ,  final packaging and copy-editing within VS Code: citation formatting, Bluebook conformance, perma.cc integration, output conversion to LaTeX/Word.
 >
-> **(5) CoCounsel / Westlaw AI Deep Research (Thomson Reuters)** — argument research, citation verification (case pin cites, post-Heppner contrary authority search, law-review gap analysis), and counterargument stress-testing.
+> **(5) CoCounsel / Westlaw AI Deep Research (Thomson Reuters)** ,  argument research, citation verification (case pin cites, post-Heppner contrary authority search, law-review gap analysis), and counterargument stress-testing.
 >
-> **(6) Brave Search MCP** — independent web verification of all case citations, source URLs, and law-review article publication data.
+> **(6) Brave Search MCP** ,  independent web verification of all case citations, source URLs, and law-review article publication data.
 >
-> **(7) MO§ES™ Constitutional AI Governance Framework** — operated as a runtime governance layer during all Claude and Claude Code sessions, shaping model outputs at the execution level through behavioral posture, role hierarchy, and audit-trail enforcement. Outputs received from generative tools were filtered and constrained by this framework, not merely reviewed.
+> **(7) MO§ES™ Constitutional AI Governance Framework** ,  operated as a runtime governance layer during all Claude and Claude Code sessions, shaping model outputs at the execution level through behavioral posture, role hierarchy, and audit-trail enforcement. Outputs received from generative tools were filtered and constrained by this framework, not merely reviewed.
 >
-> **(8) Conservation Law of Commitment** (author's own framework, Zenodo DOI: 10.5281/zenodo.18792459) — applied as a transformation governance protocol during AI-assisted drafting, ensuring the commitment kernel of the manuscript's substantive claims (obligations, prohibitions, permissions, constraints) was preserved under generative compression and revision.
+> **(8) Conservation Law of Commitment** (author's own framework, Zenodo DOI: 10.5281/zenodo.18792459) ,  applied as a transformation governance protocol during AI-assisted drafting, ensuring the commitment kernel of the manuscript's substantive claims (obligations, prohibitions, permissions, constraints) was preserved under generative compression and revision.
 
-> *Editor note on items (7) and (8):* MO§ES™ and the Conservation Law of Commitment are author-developed governance frameworks. They do not generate output; they constrain how generative tools produce output. Both were deposited publicly on Zenodo before any AI-assisted drafting of this Essay began. The Conservation Law is itself the subject of Part VI of the manuscript — the Essay both cites and was produced under the framework it describes.
+> *Editor note on items (7) and (8):* MO§ES™ and the Conservation Law of Commitment are author-developed governance frameworks. They do not generate output; they constrain how generative tools produce output. Both were deposited publicly on Zenodo before any AI-assisted drafting of this Essay began. The Conservation Law is itself the subject of Part VI of the manuscript ,  the Essay both cites and was produced under the framework it describes.
 
 ---
 
@@ -48,11 +48,11 @@
 
 > AI assisted with:
 >
-> - **Structural drafting** — organizing the six-part argument and refining transitions.
-> - **Case-law identification and citation lookup** — locating recent federal decisions on AI work-product doctrine (Heppner, Warner, Morgan), surfacing supporting Supreme Court precedent (Griffin, Gideon, Faretta, Mathews, Carpenter), and identifying relevant law-review scholarship.
-> - **Bluebook 22nd Edition formatting** — converting raw citations into Bluebook-conformant footnote format.
-> - **Prose refinement** — tightening sentences for length and clarity within the 5,000-word ceiling.
-> - **Citation verification research** — cross-checking docket numbers, Westlaw citations, and reporter pin cites against publicly available legal alerts and secondary reporting.
+> - **Structural drafting** ,  organizing the six-part argument and refining transitions.
+> - **Case-law identification and citation lookup** ,  locating recent federal decisions on AI work-product doctrine (Heppner, Warner, Morgan), surfacing supporting Supreme Court precedent (Griffin, Gideon, Faretta, Mathews, Carpenter), and identifying relevant law-review scholarship.
+> - **Bluebook 22nd Edition formatting** ,  converting raw citations into Bluebook-conformant footnote format.
+> - **Prose refinement** ,  tightening sentences for length and clarity within the 5,000-word ceiling.
+> - **Citation verification research** ,  cross-checking docket numbers, Westlaw citations, and reporter pin cites against publicly available legal alerts and secondary reporting.
 
 ---
 
@@ -61,11 +61,11 @@
 > The author originated and is solely responsible for:
 >
 > - The identification of the *Heppner / Warner / Morgan* doctrinal fracture as a civil rights problem rather than a privilege problem. Independent verification via Westlaw AI Deep Research confirms that no law review article published since 2024 has framed the AI work-product issue as implicating equal protection, procedural due process, or access to courts. The civil rights AI scholarship to date concerns AI used *against* people (employment, housing, criminal sentencing); the AI work-product scholarship concerns AI used *by* people in litigation. This Essay bridges those two bodies of thought.
-> - The civil rights framing — connecting work-product doctrine to *Griffin*, *Gideon*, and *Faretta* lineage and to equal-protection, procedural-fairness, and access-to-courts principles.
+> - The civil rights framing ,  connecting work-product doctrine to *Griffin*, *Gideon*, and *Faretta* lineage and to equal-protection, procedural-fairness, and access-to-courts principles.
 > - The proposed functional rule (Part V) tying protection to the nature of preparation rather than the credential of the preparer.
 > - The crime-victim gap analysis (Part IV.C) recognizing that crime victims fall outside both the represented-party and self-represented-litigant frameworks.
 > - The preemptive response to the "AI lacks human mental impressions" counterargument (Part V), distinguishing the work-product preparation activity from the algorithmic output and the *Thaler v. Perlmutter* copyright authorship requirement.
-> - The Conservation Law of Commitment referenced in Part VI (Zenodo DOI: 10.5281/zenodo.18792459) and its experimental record (Zenodo DOI: 10.5281/zenodo.19105225) — both authored by, and deposited under the name of, the submitter, with timestamps **predating** any AI-assisted drafting of this Essay.
+> - The Conservation Law of Commitment referenced in Part VI (Zenodo DOI: 10.5281/zenodo.18792459) and its experimental record (Zenodo DOI: 10.5281/zenodo.19105225) ,  both authored by, and deposited under the name of, the submitter, with timestamps **predating** any AI-assisted drafting of this Essay.
 
 ---
 
@@ -77,15 +77,15 @@
 
 ## Q5. Were any AI hallucinations identified and corrected?
 
-> **Yes — explicitly.** During verification, the author identified and corrected the following AI-generated citation errors before submission:
+> **Yes ,  explicitly.** During verification, the author identified and corrected the following AI-generated citation errors before submission:
 >
-> - *Morgan v. V2X, Inc.* — initial draft cited `No. 24-CV-03199, 2026 WL 1069587`. The correct citation is `No. 25-cv-01991-SKC-MDB, 2026 WL 864223`. Verified via Osherow Law Advisor, Lexology, ACEDS, Sidley, Logikcull, Clio, Everlaw, Sergenian Law, and BSK alerts.
-> - *Shih v. Petal Card, Inc.* — initial draft cited `2021 WL 1966870 (JPC)`. The correct published reporter cite is `565 F. Supp. 3d 557 (S.D.N.Y. 2021)`. Judge initials JPC were corrected to JFK. Verified via Casetext and the *Heppner* opinion's own citation to *Shih*.
-> - *Heppner* docket and WL — initial draft cited `No. 25-CR-397 (JSR), 2026 WL 566081`. The correct citation is `No. 25-cr-00503-JSR, 2026 WL 436479`. Verified via Haynes Boone, RPJ Law, and PACER.
-> - *Warner* docket and WL — initial draft cited `No. 23-12531, 2026 WL 460146`. The correct citation is `No. 2:24-cv-12333, 2026 WL 373043`. Verified via Proskauer, Justia, and Cleary alerts.
-> - **Footnote 13 (Harvey/Claude relationship)** — original draft asserted Harvey is "built on" Claude. Corrected to "integrates Anthropic's Claude alongside OpenAI's GPT models" per Harvey's own announcements and Bloomberg Law reporting.
-> - **Footnote 14 (CoCounsel federal judiciary contract)** — original draft cited an unrelated TPG/Elite sale press release. Replaced with the direct Thomson Reuters press release of April 9, 2025 announcing the Administrative Office of the U.S. Courts contract.
-> - **Footnote 27 (Clio blog)** — initial draft cited a fictitious URL (`clio.com/blog/ai-criminal-defense-privilege`) that returned 404. Replaced with Clio's actual *Heppner* explainer (`clio.com/blog/ai-attorney-client-privilege-heppner/`).
+> - *Morgan v. V2X, Inc.* ,  initial draft cited `No. 24-CV-03199, 2026 WL 1069587`. The correct citation is `No. 25-cv-01991-SKC-MDB, 2026 WL 864223`. Verified via Osherow Law Advisor, Lexology, ACEDS, Sidley, Logikcull, Clio, Everlaw, Sergenian Law, and BSK alerts.
+> - *Shih v. Petal Card, Inc.* ,  initial draft cited `2021 WL 1966870 (JPC)`. The correct published reporter cite is `565 F. Supp. 3d 557 (S.D.N.Y. 2021)`. Judge initials JPC were corrected to JFK. Verified via Casetext and the *Heppner* opinion's own citation to *Shih*.
+> - *Heppner* docket and WL ,  initial draft cited `No. 25-CR-397 (JSR), 2026 WL 566081`. The correct citation is `No. 25-cr-00503-JSR, 2026 WL 436479`. Verified via Haynes Boone, RPJ Law, and PACER.
+> - *Warner* docket and WL ,  initial draft cited `No. 23-12531, 2026 WL 460146`. The correct citation is `No. 2:24-cv-12333, 2026 WL 373043`. Verified via Proskauer, Justia, and Cleary alerts.
+> - **Footnote 13 (Harvey/Claude relationship)** ,  original draft asserted Harvey is "built on" Claude. Corrected to "integrates Anthropic's Claude alongside OpenAI's GPT models" per Harvey's own announcements and Bloomberg Law reporting.
+> - **Footnote 14 (CoCounsel federal judiciary contract)** ,  original draft cited an unrelated TPG/Elite sale press release. Replaced with the direct Thomson Reuters press release of April 9, 2025 announcing the Administrative Office of the U.S. Courts contract.
+> - **Footnote 27 (Clio blog)** ,  initial draft cited a fictitious URL (`clio.com/blog/ai-criminal-defense-privilege`) that returned 404. Replaced with Clio's actual *Heppner* explainer (`clio.com/blog/ai-attorney-client-privilege-heppner/`).
 >
 > All corrections are documented in the Pre-Submission Verification Checklist appended to the manuscript.
 
@@ -109,7 +109,7 @@
 
 ---
 
-# Backup Plan — If Westlaw Pin Verifications Don't Land Before Submission
+# Backup Plan ,  If Westlaw Pin Verifications Don't Land Before Submission
 
 Four pin cites still need Westlaw confirmation:
 
@@ -118,11 +118,11 @@ Four pin cites still need Westlaw confirmation:
 | **Heppner fn 3 (Upjohn 395)** | `*Id.* at *4 (quoting Upjohn Co. v. United States, 449 U.S. 383, 395 (1981)).` | Drop the Upjohn pin: `*Id.* at *4 (quoting Upjohn Co. v. United States, 449 U.S. 383 (1981)).` |
 | **Carpenter pin 2220 (fn 30)** | `Carpenter v. United States, 138 S. Ct. 2206, 2220 (2018) (by analogy, distinguishing the content of communications from routing information)` | Drop the pin: `Carpenter v. United States, 138 S. Ct. 2206 (2018) (by analogy, distinguishing the content of communications from routing information)` |
 | **Nichol LEXIS 169901 (fn 30)** | `Nichol v. City of Springfield, No. 6:14-cv-1983-AA, 2015 U.S. Dist. LEXIS 169901 (D. Or. Dec. 18, 2015)` | Drop the LEXIS number, keep docket: `Nichol v. City of Springfield, No. 6:14-cv-1983-AA (D. Or. Dec. 18, 2015)` |
-| **Shih pin within 565 F. Supp. 3d 557** | `565 F. Supp. 3d 557 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).` | Already case-level only — no change needed. Pin is a "nice to have," not load-bearing. |
+| **Shih pin within 565 F. Supp. 3d 557** | `565 F. Supp. 3d 557 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).` | Already case-level only ,  no change needed. Pin is a "nice to have," not load-bearing. |
 
 **Why the backup is safe.** The argument does not depend on any pin cite. *Carpenter*'s content/routing distinction, *Upjohn*'s mental-impressions principle, and *Nichol*'s extension to non-attorney friends are all readily traceable to the case as a whole. SLRO editors will check pins during their own cite-check cycle if accepted; no pin is the cause of an editor desk-rejection.
 
-**If you can confirm even one pin in time, prioritize Carpenter at 2220** — that's the most analytically load-bearing pin, since it grounds the body claim that AI processing is not legally meaningful disclosure. The other three can drop without loss.
+**If you can confirm even one pin in time, prioritize Carpenter at 2220** ,  that's the most analytically load-bearing pin, since it grounds the body claim that AI processing is not legally meaningful disclosure. The other three can drop without loss.
 
 **Decision deadline:** April 30 morning. If Westlaw access has not produced confirmations by then, apply the "If unverifiable" column above and submit. Better to ship with case-level cites than miss the window chasing pins.
 
