@@ -145,11 +145,11 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^1]: *See* United States v. Heppner, No. 25-cr-00503-JSR, 2026 WL 436479 (S.D.N.Y. Feb. 17, 2026); Warner v. Gilbarco, Inc., No. 2:24-cv-12333, 2026 WL 373043 (E.D. Mich. Feb. 10, 2026). Judge Rakoff's bench ruling was issued February 10, 2026; the written opinion followed February 17, 2026.
 
-[^2]: Heppner, 2026 WL 436479.
+[^2]: *Heppner*, 2026 WL 436479.
 
 [^3]: *Id.* at *3 (quoting United States v. Nobles, 422 U.S. 225, 238 (1975)).
 
-[^4]: Warner, 2026 WL 373043.
+[^4]: *Warner*, 2026 WL 373043.
 
 [^5]: *Id.* at *3.
 
@@ -163,7 +163,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^10]: The gap in legal representation is well documented. *See* Legal Servs. Corp., *The Justice Gap: The Unmet Civil Legal Needs of Low-Income Americans* (2022) (finding that 86% of civil legal problems reported by low-income Americans received inadequate or no legal help).
 
-[^11]: *Compare* Heppner, 2026 WL 436479, at *4 (no counsel direction, no protection) *with* Warner, 2026 WL 373043, at *3 (self-represented party is own advocate, protection applies).
+[^11]: *Compare* *Heppner*, 2026 WL 436479, at *4 (no counsel direction, no protection) *with* *Warner*, 2026 WL 373043, at *3 (self-represented party is own advocate, protection applies).
 
 [^12]: Crime victims are not parties to the criminal proceeding; the prosecutor represents the state. *See* Linda R.S. v. Richard D., 410 U.S. 614, 619 (1973). Their statutory rights under 18 U.S.C. § 3771 do not include the right to appointed counsel or to work-product protection for their own preparation materials.
 
@@ -173,7 +173,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^15]: *See, e.g.*, LexisNexis, *Lexis+ with Protégé* (formerly Lexis+ AI), https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page [https://perma.cc/J9K6-SWYZ] (describing enterprise-grade security and confidentiality for legal work).
 
-[^16]: *See* Heppner, 2026 WL 436479, at *4 (citing the consumer AI platform's terms of service as a basis for finding no reasonable expectation of confidentiality).
+[^16]: *See* *Heppner*, 2026 WL 436479, at *4 (citing the consumer AI platform's terms of service as a basis for finding no reasonable expectation of confidentiality).
 
 [^17]: *See generally* Legaltech Hub, *Generative AI Toolkit*, https://www.legaltechnologyhub.com/topics/process-improvement/generative-ai-toolkit/ [https://perma.cc/98ER-ZTT3]; *see also* UC Davis Mabie Law Library, *Generative AI Tools and Resources for Law Students*, https://libguides.law.ucdavis.edu/genaiforlawstudents/tools [https://perma.cc/GRE9-VP5E] (citing Legaltech Hub's March 2026 mapping of 1,014 generative AI product placements in legal tech).
 
@@ -183,7 +183,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^20]: *Cf.* Griffin v. Illinois, 351 U.S. 12, 19 (1956) ("There can be no equal justice where the kind of trial a man gets depends on the amount of money he has."); *see also* M.L.B. v. S.L.J., 519 U.S. 102 (1996) (extending Griffin's principle to civil proceedings involving fundamental interests); Douglas v. California, 372 U.S. 353 (1963) (right to counsel on first appeal for indigent defendants).
 
-[^21]: *See* Gideon v. Wainwright, 372 U.S. 335 (1963); Faretta v. California, 422 U.S. 806 (1975); Griffin, 351 U.S. at 19. *See also* Bounds v. Smith, 430 U.S. 817 (1977) (prisoners have a fundamental right of access to the courts); Lewis v. Casey, 518 U.S. 343 (1996) (elaborating on the access-to-courts right and its limitations).
+[^21]: *See* Gideon v. Wainwright, 372 U.S. 335 (1963); Faretta v. California, 422 U.S. 806 (1975); *Griffin*, 351 U.S. at 19. *See also* Bounds v. Smith, 430 U.S. 817 (1977) (prisoners have a fundamental right of access to the courts); Lewis v. Casey, 518 U.S. 343 (1996) (elaborating on the access-to-courts right and its limitations).
 
 [^22]: *See* Mathews v. Eldridge, 424 U.S. 319, 335 (1976) (procedural due process requires a balancing of the private interest, the risk of erroneous deprivation, and the government's interest).
 
@@ -207,7 +207,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^31]: Shih v. Petal Card, Inc., 565 F. Supp. 3d 557, 574 (S.D.N.Y. 2021) (extending work-product protection to litigation preparation by a non-attorney corporate representative acting in anticipation of suit).
 
-[^32]: *See* Warner, 2026 WL 373043, at *4 ("Generative AI programs are tools, not persons.").
+[^32]: *See* *Warner*, 2026 WL 373043, at *4 ("Generative AI programs are tools, not persons.").
 
 [^33]: Fed. R. Civ. P. 26(b)(3)(A). The rule's text covers "a party or its representative," which on its face does not limit the representative to an attorney. *See also Shih*, 565 F. Supp. 3d at 574 (extending protection to a non-attorney representative); In re Cendant Corp. Sec. Litig., 343 F.3d 658 (3d Cir. 2003) (litigation consultants qualify as non-attorney representatives under the doctrine); United States ex rel. Bibby v. Wells Fargo Bank, N.A., 165 F. Supp. 3d 1319 (N.D. Ga. 2015) (extending protection to non-attorney investigator acting as attorney's agent).
 
