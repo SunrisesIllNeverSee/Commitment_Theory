@@ -1,5 +1,5 @@
 # Legal_Theory / source-docs
 
-Raw research materials for the legal track — case law pulls, AI conversation outputs, statutory research, downloaded articles, reference documents.
+Research materials for the legal track — case law pulls, statutory research, AI conversation outputs, reference documents.
 
-Drop files here. Move to a specific paper folder when they're actively being used for a paper.
+**Workflow:** New files go to `/inbox/` first. Once triaged, move them here.

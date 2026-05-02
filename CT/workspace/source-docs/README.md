@@ -1,5 +1,5 @@
 # CT / source-docs
 
-Raw research materials for the CT track — downloaded papers, AI conversation outputs, reference documents, notes from external sources.
+Research materials for the CT track — downloaded papers, AI conversation outputs, reference documents.
 
-Drop files here. Move to a specific paper folder when they're actively being used for a paper.
+**Workflow:** New files go to `/inbox/` first. Once triaged, move them here.
