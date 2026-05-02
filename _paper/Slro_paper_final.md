@@ -195,7 +195,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^26]: U.S. CONST. amend. XIV, § 1.
 
-[^27]: *See* Clio, *Does Using AI Waive Attorney-Client Privilege? Breaking Down the United States v. Heppner Case*, CLIO BLOG (2026), https://www.clio.com/blog/ai-attorney-client-privilege-heppner/ [https://perma.cc/GE4K-94G4] (analyzing privilege risks where defendants use consumer AI without counsel direction).
+[^27]: *See* Clio, *Does Using AI Waive Attorney-Client Privilege? Breaking Down the United States v. Heppner Case*, CLIO BLOG (2026), https://www.clio.com/blog/ai-attorney-client-privilege-heppner/ [https://perma.cc/GE4K-94G4] (analyzing privilege risks where defendants use consumer AI without counsel direction); *see also* Lucas v. Scharf, 2026 WL 642917 (W.D.N.C. Feb. 25, 2026) (warning pro se litigants that "conversations" with AI tools "are not privileged and may be subject to discovery").
 
 [^28]: *See supra* note 12.
 
@@ -209,7 +209,7 @@ Artificial intelligence is reshaping how individuals prepare to assert and defen
 
 [^32]: *See* Warner, 2026 WL 373043, at *4 ("Generative AI programs are tools, not persons.").
 
-[^33]: Fed. R. Civ. P. 26(b)(3)(A). The rule's text covers "a party or its representative," which on its face does not limit the representative to an attorney. *See also Shih*, 565 F. Supp. 3d at 574 (extending protection to a non-attorney representative).
+[^33]: Fed. R. Civ. P. 26(b)(3)(A). The rule's text covers "a party or its representative," which on its face does not limit the representative to an attorney. *See also Shih*, 565 F. Supp. 3d at 574 (extending protection to a non-attorney representative); In re Cendant Corp. Sec. Litig., 343 F.3d 658 (3d Cir. 2003) (litigation consultants qualify as non-attorney representatives under the doctrine); United States ex rel. Bibby v. Wells Fargo Bank, N.A., 165 F. Supp. 3d 1319 (N.D. Ga. 2015) (extending protection to non-attorney investigator acting as attorney's agent).
 
 [^34]: 18 U.S.C. § 3771. The Act currently provides victims with the right to be heard, the right to notice, and the right to restitution, but does not address the protection of their litigation preparation materials.
 
