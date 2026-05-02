@@ -23,6 +23,7 @@ Each track has a `CLAUDE.md` with full context, paper pipeline, immediate todos,
 - Drop new files in [inbox/](inbox/)
 - Active todos: [TODO.md](TODO.md)
 - 31-paper roadmap: [CT/workspace/roadmap/cct-paper-roadmap-v2.md](CT/workspace/roadmap/cct-paper-roadmap-v2.md)
+- Genesis source threads: [source-threads/](source-threads/)
 
 ---
 
