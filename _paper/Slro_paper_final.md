@@ -1,5 +1,5 @@
-# Protected Legal Thought in the Age of AI
-## Work Product and the Civil Rights of Legal Preparation
+# Whose Legal Thought Stays Protected?
+## AI, Work Product, and the Civil Rights of Preparation
 
 **Author Name Redacted for Blind Review**
 
@@ -11,7 +11,7 @@ Federal courts have begun dividing on whether AI-assisted legal preparation is p
 
 This Essay argues that this fracture raises an underexamined civil rights problem. As artificial intelligence becomes a primary tool for legal preparation, access to protected legal reasoning increasingly depends on professional credential and platform tier rather than function. Because effective participation in legal processes, whether defending against criminal charges, seeking redress, or navigating administrative systems, requires the ability to prepare without compelled disclosure, the uneven protection of AI-assisted work risks entrenching structural inequality across the legal system. Individuals without access to counsel or enterprise-grade tools may be uniquely exposed, even as they rely most heavily on AI to exercise legal rights.
 
-This Essay contends that this emerging regime implicates core concerns of civil rights law, including equal protection, procedural fairness, and meaningful access to legal institutions. It proposes a functional rule: work product protection should attach to the nature of legal preparation in anticipation of proceedings, not the professional identity of the preparer or the technological channel through which the work is produced.
+This Essay contends that this emerging regime implicates core concerns of civil rights law, including equal protection, procedural fairness, and meaningful access to legal institutions. By "civil rights" this Essay means both the constitutional guarantees of equal protection, due process, and access to courts, and the broader civil rights tradition of identifying structural arrangements that perpetuate inequality even when formal legal equality exists. It proposes a functional rule: work product protection should attach to the nature of legal preparation in anticipation of proceedings, not the professional identity of the preparer or the technological channel through which the work is produced.
 
 ---
 
@@ -65,13 +65,13 @@ This architecture directly answers a question the Stanford Law Review collection
 
 Enterprise legal AI platforms have taken publicly available model capability and wrapped it in a contractual and credentialing layer that determines whether the constitutional protection of work product attaches. Courts have not consciously decided to create a two-tier system. They have, however, applied a doctrine designed for the pre-AI era in a manner that effectively delegates the protection of legal reasoning to private subscription architecture. The result is a system in which protected legal preparation flows through channel partners, not through constitutional entitlement.
 
-When courts, privilege doctrine, and procedural rules ratify an arrangement in which protected legal reasoning is functionally available only through licensed intermediaries and their enterprise tools, the inequality is state-backed. Private contracts are the mechanism of the inequality, not a defense to it. The delegation of constitutional protection into private channel architecture raises questions that extend beyond privilege doctrine into the domain of civil rights.
+When courts, privilege doctrine, and procedural rules ratify an arrangement in which protected legal reasoning is functionally available only through licensed intermediaries and their enterprise tools, the inequality is state-backed. Private contracts are the mechanism of the inequality, not a defense to it. When the state, through its courts and procedural rules, ratifies a system in which the protection of legal preparation is distributed by private contract rather than by public entitlement, it conditions the exercise of constitutional rights on market access. That is, at its core, a civil rights problem.
 
 ---
 
 ## IV. Civil Rights at the Fault Line: Equality, Fairness, and Access
 
-The AI work-product fracture implicates three foundational civil rights principles: equal protection, procedural fairness, and access to courts.
+Not every procedural asymmetry rises to the level of a civil rights concern. The fracture described here does, because the protection at issue (the ability to prepare in confidence) is a precondition to the exercise of rights the Constitution already guarantees. The AI work-product fracture implicates three foundational civil rights principles: equal protection, procedural fairness, and access to courts.
 
 ### A. Equal Protection and Status-Based Distinction
 
@@ -91,7 +91,7 @@ This is a form of the technological due process concern that scholars have ident
 
 Preparation is a prerequisite to participation. The right to petition the government for redress of grievances,[^24] the right of self-representation recognized in *Faretta v. California*,[^25] and the due process right to a fair proceeding[^26] all require the ability to prepare. If the protection regime penalizes use of the only affordable preparation tool, access to courts is effectively conditioned on the ability to afford enterprise-tier legal infrastructure or to retain counsel.
 
-This burden falls most heavily on populations that are already structurally underserved: indigent criminal defendants using AI before counsel is appointed or to supplement appointed counsel's work;[^27] pro se civil litigants in housing, employment, and benefits cases; administrative claimants navigating immigration, Social Security disability, and licensing proceedings; and crime victims who are not parties to the criminal case, not represented by the prosecutor, and not entitled to appointed counsel.[^28] For each, AI is the primary tool for legal preparation. For each, the protection of that preparation is either absent or ambiguous under current doctrine.
+This burden falls most heavily on populations that are already structurally underserved: indigent criminal defendants using AI before counsel is appointed or to supplement appointed counsel's work;[^27] pro se civil litigants in housing, employment, and benefits cases; administrative claimants navigating immigration, Social Security disability, and licensing proceedings; and crime victims who are not parties to the criminal case, not represented by the prosecutor, and not entitled to appointed counsel.[^28] The victim gap is not an oversight but a structural inevitability: because victims are not parties, the prosecutor represents the state rather than them, and the Sixth Amendment right to counsel does not attach, no existing framework reaches their preparation at all. For each of these populations, AI is the primary tool for legal preparation. For each, the protection of that preparation is either absent or ambiguous under current doctrine.
 
 The fracture extends into every domain where individuals must prepare to exercise legal rights without the shelter of counsel. Civil rights law has addressed analogous structural asymmetries (discriminatory hiring tools, automated benefits denials, proxy discrimination in lending) by identifying the ways technically neutral rules produce systematically unequal outcomes.[^29] The AI work-product fracture is the same species of problem.
 

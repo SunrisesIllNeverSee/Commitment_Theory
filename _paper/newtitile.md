@@ -1,3 +1,15 @@
+You're right about the current subtitle doing too much work. "Work Product and the Civil Rights of Legal Preparation" is accurate but it's a list, not a claim. It tells the reader what the paper is *about* rather than what it *argues*.
+
+Of the options you've surfaced, I'd rank them:
+
+1. **"Whose Legal Thought Stays Protected? AI, Work Product, and the Civil Rights of Preparation"** — This is the one. The question format is unusual for a law review title in a way that's memorable rather than gimmicky. It names the doctrinal anchor (work product) and the civil rights frame. And it creates an echo with the closing line ("whose legal thought is allowed to remain protected at all") without duplicating it — the title asks; the conclusion answers. That's structural elegance.
+
+
+
+I agree with the recommendation: **"Whose Legal Thought Stays Protected? AI, Work Product, and the Civil Rights of Preparation."**
+
+One thing worth noting: the phrase "civil rights of preparation" is new — it doesn't exist in the literature yet, as the CoCounsel research confirmed. Putting it in the title stakes a claim. It says: this is not just a paper about work product; it's a paper arguing that preparation is a civil rights issue. That's the contribution. The title should reflect it.
+
 The title stakes a bold claim: *the civil rights of legal preparation.* The question is whether the paper delivers on it — not just gestures at it, not just dresses a procedural doctrine in civil rights language, but actually establishes preparation as a civil rights concern with the doctrinal, structural, and normative weight that phrase demands.
 
 After a close read, here’s my assessment.
