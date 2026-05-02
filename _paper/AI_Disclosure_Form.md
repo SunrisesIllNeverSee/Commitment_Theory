@@ -18,9 +18,29 @@
 
 ---
 
-## Q1. Which AI tools were used, and at what stage?
+## Q1. Have you engaged in any use of generative AI that has significantly affected the substance, originality, or reliability of the submission?
 
-> Two generative AI systems were used in the drafting process: **DeepSeek** and **Claude (Anthropic)**. DeepSeek was used during the initial conceptual development and outline phase to surface candidate framings of the doctrinal fracture. Claude was used during the drafting, structural editing, citation formatting, and Bluebook conformity stages. Both were used as drafting and research-assistance tools — not as substitutes for substantive legal analysis.
+> **Yes.** Generative AI was used substantively across the research, drafting, editing, and verification stages. The author's role was to direct, constrain, verify, and integrate AI-assisted work — not merely to receive AI output.
+
+## Q1a. List of significant uses
+
+> **(1) Claude (Anthropic)** — research, conceptual organization, doctrinal analysis, structural editing.
+>
+> **(2) ChatGPT (OpenAI)** — research, analytical sounding board, rough-outline drafting.
+>
+> **(3) DeepSeek** — drafting and prose generation; initial framing of the doctrinal fracture.
+>
+> **(4) Claude Code (Anthropic)** — final packaging and copy-editing within VS Code: citation formatting, Bluebook conformance, perma.cc integration, output conversion to LaTeX/Word.
+>
+> **(5) CoCounsel / Westlaw AI Deep Research (Thomson Reuters)** — argument research, citation verification (case pin cites, post-Heppner contrary authority search, law-review gap analysis), and counterargument stress-testing.
+>
+> **(6) Brave Search MCP** — independent web verification of all case citations, source URLs, and law-review article publication data.
+>
+> **(7) MO§ES™ Constitutional AI Governance Framework** — operated as a runtime governance layer during all Claude and Claude Code sessions, shaping model outputs at the execution level through behavioral posture, role hierarchy, and audit-trail enforcement. Outputs received from generative tools were filtered and constrained by this framework, not merely reviewed.
+>
+> **(8) Conservation Law of Commitment** (author's own framework, Zenodo DOI: 10.5281/zenodo.18792459) — applied as a transformation governance protocol during AI-assisted drafting, ensuring the commitment kernel of the manuscript's substantive claims (obligations, prohibitions, permissions, constraints) was preserved under generative compression and revision.
+
+> *Editor note on items (7) and (8):* MO§ES™ and the Conservation Law of Commitment are author-developed governance frameworks. They do not generate output; they constrain how generative tools produce output. Both were deposited publicly on Zenodo before any AI-assisted drafting of this Essay began. The Conservation Law is itself the subject of Part VI of the manuscript — the Essay both cites and was produced under the framework it describes.
 
 ---
 
