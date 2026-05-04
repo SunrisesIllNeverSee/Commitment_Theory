@@ -43,6 +43,29 @@ VII. **Implications for Legal Practice and AI System Design** — Discusses how 
 
 ---
 
+## Writing Notes
+
+**Section VI — operational proxy checks for practitioners:**
+The paper cannot just say "use the CT harness." Law and Contemporary Problems serves practitioners. For each failure mode, provide a proxy check that does not require running the full CT harness:
+
+- Obligation escalation: manually compare modal force of output vs. input ("shall" → "should" → "may")
+- Scope widening: compare the range of actors/situations covered by input vs. output
+- Exception dropping: check whether every "unless," "except," "provided that" clause in input appears in output
+- Modal flattening: compare the strongest modal operator in input with the weakest in output
+- Threshold erasure: check whether any numerical or categorical threshold in input is preserved in output
+- Agent substitution: check whether the specified party in input matches the specified party in output
+- Negation reversal: check whether every negated proposition in input is negated in output (this one requires attention — surface negation is not sufficient)
+- Compression collapse: flag if output length < 60% of input length for provisions with complex exception structures
+- Recursion drift: flag if the provision has been processed through multiple AI steps without a committed-to intermediate record
+
+**"Most legally dangerous" claim — define the metric explicitly:**
+Recommend a two-dimensional matrix: (x-axis) detection difficulty (1=easy to detect manually, 5=requires harness); (y-axis) severity of legal consequence (1=minor, 5=fundamental rights violation). Plot all nine modes. Negation reversal scores high on both — it is invisible to surface review and the consequence (prohibition becomes permission) is severe. This makes the claim defensible and turns it into a contribution.
+
+**Related Work:**
+
+- AI errors in legal document processing: Bommasani et al. (2021) Foundation Models report on legal applications; Chalkidis et al. on legal NLP benchmarks
+- Statutory interpretation and AI: Katz et al. (2017) on computational legal analysis — CT's failure modes are systematic errors that these systems produce
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, nine failure modes, EXP-001 through EXP-007, NP-negation probe); L-000 (legal propositions); L-001 (doctrinal framework); L-002 (empirical evidence for legal domain); P-000 (CT definitions)

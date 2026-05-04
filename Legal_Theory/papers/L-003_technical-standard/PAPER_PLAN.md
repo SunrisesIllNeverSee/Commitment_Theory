@@ -43,6 +43,25 @@ VII. **Objections and Replies** — Addresses feasibility, precedent, and compli
 
 ---
 
+## Writing Notes
+
+**Remove MO§ES branding from main text — replace throughout with neutral language:**
+Anywhere the draft says "MO§ES" or "MO§ES™" in the main text, replace with "CCR-compliant governance architecture" or "a governance system satisfying the commitment conservation requirement." MO§ES belongs in one footnote as an example: "One such architecture is MO§ES™ (patent pending), which implements the Six-Gate Protocol as a production enforcement layer." Law reviews do not publish branded product implementations in main text.
+
+**Griggs disparate impact — clarify Section V argument (this is the most legally sensitive section):**
+Two distinct arguments are possible; pick one and build the section around it:
+
+- Argument A (statistical): AI systems that apply civil rights statutes with commitment drift produce disparate impact on the populations the statute was designed to protect — because the failure modes (exception dropping, threshold erasure) disproportionately affect provisions that benefit protected classes. This requires L-002 empirical data showing the distribution of failure modes across provision types.
+- Argument B (doctrinal): Commitment drift in AI-applied civil rights statutes constitutes a new category of doctrinal harm — the statute is not being applied as written, regardless of statistical outcome. This is a statutory compliance argument, not a disparate impact argument, and it does not require L-002 data.
+
+If L-002 data is available: use Argument A. If writing before L-002: use Argument B and note that A is future empirical work.
+
+**Related Work:**
+
+- Technical standards in law: Lessig's "Code is Law" — the CCR as a technical standard with legal force
+- AI governance standards: NIST AI RMF (2023); ISO/IEC 42001 — position CCR as more specific and empirically grounded
+- Algorithmic accountability proposals: Kroll et al. (2017) on accountable algorithms; Selbst & Barocas (2018) on fairness — CCR is the missing measurement foundation
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, Six-Gate Protocol); Paper 3 (governance density bound ρ*); Paper 5 (oracle framework); MO§ES architecture paper (reference implementation); L-000 (legal propositions); L-001 (doctrinal entry point); L-002 (empirical evidence); P-000 (CT definitions); Mathews v. Eldridge; Griggs v. Duke Power Co.; FRE 901; Daubert; Title VII; ADA

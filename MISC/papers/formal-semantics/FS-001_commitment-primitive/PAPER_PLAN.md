@@ -43,6 +43,26 @@ VII. **Conclusion: An Invitation to Formal Semantics** — Invites formal semant
 
 ---
 
+## Writing Notes
+
+**FS-001 is the canonical treatment of the Shannon "conservation IS isolation" analogy for the entire CT program:**
+Every other paper that invokes this analogy (CL-001, COM-001, CAP-001) should cite FS-001 for it — not develop it independently. FS-001 must develop the analogy formally and completely. The other papers get one sentence and a citation.
+
+The formal statement of the analogy:
+Shannon defined information as what survives the noisy channel — he did not need a prior definition of "information" to build information theory. CT defines commitment as what survives the governed transformation — it does not need a prior definition of "meaning" to build the measurement framework. The canonical invariant CI(S,w) is isolated by the act of transformation, not defined prior to it.
+
+**Semantic minimalism / contextualism (add to Section IV or VI):**
+
+- Borg's minimal semantics: sentence meaning is fixed by grammar + lexicon; context contributes only to pragmatics. CT's canonical invariant is closer to Borg's minimal content than to context-enriched content — CI(S,w) captures what the sentence commits to by its deontic structure, independent of speaker context. This is a useful ally for FS-001's claims.
+- Recanati's contextualism: sentence meaning requires pragmatic enrichment to determine truth conditions. CT's challenge: negation reversal (EXP-007) shows that surface-level pragmatic enrichment cannot recover the commitment kernel once it is lost — supporting the claim that CI(S,w) is a real semantic object, not a pragmatic inference.
+
+**Non-reducibility proof sketch (Section VI):**
+For each existing primitive, provide a distinguishing case:
+
+- Not propositional content: a sentence with the same propositional content can have different CI (a factual assertion vs. a legal obligation with the same surface truth conditions)
+- Not illocutionary force: two sentences with the same force (both directives) can have different CI (one carries "shall not" with an exception clause; one carries "should not" — different CI under CT)
+- Not presupposition: presuppositions are speaker-relative and defeasible; CI is signal-relative and preserved under governed transformation
+
 ## Blocking Gap — Formal Definition Must Exist Before Writing
 
 The entire paper rests on Section IV. Until the canonical invariant has a workable formal definition, writing cannot begin.

@@ -43,6 +43,21 @@ VII. **Conclusion** — Summarizes the bound, its proof, and its operational sig
 
 ---
 
+## Writing Notes
+
+**Related Work:**
+
+- Shannon source coding theorem: Shannon (1948); Cover & Thomas Ch. 5 — the paper must derive the analog formally, not just invoke the analogy
+- Semantic communication literature: Bao et al. (2011) on joint source-channel coding for semantic fidelity; Shi et al. (2021) on semantic communications — distinguish CT: CT measures deontic commitment, not semantic similarity or task performance
+- Text compression with semantic constraints: Grangier & Auli (2018) on semantic text exchange; summarization fidelity literature — these are engineering approaches; CT provides the theoretical lower bound
+- Information bottleneck: Tishby et al. (2000) — CT's bound is in the same spirit but applied to deontic content rather than task-relevant information
+
+**Representation length vs. semantic length:**
+Section III must define "representation length" precisely. Token count is the obvious measure but is model-dependent. Options: (a) character count (model-independent but rough); (b) token count under a fixed tokenizer (model-dependent but precise); (c) compressed bit length (model-independent, theoretically motivated). Recommend: use character count for the empirical results and provide a conversion note for token-based systems. The bound should be stated in terms of a length measure that does not presuppose a specific model.
+
+**Empirical sharp transition:**
+EXP-003 and EXP-007 show signals that collapse at a threshold. Report whether the threshold is universal (same length for all signals) or signal-dependent (each signal has its own threshold). If signal-dependent, the bound is a function of the signal's kernel complexity κ(S) — which is the correct formulation. If universal, the paper makes a stronger claim that will need more empirical support.
+
 ## Blocking Gap — Must Resolve Before Writing
 
 **The problem:** C(S) as currently defined is a deterministic function of a specific text. Shannon's source coding theorem requires a *random variable* drawn from a *probability distribution* over a source alphabet. The proof in Section III cannot be constructed until C(S) is formalized as an information-theoretic object.

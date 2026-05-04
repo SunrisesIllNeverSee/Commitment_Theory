@@ -43,6 +43,23 @@ VII. **Conclusion** — Summarizes the Second Law as now quantified; identifies 
 
 ---
 
+## Writing Notes
+
+**Related Work:**
+
+- Shannon entropy rate: Cover & Thomas, *Elements of Information Theory* Ch. 4 — the paper must engage this formally
+- Semantic entropy in NLP: Kuhn et al. (NeurIPS 2023) on semantic entropy for LLM uncertainty estimation — this is the closest existing work and must be distinguished carefully (Kuhn measures uncertainty over model outputs; CT measures degradation of deontic content under transformation)
+- Entropy-based text summarization: Mani & Maybury (1999); more recent neural summarization work — position CT's h_s as measuring a different quantity
+
+**Rhetorical posture — pick one and commit:**
+The paper currently says both "we find evidence of a threshold regime" (abstract) and "we ask which model fits best" (outline). These are different papers. Recommended posture: "We propose the semantic entropy rate h_s as a formal measure of commitment decay and provide pilot evidence from EXP-003 that the decay follows a threshold regime." This is honest about the pilot nature of the evidence while making a clear theoretical contribution.
+
+**Stationarity assumption (Section II or III):**
+Write explicitly: "We assume that the semantic commitment process is weakly stationary — that the statistical properties of commitment decay do not change systematically with transformation step." Then justify this assumption from EXP-003: the decay appears consistent across steps until the threshold, consistent with weak stationarity. Acknowledge as a limitation: "Future work with larger corpora will test this assumption."
+
+**Forward reference to channel capacity (Section VI):**
+Restructure as: "3. Toward Semantic Channel Capacity" as a 1-paragraph subsection within the Conclusion, not a full section. One paragraph: "The semantic entropy rate h_s defined here is the noise-floor parameter in a broader Shannon extension for commitment transmission. A complete channel capacity theorem — establishing the maximum commitment transmission rate as a function of h_s and governance density — is the subject of future work (CAP-001)."
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, EXP-003 data, Theorem 6.2); P-000 (CT definitions); Shannon (1948) entropy rate; Cover & Thomas, *Elements of Information Theory* (entropy rate formalism)

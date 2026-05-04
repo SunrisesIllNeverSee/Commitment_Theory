@@ -43,6 +43,20 @@ VII. **Implications for NLP System Design** — Discusses how the regime taxonom
 
 ---
 
+## Writing Notes
+
+**Related Work:**
+
+- Modal semantics: von Fintel (2006) on deontic modality; Kratzer (1991) on modality in natural language — the modal-anchored regime classification is grounded in this literature; cite and engage, don't just list
+- Information-theoretic text classification: Jurafsky & Martin Ch. 4 on naive Bayes and text classification — the classification algorithm should be compared to or built on these methods
+- Text complexity measures: Kincaid-Flesch readability; linguistic complexity literature — compression-boundary regime correlates with linguistic complexity; engage to show the regime captures something these measures don't
+
+**Journal of Semantics — engagement with formal modality (if targeting that venue):**
+Add a subsection in Section III: "Modal-Anchored Signals and Kratzer's Ordering Source." Show how CT's modal-anchored regime maps onto Kratzer's formal semantics: the modal base and ordering source of a deontic modal operator ("shall," "must") determine the worlds accessible for the commitment kernel. CT's conservation of this kernel corresponds to preservation of the ordering source across transformations. This is the bridge that earns the Journal of Semantics submission.
+
+**Accuracy claims in Key Claim 5:**
+After resolving the circularity (cross-validation or held-out partition), update Key Claim 5 with the actual number: "A classification algorithm achieves [X]% accuracy (95% CI: [Y]-[Z]%) on the CT corpus using [cross-validation/held-out partition], demonstrating regime-separability pending validation on external corpora."
+
 ## Blocking Gap — Circularity in Classification Algorithm
 
 **The problem:** Section VI describes a signal classification algorithm that is evaluated for accuracy "on the CT corpus." The CT corpus (EXP-001 through EXP-007) is also the dataset used to define and characterize the three regimes (Sections III–V). Training and evaluating on the same dataset produces a circularity: the algorithm is optimized to recover the categories it was built to discover, and the accuracy figure is not generalizable.

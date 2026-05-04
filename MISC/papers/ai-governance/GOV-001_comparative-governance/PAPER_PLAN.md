@@ -43,6 +43,20 @@ VII. **Conclusion: What the Governance Literature Needs** — Argues that the AI
 
 ---
 
+## Writing Notes
+
+**Related Work (required for FAccT / AI & Society):**
+
+- Jobin et al. (2019): inventory of 84 AI ethics guidelines — the largest meta-analysis of AI governance frameworks; CT's contribution is providing the physical-law foundation that none of these frameworks have
+- Hagendorff (2020): "The Ethics of AI Ethics" — critiques the gap between principles and implementation; CT addresses this gap with a measurable standard
+- Raji et al. (2020) on model cards / audit frameworks; Gebru et al. on data sheets — these are documentation standards; CT is a measurement standard; complementary, not competing
+- Doshi-Velez & Kim (2017) on interpretability — interpretability addresses the "why" question; CT addresses the "what was preserved" question; different but related
+
+**Section VI — the worked example is the paper's falsifiable contribution:**
+Identify a real or realistic AI system that satisfies all of Constitutional AI, NIST AI RMF, and EU AI Act requirements while producing measurable commitment drift. Candidate: a summarization system for legal documents that (1) has been evaluated on constitutional AI principles (helpful, harmless, honest), (2) passes NIST AI RMF's risk management documentation requirements, (3) complies with EU AI Act's transparency requirements — but (4) when applied to a civil rights statute, produces the exception dropping failure mode. Show this with a concrete example using the CT harness. This is the paper's empirical contribution.
+
+**Title: do not use "The Only Governance Framework with a Law" even as a subtitle or section heading.** The new title ("Governing the Transformation") is correct. Do not reintroduce the old framing anywhere in the paper.
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, empirical record); Paper 3 (governance density bound); MO§ES architecture paper (CT governance architecture); P-000 (CT definitions); Bai et al. (Constitutional AI, 2022); NIST AI RMF (2023); EU AI Act (2024); IEEE Ethically Aligned Design; Post-Turing paper (CT evaluation criterion); L-003 (CCR as legal governance standard)

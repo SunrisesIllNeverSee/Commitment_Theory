@@ -44,6 +44,20 @@ VII. **Toward Companion Papers** — Summarizes what cross-language, cross-domai
 
 ---
 
+## Writing Notes
+
+**Related Work:**
+
+- Cross-lingual NLI: Conneau et al. (2018) XNLI; cross-lingual transfer learning literature — the NLI oracle used in CT is English-primary; cross-provider results using English signals avoid this issue but must acknowledge it
+- Model scale and emergent abilities: Wei et al. (2022) on emergent abilities; Hoffmann et al. (2022) Chinchilla scaling laws — cross-architecture results should engage these in the confound analysis
+- Reproducibility and LLM evaluation: Liang et al. (2022) HELM; Gehrmann et al. BIG-Bench — CT's cross-provider evaluation should follow reproducibility best practices from these frameworks
+
+**Confound control (Section V — critical for ACL reviewers):**
+The main confound: different providers were trained on different corpora. A conservation difference between GPT-4 and Claude might reflect corpus differences, not architecture differences. Control strategy: (1) use signals that appear in neither training corpus (synthetic signals constructed from the CT framework); (2) test conservation on a held-out set of signals not used in Papers 0–3; (3) report conservation rates separately for "likely in training" and "unlikely in training" signal categories. ACL reviewers will require this.
+
+**Statistical testing (Section III):**
+"Statistically indistinguishable" requires a specific test. Recommend: two-sample Kolmogorov-Smirnov test on conservation rate distributions across providers; report KS statistic and p-value. For the model-agnosticism claim, the null hypothesis is that conservation rate distributions are identical across providers under governance; failure to reject supports model-agnosticism.
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, failure taxonomy, model-agnosticism claim); Paper 1 (h_s for characterizing ungoverned decay by architecture); Paper 2 (Compression-Fidelity Bound as baseline); Paper 3 (ρ* as governance benchmark for cross-system comparison); P-000 (CT definitions)

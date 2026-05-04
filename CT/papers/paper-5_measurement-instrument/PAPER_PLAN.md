@@ -43,6 +43,26 @@ VII. **The SIGSYSTEM Successor** — Describes the design motivation for SIGSYST
 
 ---
 
+## Writing Notes
+
+**Venue: JMLR specifically — not "Foundations of AI / Philosophy of Information."** JMLR publishes methods papers with strong empirical validation. The metrology framing is appropriate for JMLR if paired with rigorous uncertainty quantification.
+
+**Related Work:**
+
+- Metrology for ML: Flach & Kull (2015) on calibration; Guo et al. (2017) on temperature scaling — CT's harness needs calibration characterization analogous to classifier calibration
+- Evaluation metric reliability: Novikova et al. (2017) on correlation between human and automatic metrics — CT should show correlation between NLI harness scores and human judgment on at least a small subset
+- Scientific instrument characterization: GUM (JCGM 100:2008) — the paper explicitly applies GUM's uncertainty framework; must engage it formally, not just cite it
+
+**EXP-006 reframing (Section II or dedicated subsection — this is the paper's most important argumentative move):**
+State explicit criteria distinguishing harness stress from Conservation Law failure:
+
+- Conservation Law failure: C(T_gov(S)) ≠ C(S) for a signal S where the Six-Gate Protocol is correctly applied AND the oracle is functioning correctly
+- Harness stress: C(T_gov(S)) ≠ C(S) where either (a) the oracle misclassifies the commitment kernel (oracle failure) or (b) the signal's commitment structure is degenerate under self-reference (EXP-006 case — the paper claims conservation of its own claims, which is a different task than claiming conservation of external deontic content)
+- The criterion: EXP-006 is harness stress, not Law failure, because the 2/4 failures are in the self-referential category (b), not category (a). The paper must show this classification is principled, not post-hoc.
+
+**GUM uncertainty propagation for NLI:**
+The GUM framework assumes continuous measurement outputs with Gaussian uncertainty. NLI bidirectional entailment produces a discrete categorical output (entailment/neutral/contradiction) derived from a softmax probability. Section V must address: (1) how GUM's Type A uncertainty (repeated measurement) applies to repeated harness runs; (2) how GUM's Type B uncertainty (systematic error) applies to known oracle failure modes; (3) what "measurement uncertainty" means for a binary conservation outcome (conserved/not conserved). Recommend: report conservation rates as Bernoulli parameters with Wilson confidence intervals; this is GUM-compatible and appropriate for discrete outcomes.
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (harness design, EXP-001 through EXP-007, failure taxonomy); Paper 1 (h_s as baseline for noise floor estimation); Paper 2 (Compression-Fidelity Bound as threshold for harness sensitivity); Paper 3 (governance density ρ* as calibration benchmark); Paper 4 (cross-system data for oracle independence analysis); P-000 (CT definitions); metrology literature (JCGM 100:2008 GUM framework)

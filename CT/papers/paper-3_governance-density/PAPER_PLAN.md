@@ -43,6 +43,21 @@ VII. **Implications for AI System Engineering** — Discusses the practical impl
 
 ---
 
+## Writing Notes
+
+**Related Work:**
+
+- Network control theory: minimum dominating sets, minimum vertex cover — ρ* has structural analogs here; engage briefly to show CT is not reinventing combinatorial optimization
+- AI governance frameworks: Constitutional AI (Bai et al. 2022), NIST AI RMF — position CT's governance density as the missing quantitative layer beneath these normative frameworks
+- Formal verification of AI systems: Seshia et al. (2018) on formal specification for AI — CT's governance density bound is a formal correctness criterion; position accordingly
+- Sparse control: minimum intervention control theory — ρ_g ≥ ρ* is the sparse control sufficient condition for semantic conservation
+
+**FAccT audience — add practical failure mode section:**
+FAccT reviewers want to know what happens when governance falls below ρ*. Add a subsection in Section VI: "Governance Degradation Behavior." When ρ_g < ρ*, commitment decay is not immediate — it follows the Second Law (monotonic increase in H_C). Characterize the degradation trajectory: does commitment loss accelerate as ρ_g decreases below ρ*, or is there a gradual slope? This is the most practically valuable result for AI system designers.
+
+**Algorithm specification (Section V):**
+The minimum governance set algorithm must specify its input. Recommend: the input is a transformation pipeline specification — a directed graph where nodes are transformation operations and edges are composition. The algorithm outputs the minimum set of gate operations (from the Six-Gate Protocol) that must be applied at each node to guarantee ρ_g ≥ ρ*. Make this concrete with one worked example in the paper.
+
 ## Blocking Gap — Must Resolve Before Writing
 
 **Inherited from Paper 2:** The governance sparsity bound ρ* is derived as a function of h_s and the Compression-Fidelity Bound. Both of those depend on C(S) being formalized as an information-theoretic object with a probability space (see Paper 2's Blocking Gap). Until that formalization exists, the derivation of ρ* in Section III cannot be stated formally.

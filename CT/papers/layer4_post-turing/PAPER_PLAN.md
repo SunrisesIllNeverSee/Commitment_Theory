@@ -43,6 +43,17 @@ VII. **Objections and Replies** — Addresses the major objections: that commitm
 
 ---
 
+## Writing Notes
+
+**Turing (1950) — engage with precision in Section II:**
+Turing did not claim the imitation game was sufficient for intelligence. He proposed it as a replacement for the vague question "can machines think?" The paper must engage: (1) Turing's actual claim (the imitation game as an operational substitute for "thinking"); (2) Turing's own hedging ("I believe that in about fifty years' time it will be possible..."); (3) the distinction between the philosophical thesis (behavioral indistinguishability implies intelligence) and the engineering criterion (can the system pass the test). CT's Post-Turing Test addresses the engineering criterion, not the philosophical thesis.
+
+**Necessary vs. sufficient condition — Section VII (Objections):**
+The strongest objection: "passing the Post-Turing Test doesn't make a system intelligent — a lookup table that returns the governed transformation of any input would pass." Response: the Post-Turing Test is proposed as a necessary condition for deployment in high-stakes contexts, not a sufficient condition for intelligence. Frame it as: "the Turing Test asks whether the system seems intelligent; the Post-Turing Test asks whether the system is semantically safe for deployment." These are different questions; the Post-Turing Test answers the latter.
+
+**"Behavioral imitation largely solved" — scope in Section I:**
+Qualify to: "For natural language generation tasks, the behavioral indistinguishability question is no longer the binding constraint on AI evaluation — modern LLMs routinely pass the imitation game in text-based settings. The binding constraint has shifted to reliability and safety properties, of which semantic fidelity is one." This is both more accurate and more defensible.
+
 ## Citation Notes
 
 - **Cites:** Turing (1950); Paper 0 (Conservation Law, passing conditions); Paper 3 (governance density bound); Paper 5 (oracle independence requirements); MO§ES architecture paper (MO§ES as the governance engine enabling Post-Turing certification); SIGSYSTEM (Post-Turing oracle); P-000 (CT definitions)

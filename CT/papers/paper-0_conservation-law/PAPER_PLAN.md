@@ -43,6 +43,25 @@ VII. **Oracle Independence and Falsifiability** — Demonstrates that the Conser
 
 ---
 
+## Writing Notes
+
+**Related Work (required — absence triggers desk rejection at NeurIPS/ICML):**
+
+- Faithfulness metrics in NLG evaluation: Maynez et al. (2020) on faithfulness/factuality; Honovich et al. on factuality probes; Kryscinski et al. on consistency
+- Semantic textual similarity benchmarks: STS-B, SICK-R — show CT measures something these miss
+- Logical consistency in summarization: Falke et al. (2019); Cao et al. (2022)
+- Constitutional AI / preference alignment literature: Bai et al. (2022) — CT operates at a different level (transformation fidelity vs. value alignment)
+- Semantic communication: Qin et al. (2021), Xie et al. (2021) — distinguish CT from information-theoretic semantic communication
+
+**Oracle rationale (Section III — will be a focal point for reviewers):**
+Write a dedicated subsection: "Why NLI Bidirectional Entailment?" Address: (1) bidirectional entailment as the strongest available logical equivalence criterion for natural language; (2) DeBERTa-v3-base-mnli specifically — chosen for MNLI benchmark performance + inference speed; (3) known failure modes: paraphrase detection (partially addressed by EXP-007), abstract/concrete shifts, quantifier scope; (4) why these failure modes do not invalidate the conservation result (the harness is conservative — false negatives produce underestimates of conservation, not overestimates).
+
+**Clarify the 7/20 result (abstract and Section IV):**
+13/20 signals at NLI=1.00 under governance. The other 7: report what happened. Options — (a) they achieved conservation at lower NLI scores (partial conservation), (b) they failed conservation under both governed and ungoverned conditions (baseline difficulty), (c) they showed conditional conservation (governance improved but did not achieve 1.00). This is not a weakness to hide — it is the harness's calibration data. Report it directly.
+
+**Baseline comparison for NeurIPS/ICML:**
+Plan a Table 1: ROUGE-1, ROUGE-L, BERTScore, Jaccard similarity, NLI unidirectional, NLI bidirectional — applied to the same signals under the same transformations. Show that ROUGE and BERTScore fail to detect commitment loss in the negation reversal case (EXP-007). This is the paper's empirical contribution to NLP methodology, not just to CT.
+
 ## Citation Notes
 
 - **Cites:** McHenry Axioms (Layer -1); Six-Gate Protocol (Layer 0); P-000 (CT definitions); microsoft/deberta-v3-base-mnli (oracle); Shannon (1948) channel capacity and entropy rate (conceptual analog)

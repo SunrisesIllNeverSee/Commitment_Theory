@@ -43,6 +43,23 @@ VII. **Distinction from Adjacent Systems** — Compares MO§ES to JUDGEBERT, Saf
 
 ---
 
+## Writing Notes
+
+**Fidelity Seal cryptographic primitive — must specify in Section V:**
+"Cryptographic certificate" is too vague for peer review. Options:
+
+- Hash-based: SHA-256 hash of (canonical C(S) representation + transformation log + timestamp) — simple, auditable, non-repudiable; does not require PKI
+- Signature-based: ECDSA signature over the hash — adds authenticity (the seal was issued by the MO§ES system, not forged); requires key management
+- Commitment scheme: Pedersen commitment to C(S) — allows zero-knowledge verification that C(S) was conserved without revealing C(S); useful for confidential legal documents
+
+Recommend specifying Hash-based (Option A) as the baseline with a note that Signature-based (Option B) is available for regulatory compliance contexts.
+
+**Trade secret disclosure boundary — state explicitly in Section VI:**
+"The SIGSYSTEM architecture is trade secret. This paper discloses: (1) SIGSYSTEM's input/output contract: input is a semantic object S, output is a scalar signal score σ(S) ∈ [0,1] representing the proportion of S's content that constitutes deontic signal rather than noise; (2) SIGSYSTEM's performance on the EXP-001 through EXP-007 benchmark relative to the NLI oracle; (3) SIGSYSTEM's latency and throughput specifications in a production MO§ES deployment. Architectural details beyond this interface contract are not disclosed." This framing enables peer review of the performance claims without architectural disclosure.
+
+**Adjacent systems comparison (Section VII):**
+For each system, use a consistent comparison table: input type / output type / what it measures / governance level (system vs. transformation vs. signal) / empirical grounding (falsifiable vs. not). This makes CT's categorical distinction visible without requiring prose argument.
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, Six-Gate Protocol, failure taxonomy); P-000 (Layer -1 axioms, Layer 0 protocol); Papers 1–5 (measurement science foundation); Layer 4 SIGSYSTEM paper (for SIGSYSTEM functional description)

@@ -43,6 +43,29 @@ VII. **Conclusion** — Summarizes the taxonomy and its implications; releases t
 
 ---
 
+## Writing Notes
+
+**Related Work (required for CL / TACL / EMNLP):**
+
+- CommitmentBank (de Marneffe et al. 2019): annotates speaker commitment to embedded clauses — distinguish from CT's signal-deontic commitment in one sentence, then move on
+- FactBank (Saurí & Pustejovsky 2009): factual status annotation — same distinction
+- NLI benchmarks: SNLI (Bowman et al. 2015), MultiNLI (Williams et al. 2018) — CT uses NLI as an oracle but measures something these benchmarks don't test
+- Faithfulness in NLG: Maynez et al. (2020), Honovich et al. (2022) on factual consistency — closest existing work; CT's negation reversal (EXP-007) shows a failure mode these metrics miss
+- BERTScore (Zhang et al. 2020): surface similarity metric — EXP-007 demonstrates BERTScore and Jaccard both miss negation reversal; show this with a concrete example in the paper
+
+**Section VI — propose a specific evaluation protocol:**
+Do not end with "existing metrics miss commitment degradation." End with a positive contribution: a proposed evaluation protocol. Specifically:
+
+1. Run the full signal through the CT harness (NLI bidirectional) — this is the commitment fidelity score
+2. Run ROUGE-L, BERTScore, Jaccard in parallel
+3. Report correlation between CT harness score and each surface metric
+4. For the negation reversal case: show a signal where ROUGE-L ≈ 0.9, BERTScore ≈ 0.85, Jaccard ≈ 0.8, but CT harness = 0 (commitment lost)
+
+This turns Section VI from a critique into a methodological contribution — an evaluation protocol that NLP systems can adopt.
+
+**Self-contained definition of commitment kernel:**
+CL-001 will circulate independently of Paper 0. Define the commitment kernel in Section II in full: "The commitment kernel C(S) of a semantic object S is its deontic content — the set of obligations, prohibitions, permissions, and modal constraints that S imposes, independent of its speaker, context, or surface form." Then cite Paper 0 for the full formal treatment.
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, failure taxonomy, EXP-001 through EXP-007, NP-negation probe); P-000 (CT definitions); de Marneffe et al. CommitmentBank; Saurí & Pustejovsky FactBank; Bowman et al. SNLI; Nie et al. (NLI evaluation); microsoft/deberta-v3-base-mnli

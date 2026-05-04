@@ -43,6 +43,17 @@ VII. **Conclusion: The Record as Legal Foundation** — Argues that establishing
 
 ---
 
+## Writing Notes
+
+**Hart & Sacks — add to Section IV or V (not just citation notes):**
+Hart & Sacks legal process theory argues that courts should defer to agencies and legislatures on matters within their institutional competence. CT's commitment conservation requirement raises the question: which institution should enforce it? Courts (through constitutional review), agencies (through rulemaking), or technical standards bodies (through the CCR)? The legal process answer: the institution with the competence to verify compliance — which, for CT, requires technical measurement capacity. This is the argument for a technical standard (L-003) rather than judicial enforcement alone. L-008 should engage this explicitly in Section V.
+
+**Common law scope — add to Introduction or Section I:**
+CT's commitment conservation requirement applies most directly to statutory and regulatory text — legal texts that are fixed at the moment of enactment and subject to AI-mediated application. It does not apply in the same way to common law rules, which evolve through judicial precedent. A common law rule that "changes" through a new case is not commitment drift — it is the deliberate development of law through adjudication. The scope note: "This paper addresses the conservation of commitment in fixed legal texts under AI transformation. Common law adjudication — where the 'text' evolves through case law — raises different questions that CT's framework does not yet address."
+
+**Pluralism preservation — make this the spine of Section VI, not a subsection:**
+This is the claim that will determine whether L-008 is accepted at HLR/YLJ/SLR. Those journals will read CT as technocratic imposition if they don't see that it preserves interpretive plurality. Structure Section VI as: "CT resolves the measurement question without resolving the interpretive question. Whether 'unlawful employment practice' under Title VII covers a given AI algorithm is an interpretive dispute. Whether the AI system applying that standard preserves the 'shall not discriminate' commitment kernel in the statute is a measurement question. CT addresses the measurement question and leaves the interpretive dispute intact — in fact, it makes the interpretive dispute more tractable by ensuring the thing being disputed is what was actually written."
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, empirical record); P-000 (CT definitions); L-000 through L-007 (full legal program); Mathews v. Eldridge; Griggs; FRE 901; Daubert; jurisprudential literature (Scalia on textualism; Dworkin; Hart & Sacks legal process; Eskridge dynamic statutory interpretation); Shannon (1948)

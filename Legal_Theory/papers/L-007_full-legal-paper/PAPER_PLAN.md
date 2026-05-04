@@ -43,6 +43,22 @@ VII. **Conclusion: Invitation to the Field** — Summarizes CT's contribution to
 
 ---
 
+## Writing Notes
+
+**Engage situation theory and Floridi in Section VI — these are the most likely objections:**
+
+- Barwise & Perry (1983) situation theory: proposes "situations" as truth-makers; commitment content could be read as a special case of situation-theoretic constraints. Distinguish: situation theory characterizes what makes propositions true; CT characterizes what survives transformation. These are different problems.
+- Floridi's General Definition of Information (Φ): defines meaningful well-formed data. CT's commitment kernel is not "meaningful data" in Floridi's sense — it is specifically deontic content, and CT's contribution is showing that this content has conservation properties under transformation. Floridi's GDI does not address transformation.
+- Dretske's information theory (1981): defines information in terms of what a signal carries. CT's commitment kernel is closer to Dretske's "informational content" than to Floridi's GDI, but CT adds the conservation law and empirical measurement. Engage Dretske to show CT is in the same tradition but provides what Dretske's framework lacks: an operational measurement protocol and a discovered conservation law.
+
+**"First AI and Law framework grounded in an empirically falsifiable conservation law" — demonstrate through the comparison, not assert:**
+Structure Section III as: "Existing AI and Law frameworks use formal models (Bench-Capon's value-based argumentation, Ashley's case-based reasoning, Zeleznikow's split-up system) but none are grounded in a physical law with an empirical record. The Conservation Law of Commitment is the first such foundation." Then show — don't just say.
+
+**Related Work:**
+
+- AI and Law literature: Bench-Capon & Dunne (2007) argumentation frameworks; Ashley (2017) on AI and legal reasoning; Zeleznikow (2017) on ODR systems
+- Legal information retrieval: Katz et al. (2017); Chalkidis et al. (2019) LEGAL-BERT — position CT as measuring something these systems don't: commitment fidelity under transformation
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, empirical record); P-000 (CT definitions); L-000 (legal propositions); L-001 (entry point); L-002 (empirical data); L-003 (CCR standard); L-005 (failure mode taxonomy); Shannon (1948); Mathews v. Eldridge; Griggs; FRE 901; Daubert; AI and Law literature (Surden, Bench-Capon, Ashley, Zeleznikow)
