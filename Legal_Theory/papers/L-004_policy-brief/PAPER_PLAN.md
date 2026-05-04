@@ -41,6 +41,19 @@ VI. **Recommendations** — Provides specific, actionable recommendations for fe
 
 ---
 
+## Writing Notes
+
+**Structural revision — collapse Sections II and III:**
+Sections II ("What the Law Already Requires") and III ("The Commitment Conservation Requirement: Policy Statement") currently overlap. For a policy brief at Brookings/Stanford HAI/Berkman Klein, combine into a single section: "The Legal Standard and What It Requires" — state the doctrinal basis and the CCR together in policy language. This tightens the brief and avoids the impression that the legal argument and the policy recommendation are separate.
+
+**Section V — add concrete cost/burden estimate:**
+The feasibility claim must include at least one concrete figure. Options: (a) estimate the per-document cost of running the CT harness on a statutory provision (compute time, oracle API cost); (b) estimate the compliance overhead as a percentage of existing AI system deployment costs; (c) cite comparable compliance costs from existing regulatory frameworks (HIPAA compliance costs per entity, GDPR compliance survey data). Without a number, the "not technically burdensome" claim is an assertion, not evidence.
+
+**Timing flag — if published before L-002:**
+If L-004 is published before L-002's empirical data is available, all claims must rest on Paper 0's experimental record and L-001's doctrinal scenarios only. Do not cite L-002 results that do not yet exist. Add a note in the introduction: "Empirical validation of commitment drift in specific civil rights statutory provisions is the subject of ongoing work (L-002); this brief's recommendations rest on the general empirical record established in [Paper 0] and the doctrinal analysis in [L-001]."
+
+---
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, empirical record); L-000 (legal propositions); L-001 (doctrinal framework); L-002 (empirical evidence when available); L-003 (CCR technical standard); P-000 (CT definitions); NIST AI RMF; EU AI Act; Mathews v. Eldridge; Griggs; FRE 901

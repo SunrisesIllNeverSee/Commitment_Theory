@@ -66,6 +66,12 @@ This turns Section VI from a critique into a methodological contribution — an 
 **Self-contained definition of commitment kernel:**
 CL-001 will circulate independently of Paper 0. Define the commitment kernel in Section II in full: "The commitment kernel C(S) of a semantic object S is its deontic content — the set of obligations, prohibitions, permissions, and modal constraints that S imposes, independent of its speaker, context, or surface form." Then cite Paper 0 for the full formal treatment.
 
+**Deontic/epistemic disambiguation — one sentence + citation to FS-001:**
+CL-001 must disambiguate CT's "commitment" from CommitmentBank/FactBank's "commitment" in exactly one sentence: "CT's commitment kernel is a property of signals (deontic content), not speakers (epistemic attitude) — a distinction developed formally in [FS-001]." Do not develop the argument further in CL-001 — FS-001 is the canonical treatment. One sentence and a citation.
+
+**Shannon analogy — cite FS-001, do not develop independently:**
+If the paper invokes the "conservation IS isolation" / Shannon analogy, cite FS-001 for the full treatment. CL-001 gets one sentence: "CT defines commitment as what survives the governed transformation channel, following the same methodological move Shannon made when he defined information as what survives the noisy channel (see [FS-001] for the formal development)."
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, failure taxonomy, EXP-001 through EXP-007, NP-negation probe); P-000 (CT definitions); de Marneffe et al. CommitmentBank; Saurí & Pustejovsky FactBank; Bowman et al. SNLI; Nie et al. (NLI evaluation); microsoft/deberta-v3-base-mnli

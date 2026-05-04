@@ -43,6 +43,25 @@ VII. **Conclusion: STS and the Conservation Law** — Argues that STS is positio
 
 ---
 
+## Writing Notes
+
+**Add an empirical anchor — at least one concrete case (Section III or IV):**
+STS reviewers will reject a purely theoretical paper without empirical grounding. Identify one real-world case where AI-mediated transformation of legal/bureaucratic text has produced measurable harm to a specific population:
+- Candidate: automated benefits determination systems (e.g., Michigan's MiDAS unemployment fraud detection system, which falsely accused tens of thousands of claimants) — analyze through the CT framework as commitment drift in the eligibility determination process
+- Alternative: AI-assisted immigration document processing — where translation/summarization of asylum claims could produce commitment drift affecting the outcome of adjudication
+The case study does not need to run the full CT harness — it needs to demonstrate that the theoretical framework (governance density → commitment drift → population impact) maps onto a real-world instance.
+
+**Engage FATE/FAccT literature explicitly (Section V or VI):**
+STS audiences read the FATE (Fairness, Accountability, Transparency, Ethics) literature. Engage:
+- Barocas & Selbst (2016) on disparate impact in ML — CT adds a new mechanism (commitment drift) that is distinct from algorithmic bias but produces similar distributional effects
+- Benjamin (2019) *Race After Technology* — CT's governance density analysis supports Benjamin's argument that ostensibly neutral technical systems encode structural inequality
+- Noble (2018) *Algorithms of Oppression* — commitment drift in search/summarization systems is an instance of Noble's critique applied to legal meaning specifically
+
+**Clarify Claim 5 — normative or descriptive:**
+Key Claim 4 states "exception dropping and negation reversal are the failure modes most devastating for populations whose legal position depends on a single exception clause or prohibition." This is a descriptive claim about the differential impact of specific failure modes. But the paper's broader argument — that commitment drift is a mechanism of epistemic inequality — is normative. Section VI ("The CCR as a Sociotechnical Object") must explicitly state whether it is making a policy recommendation (normative: implement the CCR to reduce inequality) or a descriptive observation (the CCR exists but has not been implemented, and STS should study why). Recommended: both, in sequence. First the descriptive observation, then the normative implication.
+
+---
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, Second Law, failure taxonomy); P-000 (CT definitions); L-001 (legal application, populations exposed to commitment drift); Eubanks, *Automating Inequality*; Benjamin, *Race After Technology*; Noble, *Algorithms of Oppression*; Jasanoff (co-production); Winner, "Do Artifacts Have Politics?"; epistemic injustice literature (Fricker)

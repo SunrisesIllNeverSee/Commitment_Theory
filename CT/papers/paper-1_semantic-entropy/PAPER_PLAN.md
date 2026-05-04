@@ -57,6 +57,9 @@ The paper currently says both "we find evidence of a threshold regime" (abstract
 **Stationarity assumption (Section II or III):**
 Write explicitly: "We assume that the semantic commitment process is weakly stationary — that the statistical properties of commitment decay do not change systematically with transformation step." Then justify this assumption from EXP-003: the decay appears consistent across steps until the threshold, consistent with weak stationarity. Acknowledge as a limitation: "Future work with larger corpora will test this assumption."
 
+**Experimental expansion — pilot vs. full-scale evidence:**
+Paper 1's entropy rate estimate is derived from EXP-003 (20 signals, 10 steps). For NeurIPS/ICML, this must be characterized explicitly as "pilot-scale evidence." Plan the expansion: 100+ signals, 20+ steps, regime-stratified sampling (matching CL-002's three regimes). The expanded corpus will yield: (1) narrower confidence intervals on h_s; (2) regime-specific entropy rates (h_s^modal, h_s^relational, h_s^compression); (3) a stronger test of the stationarity assumption. State this expansion plan in Section VI as "Future Work" to signal awareness of the statistical limitation.
+
 **Forward reference to channel capacity (Section VI):**
 Restructure as: "3. Toward Semantic Channel Capacity" as a 1-paragraph subsection within the Conclusion, not a full section. One paragraph: "The semantic entropy rate h_s defined here is the noise-floor parameter in a broader Shannon extension for commitment transmission. A complete channel capacity theorem — establishing the maximum commitment transmission rate as a function of h_s and governance density — is the subject of future work (CAP-001)."
 

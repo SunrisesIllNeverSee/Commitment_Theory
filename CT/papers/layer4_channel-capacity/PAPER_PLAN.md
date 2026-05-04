@@ -43,7 +43,23 @@ VII. **Implications and Extensions** — Discusses implications for CT's empiric
 
 ---
 
+## Writing Notes
+
+**Engage semantic communications literature (Section II or III):**
+Qin et al. (2021), Xie et al. (2021) on semantic communications and deep joint source-channel coding — the closest existing literature to CT's channel model. Distinguish: semantic communications optimizes task performance across a noisy channel; CT's semantic channel capacity concerns deontic commitment preservation under governed transformation. The channel models are structurally similar but the signals and fidelity criteria differ.
+
+**Consider publishing the correspondence table as a near-term position paper:**
+The Shannon–CT correspondence table (Section V) is independently publishable as a short position paper or arXiv note. It does not depend on the full proof machinery. Publishing it early establishes priority for the analogy and invites engagement from information theorists before the full theorem paper. Venue: IEEE Information Theory Society Newsletter, or ISIT workshop paper.
+
+**Propagate Paper 1 empirical limitations into C_s estimation (Section VI):**
+Paper 1's empirical basis (20 signals, 10 steps) provides only a rough estimate of h_s. Any empirical estimate of C_s that depends on h_s inherits this limitation. Section VI must report C_s estimates with uncertainty bounds that propagate the Paper 1 confidence intervals, and explicitly state that the estimates are pilot-scale.
+
+**C_s functional form — provide informal proof sketch:**
+Even though the full proof is deferred to CAP-001, this paper should provide an informal sketch of the functional form C_s = f(ρ_g, h_s, κ) and an intuitive argument for why the three corollaries follow. This makes the paper self-contained enough for a workshop submission while CAP-001 develops the full proof.
+
+---
+
 ## Citation Notes
 
-- **Cites:** Shannon (1948); Cover & Thomas, *Elements of Information Theory*; Paper 0 (Conservation Law); Paper 1 (h_s); Paper 2 (Compression-Fidelity Bound); Paper 3 (governance sparsity bound); Paper 4 (cross-system fidelity data); Paper 5 (measurement instrument, empirical capacity estimates); P-000 (CT definitions)
+- **Cites:** Shannon (1948); Cover & Thomas, *Elements of Information Theory*; Paper 0 (Conservation Law); Paper 1 (h_s); Paper 2 (Compression-Fidelity Bound); Paper 3 (governance sparsity bound); Paper 4 (cross-system fidelity data); Paper 5 (measurement instrument, empirical capacity estimates); P-000 (CT definitions); Qin et al. (2021); Xie et al. (2021)
 - **Cited by:** CAP-001 (MISC capstone channel capacity paper develops this further for the interdisciplinary audience); the semantic channel capacity theorem is the capstone of Papers 1–5 and the Layer 4 program

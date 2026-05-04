@@ -39,7 +39,20 @@ V. **Citation Protocol** — Establishes the citation chain for the legal track:
 
 ---
 
+## Writing Notes
+
+**Proposition 3 — anticipate existing AI governance standards:**
+Proposition 3 states that no existing AI governance framework addresses commitment decay in legal contexts. When writing this section, anticipate and explicitly address the three most likely counterexamples reviewers will raise: ISO/IEC 42001 (AI management systems), IEEE 7010 (wellbeing metrics for AI), and RAIL-M (Responsible AI Licenses). For each, show in one sentence that the standard addresses AI behavior or risk, not semantic fidelity under transformation. This inoculates the proposition against the "but what about X?" objection.
+
+**CCT→CT naming — must be complete before deposit:**
+L-000 was drafted under the CCT naming convention. Every instance of "Commitment Conservation Theory" or "CCT" must be updated to "Commitment Theory" / "CT" before SSRN/Zenodo deposit. L-001 (submitted) already uses CT naming — L-000 must be consistent.
+
+**Deposit sequencing:**
+L-000 should be deposited to SSRN (legal audience) AND Zenodo (general academic audience) simultaneously. SSRN deposit establishes legal-track citability; Zenodo deposit provides a DOI for cross-track citation. Both deposits should follow P-000 deposit to maintain the correct citation chain.
+
+---
+
 ## Citation Notes
 
-- **Cites:** P-000 (CT definitions); Paper 0 (Conservation Law, empirical record); Mathews v. Eldridge, 424 U.S. 319 (1976); Griggs v. Duke Power Co., 401 U.S. 424 (1971); FRE 901; Daubert v. Merrell Dow Pharmaceuticals, 509 U.S. 579 (1993)
+- **Cites:** P-000 (CT definitions); Paper 0 (Conservation Law, empirical record); Mathews v. Eldridge, 424 U.S. 319 (1976); Griggs v. Duke Power Co., 401 U.S. 424 (1971); FRE 901; Daubert v. Merrell Dow Pharmaceuticals, 509 U.S. 579 (1993); ISO/IEC 42001; IEEE 7010; RAIL-M
 - **Cited by:** All Legal_Theory papers (L-001 through L-010) cite L-000 as the legal propositions root

@@ -37,6 +37,25 @@ V. **Conclusion and Relief Requested** — States the specific relief or recomme
 
 ---
 
+## Writing Notes
+
+**Peer review status gate — CRITICAL:**
+Key Claim 3 states CT's empirical record is "peer-reviewed (or under review)." Daubert's peer-review factor does not treat "under review" as satisfying the peer-review requirement. This parenthetical is vulnerable and must be removed or replaced before any filing. **Status gate: do not file L-006 until Paper 0 has achieved formal peer review or conference acceptance at a recognized venue.** If filed before peer review, rewrite Key Claim 3 to say: "CT's empirical record is publicly available, replicable, and falsifiable" — omitting the peer-review claim entirely and relying on Daubert's other three factors (falsifiability, known error rate, general acceptance).
+
+**Watchlist of pending proceedings — maintain actively:**
+L-006 is opportunistic — without a watchlist, no trigger is ever acted on. Maintain a running watchlist of proceedings that could serve as triggers:
+- EEOC AI rulemaking (ongoing — comment periods on AI in employment decisions)
+- FTC algorithmic accountability proceedings (Section 5 enforcement actions involving AI)
+- Pending circuit court cases on AI document authentication (FRE 901 challenges to AI-transformed evidence)
+- EU AI Office enforcement actions under the AI Act (for EU-facing submissions)
+- NIST AI RMF update cycles (comment periods on measurement standards)
+Review the watchlist quarterly and add new proceedings as they arise.
+
+**Standing requirements for amicus filings:**
+Federal court amicus briefs require leave of court or consent of parties (Fed. R. App. P. 29). Regulatory comments typically do not require standing but benefit from organizational affiliation. Note: if filing as Ello Cello LLC, establish the entity's interest in the proceeding (patent holder for commitment conservation enforcement architecture, developer of public measurement harness). If filing as an individual academic, the interest statement is simpler (author of the cited empirical record).
+
+---
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, empirical record); L-001 (doctrinal framework); L-003 (CCR technical standard); L-000 (legal propositions); P-000 (CT definitions); proceeding-specific authority (varies)

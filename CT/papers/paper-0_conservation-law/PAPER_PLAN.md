@@ -62,6 +62,12 @@ Write a dedicated subsection: "Why NLI Bidirectional Entailment?" Address: (1) b
 **Baseline comparison for NeurIPS/ICML:**
 Plan a Table 1: ROUGE-1, ROUGE-L, BERTScore, Jaccard similarity, NLI unidirectional, NLI bidirectional — applied to the same signals under the same transformations. Show that ROUGE and BERTScore fail to detect commitment loss in the negation reversal case (EXP-007). This is the paper's empirical contribution to NLP methodology, not just to CT.
 
+**Paper 0 peer review submission — milestone gate for program:**
+Paper 0 is the empirical foundation for the entire CT program. Its peer review status directly affects: L-006 and L-010 (Daubert peer-review factor), GOV-001 (credibility of the "empirically falsifiable" claim), and all downstream papers that cite its experimental record. **Action: submit Paper 0 to a recognized venue (NeurIPS, ICML, or ACL) as soon as the CCT→CT naming update (v.06) is complete.** The submission does not need to wait for Papers 1-5 — Paper 0 is self-contained.
+
+**Experimental expansion — plan beyond EXP-003's 20 signals:**
+Papers 1-3 all derive their empirical estimates from EXP-003 (20 signals, 10 transformation steps). This is sufficient for pilot-scale evidence but will be challenged at top venues for statistical power. Plan an expanded experimental corpus: target 100+ signals across the three regimes (modal-anchored, relational-structural, compression-boundary) with 20+ transformation steps per signal. This expansion enables: (1) Paper 1's entropy rate estimate with narrower confidence intervals; (2) Paper 2's compression-fidelity bound with regime-specific thresholds; (3) Paper 3's governance density optimization with a larger parameter space. The expansion should be planned now (signal selection, model selection, harness configuration) even if execution is deferred to after Paper 0's submission.
+
 ## Citation Notes
 
 - **Cites:** McHenry Axioms (Layer -1); Six-Gate Protocol (Layer 0); P-000 (CT definitions); microsoft/deberta-v3-base-mnli (oracle); Shannon (1948) channel capacity and entropy rate (conceptual analog)

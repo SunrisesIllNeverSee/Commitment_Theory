@@ -43,6 +43,19 @@ VII. **Invitation to Falsify** — States the falsification conditions explicitl
 
 ---
 
+## Writing Notes
+
+**Section VI — Whitespace Claim (list specific databases):**
+The credibility of the whitespace claim depends entirely on the search methodology. Section VI must list the specific databases searched: Google Scholar, Semantic Scholar, ACL Anthology, PhilPapers, SSRN, IEEE Xplore, and Web of Science. State the search date, search terms, and the evidentiary standard applied ("zero collision" = no prior use of the term with the same technical meaning in the same domain). The abstract's "verified against seven academic databases" is correct but the body must provide the full list.
+
+**Abstract scope phrase for whitespace claim:**
+Add explicit scope: "at the time of deposit." The abstract already implies this, but state it directly to prevent reviewers from claiming the whitespace has been violated by subsequent work.
+
+**Paper 0 peer review submission — milestone note:**
+P-000 is the citation root for the entire program. Multiple downstream papers (L-006, L-007, L-010) benefit from P-000 having a formal deposit DOI. The missed April 30 soft deadline is not critical — deposit to Zenodo and arXiv as soon as the CCT→CT naming update is complete. This is the single highest-leverage near-term action for the program.
+
+---
+
 ## Citation Notes
 
 - **Cites:** McHenry Axioms (Layer -1); Six-Gate Protocol (Layer 0); MO§ES™ architecture (Layer 0.5); EXP-001 through EXP-007 experimental record; Paper 0 (Zenodo DOI: 10.5281/zenodo.18792459)

@@ -43,6 +43,28 @@ VII. **Implications for Communication Theory and AI-Mediated Communication Resea
 
 ---
 
+## Writing Notes
+
+**Hedge Claim 4 — "completes Shannon" is an overclaim:**
+Key Claim 3 and the abstract's Section V ("Shannon Completed") claim CT "completes" Shannon's framework by adding meaning to bits. This overstates the result. Shannon deliberately excluded meaning for principled reasons (Weaver's commentary on Shannon (1949) makes this explicit: "The word information, in this theory, is used in a special sense that must not be confused with its ordinary usage. In particular, information must not be confused with meaning."). CT does not refute Shannon's exclusion — it addresses a different layer (deontic commitment, not general meaning). Hedge to: "CT extends Shannon's measurement framework to a specific semantic property — commitment — without claiming to resolve the general question of meaning that Shannon set aside."
+
+**Add CMC (Computer-Mediated Communication) literature (Section III):**
+Communication scholars who study AI-mediated communication work in the CMC tradition. Engage:
+- Walther (1996) on hyperpersonal communication in CMC — CT identifies a new failure mode in CMC: commitment drift introduces meaning distortion that is not social or interpretive but structural
+- Hancock et al. (2020) on AI-mediated communication — the closest existing framework to CT's concerns; distinguish: Hancock addresses how AI shapes social interaction; CT addresses how AI transforms the semantic content of messages
+- Sundar (2020) MAIN model of technological affordances — CT's governance density can be framed as an affordance of the transformation system
+
+**Deontic/epistemic disambiguation — one sentence + citation to FS-001:**
+COM-001 must disambiguate CT's "commitment" from the communication-theoretic sense (speaker commitment to a claim) in one sentence: "CT's commitment kernel is a property of signals (deontic content), not speakers (epistemic attitude) — see [FS-001] for the formal distinction." Do not develop the argument further — FS-001 is the canonical treatment.
+
+**Shannon analogy — cite FS-001 for the formal development:**
+Section V ("Shannon Completed") invokes the Shannon analogy at length. The formal development of this analogy belongs in FS-001. COM-001 should present it in communication-theoretic terms but cite FS-001 for the formal statement. This avoids duplicate development and keeps the canonical treatment in one place.
+
+**Cite Weaver (1949) explicitly in Section V:**
+The Shannon bridge section must cite not just Shannon (1948) but Weaver's companion essay in *The Mathematical Theory of Communication* (1949). Weaver explicitly raised the question of meaning in Level B ("How precisely do the transmitted symbols convey the desired meaning?") and Level C ("How effectively does the received meaning affect conduct?"). CT addresses Level B for deontic content specifically. This positions CT within the Shannon-Weaver framework rather than claiming to go beyond it.
+
+---
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, EXP-003, EXP-007, failure taxonomy); P-000 (CT definitions); Shannon (1948); Shannon & Weaver (1949) *The Mathematical Theory of Communication*; Weaver's commentary on meaning in communication; Gerbner; Craig (communication theory traditions); Carey (transmission vs. ritual models); Pearce (coordinated management of meaning)

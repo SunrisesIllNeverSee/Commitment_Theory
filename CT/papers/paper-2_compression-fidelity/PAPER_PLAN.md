@@ -55,6 +55,9 @@ VII. **Conclusion** — Summarizes the bound, its proof, and its operational sig
 **Representation length vs. semantic length:**
 Section III must define "representation length" precisely. Token count is the obvious measure but is model-dependent. Options: (a) character count (model-independent but rough); (b) token count under a fixed tokenizer (model-dependent but precise); (c) compressed bit length (model-independent, theoretically motivated). Recommend: use character count for the empirical results and provide a conversion note for token-based systems. The bound should be stated in terms of a length measure that does not presuppose a specific model.
 
+**Experimental expansion — bound estimation requires larger corpus:**
+The Compression-Fidelity Bound's empirical basis (EXP-003 + EXP-007 compression-boundary signals) is small. Plan the expansion: 100+ signals stratified by regime (compression-boundary signals specifically), with systematic variation of representation length. The expanded data will determine whether the bound is universal or signal-dependent (see below). State the expansion plan in Section VI as future work.
+
 **Empirical sharp transition:**
 EXP-003 and EXP-007 show signals that collapse at a threshold. Report whether the threshold is universal (same length for all signals) or signal-dependent (each signal has its own threshold). If signal-dependent, the bound is a function of the signal's kernel complexity κ(S) — which is the correct formulation. If universal, the paper makes a stronger claim that will need more empirical support.
 
