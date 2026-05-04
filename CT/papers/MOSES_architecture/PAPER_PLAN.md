@@ -29,7 +29,7 @@ V. **The Fidelity Seal** — Describes the cryptographic attestation mechanism; 
 
 VI. **SIGSYSTEM (Functional Description)** — Describes SIGSYSTEM's role as the enforcement oracle — the system that computes C(S) for any semantic object in real time; explains the word-level contextual weighting approach at a functional level without disclosing trade secret architecture details.
 
-VII. **Distinction from Adjacent Systems** — Compares MO§ES to JUDGEBERT, Safe Creative's Semantic Relativity Theory, Constitutional AI, and NIST AI RMF; demonstrates MO§ES's categorical distinction as the only enforcement architecture grounded in a falsifiable physical law.
+VII. **Distinction from Adjacent Systems** — Compares MO§ES to JUDGEBERT, Safe Creative's Semantic Relativity Theory, Constitutional AI, and NIST AI RMF; demonstrates MO§ES's categorical distinction as the first enforcement architecture grounded in an empirically falsifiable conservation law.
 
 ---
 

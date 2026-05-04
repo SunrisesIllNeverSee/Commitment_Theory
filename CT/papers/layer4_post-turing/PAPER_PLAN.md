@@ -27,7 +27,7 @@ IV. **Passing Conditions and Their Derivation** — Derives the passing conditio
 
 V. **Comparison with the Turing Test** — Systematically compares the two criteria on: falsifiability, engineering consequence, behavioral scope, oracle requirements, and philosophical implications.
 
-VI. **Implications for AI Evaluation, Certification, and Governance** — Discusses how the Post-Turing Test could be used in AI system certification; compares it to NIST AI RMF, ISO/IEC 42001, and EU AI Act evaluation requirements; argues it is the only evaluation criterion grounded in a falsifiable physical law.
+VI. **Implications for AI Evaluation, Certification, and Governance** — Discusses how the Post-Turing Test could be used in AI system certification; compares it to NIST AI RMF, ISO/IEC 42001, and EU AI Act evaluation requirements; argues it is the first evaluation criterion grounded in an empirically falsifiable conservation law.
 
 VII. **Objections and Replies** — Addresses the major objections: that commitment preservation is insufficient for intelligence, that the criterion is too demanding, that it merely repackages existing evaluation frameworks.
 
@@ -38,7 +38,7 @@ VII. **Objections and Replies** — Addresses the major objections: that commitm
 - The Turing Test evaluates the wrong property for the era of language models: behavioral imitation is largely solved, but semantic fidelity under recursive transformation is not.
 - The Post-Turing Test — formal criterion: C(T_gov(S)) = C(S) across arbitrary input types and transformation depths — evaluates a property with direct engineering consequences and falsifiable measurement conditions.
 - An AI system that passes the Post-Turing Test is not merely intelligent; it is semantically reliable — a property that is necessary for deployment in legal, medical, regulatory, and other high-stakes contexts.
-- The Post-Turing Test is the only AI evaluation criterion grounded in a physical law with an empirical record and a public falsification protocol.
+- The Post-Turing Test is the first AI evaluation criterion grounded in an empirically falsifiable conservation law with a public empirical record and falsification protocol.
 - The shift from "can it fool a human?" to "can it preserve meaning under pressure?" has consequences not just for AI evaluation but for what we design AI systems to do.
 
 ---
