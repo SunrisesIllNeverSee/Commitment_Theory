@@ -59,6 +59,9 @@ VII. **Implications and the CT-Shannon Correspondence** — Presents the full CT
 
 The additive form recovers Papers 1–3 most naturally and should be evaluated first against the EXP-003 empirical data.
 
+**Shannon analogy — cite FS-001 as canonical treatment:**
+CAP-001 uses the Shannon correspondence heavily but should cite FS-001 for the philosophical development of "conservation IS isolation." CAP-001's contribution is the formal theorem and proof, not the philosophical argument. One sentence and a citation to FS-001 in Section I.
+
 **Near-term action:** Publish the Shannon–CT correspondence table (Section II of this paper) as a standalone position paper or arXiv note. It is the program's most immediately publishable contribution from this paper and does not depend on the full proof machinery.
 
 ---

@@ -43,6 +43,27 @@ VII. **Conclusion: Semantic Preservation as a Solvable Problem** — Argues that
 
 ---
 
+## Writing Notes
+
+**Hedge Claim 5 — "formally tractable" is an overclaim without a proof:**
+Claim 5 states "semantic preservation is now a formally tractable problem." This is true only if the commitment kernel can be reliably extracted from arbitrary digital objects — which the current harness cannot do (it works on natural language text, not images, audiovisual material, or structured data). Hedge to: "For text-based digital objects with deontic content, semantic preservation is now a formally tractable problem; extension to non-textual digital objects is a research frontier."
+
+**PREMIS mapping — provide specific crosswalk in Section VI:**
+The claim that CT's Lineage DAG maps onto PREMIS provenance metadata must be supported by a concrete mapping. Provide a crosswalk table:
+- PREMIS Event → CT transformation step (T_i)
+- PREMIS Agent → CT oracle / governance engine identifier
+- PREMIS Object → CT semantic object (S)
+- PREMIS Rights → CT commitment kernel (C(S))
+This crosswalk makes the implementation claim concrete and gives information scientists something they can evaluate against their existing infrastructure.
+
+**Related Work — add existing semantic preservation proposals:**
+The paper claims CT is the first formal criterion for semantic preservation. Anticipate the objection that semantic preservation has been discussed before:
+- Thibodeau (2002) on "macro-preservation" (preserving the ability to reproduce intellectual content) — similar goal but no formal criterion or measurement protocol
+- Rothenberg (1999) on emulation as preservation strategy — addresses format obsolescence but not semantic fidelity
+- Heslop et al. (2002) on "significant properties" — the closest existing work; CT's commitment kernel is a formalization of "significant properties" for deontic content specifically
+
+---
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, failure taxonomy, harness); CL-001 (failure mode taxonomy); P-000 (CT definitions); MO§ES architecture paper (Lineage DAG, PREMIS connection); OAIS (CCSDS 650.0-M-2); PREMIS Data Dictionary; Dublin Core Metadata Initiative; Thibodeau (2002) on digital preservation

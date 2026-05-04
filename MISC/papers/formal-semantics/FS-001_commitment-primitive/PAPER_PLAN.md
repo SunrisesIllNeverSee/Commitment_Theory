@@ -56,6 +56,12 @@ Shannon defined information as what survives the noisy channel — he did not ne
 - Borg's minimal semantics: sentence meaning is fixed by grammar + lexicon; context contributes only to pragmatics. CT's canonical invariant is closer to Borg's minimal content than to context-enriched content — CI(S,w) captures what the sentence commits to by its deontic structure, independent of speaker context. This is a useful ally for FS-001's claims.
 - Recanati's contextualism: sentence meaning requires pragmatic enrichment to determine truth conditions. CT's challenge: negation reversal (EXP-007) shows that surface-level pragmatic enrichment cannot recover the commitment kernel once it is lost — supporting the claim that CI(S,w) is a real semantic object, not a pragmatic inference.
 
+**Engage Floridi, Barwise & Perry, and Dretske (Section IV or VI):**
+These are the most likely objections from philosophy of information and formal semantics reviewers:
+- Floridi's General Definition of Information (Φ): defines meaningful, well-formed data. CT's commitment kernel is not "meaningful data" in Floridi's sense — it is specifically deontic content. Floridi's GDI does not address transformation or conservation. One sentence distinguishes them.
+- Barwise & Perry (1983) situation theory: proposes "situations" as truth-makers; the canonical invariant could be read as a special case of situation-theoretic constraints. Distinguish: situation theory characterizes what makes propositions true; CT characterizes what survives transformation. Different problems.
+- Dretske (1981) information theory: defines information in terms of what a signal carries. CT's commitment kernel is closer to Dretske's "informational content" than to Floridi's GDI, but CT adds the conservation law and operational measurement. Engage Dretske as an intellectual ancestor — CT provides what Dretske's framework lacked (an operational measurement protocol and a discovered conservation law).
+
 **Non-reducibility proof sketch (Section VI):**
 For each existing primitive, provide a distinguishing case:
 

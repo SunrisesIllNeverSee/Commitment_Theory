@@ -43,6 +43,25 @@ VII. **Conclusion** — Summarizes the authentication standard and its doctrinal
 
 ---
 
+## Writing Notes
+
+**Kumho Tire — add to Section III alongside Daubert:**
+Daubert applies to scientific expert testimony; Kumho Tire Co. v. Carmichael, 526 U.S. 137 (1999) extends the reliability inquiry to all expert testimony, including technical and specialized knowledge. The CT measurement harness is both scientific (falsifiable conservation law) and technical (NLI oracle, harness implementation). Section III must engage both Daubert and Kumho Tire to cover the full scope of the reliability inquiry. This is not optional — a paper on evidentiary authentication that cites Daubert without Kumho Tire will be flagged by law review editors.
+
+**CL-track prerequisite — Paper 5 must exist before L-010:**
+L-010's Daubert argument depends on the CT harness being characterized as a scientific instrument with known error rates, calibration standards, and reproducibility data. That characterization is Paper 5's contribution. L-010 cannot credibly make the Daubert reliability argument without citing Paper 5's metrology framework. **Status gate: do not begin writing L-010 until Paper 5's harness characterization (at minimum the GUM uncertainty framework and the EXP-006 reframing) is complete.**
+
+**Division of labor — legal collaborator as primary author:**
+L-010 is listed as "collaborator-led." The collaborator should handle: FRE 901 doctrinal analysis (Section II), Daubert/Kumho Tire analysis (Section III), objections and replies (Section VI), and the authentication standard proposal (Section IV). The CT author provides: the technical description of the harness (Section III subsection), the failure-mode-to-evidentiary-defect mapping (Section V), and the MO§ES/Fidelity Seal operational specification (Section IV subsection). This division ensures the paper reads as a legal paper with technical support, not a technical paper with legal dressing.
+
+**MO§ES citability — Key Claim 5 vulnerability:**
+Key Claim 5 states "MO§ES-compliant systems produce Fidelity Seals and Lineage DAGs that satisfy the standard's requirements." If the MO§ES architecture paper has not been published or deposited when L-010 is written, this claim is unverifiable. Options: (a) deposit the MO§ES architecture paper before L-010; (b) describe the Fidelity Seal and Lineage DAG functionally in L-010 without citing MO§ES by name; (c) cite the patent application (Serial No. 63/877,177) for the architecture specification. Option (b) is safest for a law review audience.
+
+**Peer review status — same gate as L-006:**
+L-010's Daubert argument (Section III) depends on CT's empirical record being peer-reviewed. The same status gate applies: do not submit L-010 until Paper 0 has achieved formal peer review at a recognized venue. If writing before peer review, rely on Daubert's other three factors and state that peer review is pending.
+
+---
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, failure taxonomy, EXP-007); Paper 5 (Measurement Instrument, Daubert factors analysis); L-000 (legal propositions); L-001 (doctrinal entry point); L-002 (empirical data on legal signal corpus); L-003 (CCR standard); L-005 (nine failure modes); MO§ES architecture paper (Fidelity Seal and Lineage DAG); FRE 901; Daubert v. Merrell Dow Pharmaceuticals, 509 U.S. 579 (1993); Kumho Tire Co. v. Carmichael, 526 U.S. 137 (1999)

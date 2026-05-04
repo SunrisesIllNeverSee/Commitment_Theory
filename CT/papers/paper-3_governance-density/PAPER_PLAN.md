@@ -37,7 +37,7 @@ VII. **Implications for AI System Engineering** — Discusses the practical impl
 
 - There exists a minimum governance density ρ* such that for ρ_g ≥ ρ*, commitment is conserved, and for ρ_g < ρ*, commitment decay is inevitable regardless of constraint type.
 - The sparsity bound ρ* is a function of transformation depth, semantic entropy rate, and the Compression-Fidelity Bound — all of which are empirically estimable using the CT harness.
-- The Six-Gate Protocol is one valid governance instance, not the unique sufficient governance structure; the paper characterizes the full space of valid instances.
+- The Six-Gate Protocol is one valid governance instance, not the unique sufficient governance structure; the paper characterizes a class of valid instances satisfying the sparsity bound.
 - CT-compliant systems can be minimally constrained rather than maximally constrained: governance overhead can be reduced to ρ* without sacrificing conservation guarantees.
 - The minimum governance set construction algorithm is computationally tractable for realistic transformation pipelines, making the results applicable to deployed AI systems.
 
@@ -54,6 +54,9 @@ VII. **Implications for AI System Engineering** — Discusses the practical impl
 
 **FAccT audience — add practical failure mode section:**
 FAccT reviewers want to know what happens when governance falls below ρ*. Add a subsection in Section VI: "Governance Degradation Behavior." When ρ_g < ρ*, commitment decay is not immediate — it follows the Second Law (monotonic increase in H_C). Characterize the degradation trajectory: does commitment loss accelerate as ρ_g decreases below ρ*, or is there a gradual slope? This is the most practically valuable result for AI system designers.
+
+**Experimental expansion — ρ* estimation with larger parameter space:**
+Paper 3's governance density optimization inherits Paper 1's 20-signal limitation for h_s estimation and Paper 2's compression-boundary data for the bound. The expanded experimental corpus (100+ signals, 20+ steps) will enable: ρ* estimation with confidence intervals narrow enough for practical system design recommendations; regime-specific ρ* values; and a degradation trajectory characterization (see FAccT audience note above). Plan this in Section VI as future work.
 
 **Algorithm specification (Section V):**
 The minimum governance set algorithm must specify its input. Recommend: the input is a transformation pipeline specification — a directed graph where nodes are transformation operations and edges are composition. The algorithm outputs the minimum set of gate operations (from the Six-Gate Protocol) that must be applied at each node to guarantee ρ_g ≥ ρ*. Make this concrete with one worked example in the paper.

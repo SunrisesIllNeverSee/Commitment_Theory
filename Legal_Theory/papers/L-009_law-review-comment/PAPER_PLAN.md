@@ -37,6 +37,20 @@ V. **Conclusion** — Summarizes the CT-relevant contribution and directs reader
 
 ---
 
+## Writing Notes
+
+**Timing note — prerequisites before any trigger is acted on:**
+L-001, L-000, and Paper 0 must all be publicly citable before any L-009 comment is filed. L-001 is submitted (May 1, 2026); L-000 deposit is pending; Paper 0 is published on Zenodo. The practical gate: L-000 must be deposited before L-009 can be written, because L-009 must cite L-000 for the legal propositions framework.
+
+**Identify 1–2 likely near-term trigger categories:**
+The most likely near-term triggers for L-009 are:
+1. A circuit court ruling on AI-generated or AI-transformed evidence under FRE 901 — any ruling that addresses the authenticity of AI-processed legal documents opens a CT-relevant question about what "authentic" means when the commitment kernel may have been altered.
+2. A law review article or symposium on AI and legal interpretation — an article that discusses AI's impact on statutory meaning without a formal framework provides the entry point for a CT-responsive comment.
+
+Monitor legal databases (Westlaw, LexisNexis) and law review tables of contents for these trigger categories. Set quarterly review reminders.
+
+---
+
 ## Citation Notes
 
 - **Cites:** Paper 0 (Conservation Law, empirical record); L-001 (doctrinal entry point); L-003 (CCR standard, if applicable); L-000 (legal propositions); P-000 (CT definitions); triggering authority (varies)

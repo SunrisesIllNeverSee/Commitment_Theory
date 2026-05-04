@@ -43,6 +43,25 @@ VII. **Toward CCR-Compliant Archival AI Practice** — Proposes specific workflo
 
 ---
 
+## Writing Notes
+
+**Formalize the archival triad mapping (Section II):**
+The abstract claims CT "directly supports" the archival triad (authenticity, reliability, integrity). This must be formalized, not asserted. Provide explicit definitions:
+- Authenticity (InterPARES): the document is what it purports to be → CT: C(T(S)) = C(S) (the commitment kernel is unchanged)
+- Reliability (InterPARES): the document can be trusted as a statement of fact → CT: the oracle's confidence score exceeds the reliability threshold for the signal's regime
+- Integrity (InterPARES): the document is complete and unaltered → CT: no failure modes detected in the Lineage DAG
+If these mappings hold, the archival triad is a special case of CT's framework. If they don't hold perfectly, state where the mapping breaks down.
+
+**Add a concrete case study (Section IV or V):**
+An archival audience will not accept a purely theoretical paper. Identify one real or realistic archival AI deployment and analyze it through the CT framework:
+- Candidate: Transkribus (AI-assisted handwriting recognition for historical documents) — a transcription task where commitment drift could alter the legal or administrative meaning of historical records
+- Alternative: National Archives AI-assisted description projects — automated finding aid generation where commitment drift in subject headings could mischaracterize collection contents
+
+**Add ISO 16175-1:2023 to Section VII:**
+ISO 16175-1:2023 (Information and documentation — Processes and functional requirements for software for managing records) is the most recent international standard for records management software. CT's CCR should be positioned as a semantic compliance layer above ISO 16175-1's functional requirements — the standard tells you what the software must do; CT tells you what the software must preserve.
+
+---
+
 ## Citation Notes
 
 - **Cites:** IS-001 (foundational preservation principle); Paper 0 (Conservation Law, failure taxonomy); Paper 2 (Compression-Fidelity Bound); CL-001 (failure mode taxonomy); CL-002 (regime classification); MO§ES architecture paper (Lineage DAG); InterPARES Project; ISO 16175; SAA Core Values; OAIS; PREMIS

@@ -43,6 +43,22 @@ VII. **Conclusion: A New Question for Philosophy of Language** — Argues that C
 
 ---
 
+## Writing Notes
+
+**FS-002 depends on FS-001 — do not begin writing until FS-001's canonical invariant is formalized:**
+FS-002's three philosophical theses (deflationary, essentialist, entropy) all presuppose the formal definition of the canonical invariant that FS-001 provides. Without FS-001's Section IV (formal definition), FS-002's philosophical arguments rest on an undefined term.
+
+**Engage semantic minimalism and contextualism explicitly (Section II):**
+The deflationary thesis (CT sidesteps externalism/internalism) will be tested by both camps:
+- Borg's minimal semantics: CT's canonical invariant is closer to Borg's minimal content than to context-enriched content. If CT's commitment kernel is grammar-and-lexicon-determinable, that supports semantic minimalism. Engage this alliance explicitly.
+- Recanati's contextualism: Recanati would argue that the "deontic content" of a legal provision depends on pragmatic context (legislative intent, regulatory context, judicial interpretation). CT's response: the commitment kernel is not the full meaning — it is the transformation-invariant core. Pragmatic enrichment operates on top of the kernel, not underneath it.
+- Cappelen & Lepore's insensitivity thesis: if CT's kernel is genuinely context-independent, it supports their argument against pervasive context-sensitivity. This is a stronger alliance than Borg and should be noted.
+
+**State what CT does to Gricean cooperativity (Section V):**
+The paper must explicitly address: does CT's conservation law presuppose or undermine Grice's Cooperative Principle? Answer: CT is orthogonal to cooperativity. The conservation law applies regardless of whether the transformation agent is cooperative, adversarial, or indifferent. This distinguishes CT from Gricean pragmatics, which assumes cooperative speakers. The Second Law (commitment decay under ungoverned transformation) holds even for cooperative AI systems — cooperation does not guarantee conservation.
+
+---
+
 ## Citation Notes
 
 - **Cites:** FS-001 (canonical invariant formal definition); Paper 0 (Conservation Law, Second Law); P-000 (CT definitions); Grice (1957, 1975); Putnam (semantic externalism); Fodor (semantic atomism); Lewis (truth conditions); Brandom (inferentialism); Shannon (1948) (deflationary analogy)

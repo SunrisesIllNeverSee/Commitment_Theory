@@ -57,6 +57,30 @@ VI. **Conclusion: Falsify It** — Returns to the invitation that has anchored C
 
 ---
 
+## Writing Notes
+
+**Identify target series at OUP/CUP/MIT Press:**
+The monograph's interdisciplinary scope means it does not fit cleanly into any single series. Evaluate:
+- OUP: *Oxford Studies in Philosophy of Science* (if framed as discovery of a conservation law) or *Oxford Studies in Digital Politics* (if framed as AI governance)
+- CUP: *Cambridge Studies in Law and Society* (if legal applications are foregrounded) or no series (standalone)
+- MIT Press: *Information Policy* series (closest fit for the information-theoretic + governance framing)
+Recommendation: MIT Press *Information Policy* series — the information-theoretic foundation (Shannon analog) and governance applications (CCR, legal framework) fit this series best. A proposal to the series editors should lead with the Shannon correspondence and the empirical record, not with the legal applications.
+
+**Part II synthesis — avoid "greatest hits" structure:**
+Part II (Enforcement Architecture) must not read as a summary of the MO§ES and SIGSYSTEM papers. Instead, synthesize: show how MO§ES implements the governance density bound (Paper 3), how SIGSYSTEM extends the oracle beyond NLI (Paper 5), and how the Fidelity Seal provides the cryptographic assurance required by the authentication standard (L-010). The connective tissue is the argument, not the chronology.
+
+**Chapter 16 (Open Questions) — make it a research agenda, not a wish list:**
+Identify 5–7 concrete open questions with specific methodological paths:
+1. Cross-lingual commitment conservation (extend Paper 4 to non-English legal systems)
+2. Non-textual semantic objects (images, audiovisual material — extend the harness beyond text)
+3. Adversarial commitment drift (intentional, rather than stochastic, commitment degradation)
+4. Multi-party commitment kernels (contracts with multiple obligation-bearers)
+5. Temporal commitment evolution (how commitment kernels change through legislative amendment, distinct from drift)
+6. Commitment conservation in oral/spoken legal proceedings (extend beyond written text)
+Each question should specify: what data would be needed, what the experimental design looks like, and which CT paper provides the foundation for the extension.
+
+---
+
 ## Citation Notes
 
 - **Cites:** All CT papers (Paper 0, Papers 1–5, MO§ES, SIGSYSTEM, Post-Turing, Layer 4 Channel Capacity); all P-000 and P-000 associated materials; all Legal_Theory papers (L-000 through L-010); all MISC papers (CL-001, CL-002, FS-001, FS-002, IS-001, IS-002, STS-001, COM-001, ECON-001, GOV-001, CAP-001); Shannon (1948); Turing (1950); foundational works from each disciplinary application area
