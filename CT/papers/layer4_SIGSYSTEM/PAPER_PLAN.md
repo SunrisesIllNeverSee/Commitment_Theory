@@ -2,8 +2,8 @@
 
 **Track:** CT
 **Layer:** 4 (Extension)
-**Status:** Early development
-**Target Venue:** Philosophy of Information / AI venues
+**Status:** NOT IN ACTIVE QUEUE — trade secret conflict unresolved; early development
+**Target Venue:** TBD — must resolve publication strategy before targeting a venue
 **Est. Length:** TBD
 **Dependencies:** Papers 1–5 complete; MO§ES architecture paper
 
@@ -40,6 +40,39 @@ VII. **Implications for CT's Measurement Science** — Discusses how SIGSYSTEM's
 - SIGSYSTEM achieves a lower noise floor and higher adversarial sensitivity than the NLI baseline, as demonstrated on the EXP-001 through EXP-007 benchmark and on new adversarial probes.
 - SIGSYSTEM is distinct from SIGRANK: SIGRANK operates at the behavioral/message level; SIGSYSTEM operates at the word level within a single semantic object.
 - The full SIGSYSTEM architecture is trade secret; the paper's contribution is the theoretical framework, evaluation methodology, and performance results — sufficient for scientific replication with a different implementation.
+
+---
+
+## Blocking Decision — Publication Strategy
+
+A peer-reviewed paper cannot withhold its central contribution's architecture while claiming academic review. The three options below are mutually exclusive — one must be chosen before SIGSYSTEM enters any publication queue.
+
+**Option A: Publish theoretical framework only — no performance claims**
+- Describe the signal/noise distinction (Section II) and the theoretical weighting framework (Section III) fully
+- Remove Sections IV–V (evaluation + results) — no performance claims without architecture disclosure
+- Contribution: a theoretical paper proposing word-level commitment measurement as a research direction
+- Venue: Philosophy of Information, Minds and Machines, or a workshop paper at ACL/EMNLP
+- IP risk: LOW — theory papers do not disclose implementation; architecture remains trade secret
+- Weakness: reviewers cannot verify the performance claims; paper makes no empirical contribution beyond the theory
+
+**Option B: File patent first, then publish fully**
+- Complete SIGSYSTEM development and file a patent application covering the architecture
+- After patent publication (18 months post-filing for PCT), publish the full paper including architecture details
+- Contribution: a complete empirical paper with architecture, evaluation, and results
+- Venue: any AI venue (NeurIPS, ICML, TACL, JAIR) — full peer review possible
+- IP risk: LOW — patent filing establishes priority; publication after patent publication is standard practice
+- Weakness: delays publication by 18–24 months from current status; MO§ES paper's SIGSYSTEM section must also be held until then
+
+**Option C: Treat SIGSYSTEM as internal MO§ES component only — no standalone paper**
+- Remove SIGSYSTEM from the academic publication pipeline entirely
+- Describe SIGSYSTEM functionally in the MO§ES architecture paper (Section VI) without claiming it as a separate academic contribution
+- Contribution: MO§ES paper gets a stronger functional description; SIGSYSTEM's existence is disclosed but not characterized academically
+- IP risk: LOWEST — no academic disclosure at all; full trade secret protection
+- Weakness: loses the academic credit for SIGSYSTEM; the word-level signal/noise insight is a genuine theoretical contribution that goes unclaimed in the literature
+
+**Recommended decision point:** If SIGSYSTEM development is 6+ months from completion, Option C is most practical for near-term publication momentum. If SIGSYSTEM is near completion, Option B preserves the full academic contribution. Option A is a reasonable interim step if theoretical development is complete but implementation is not.
+
+**Key Claim 3 reclassification:** "SIGSYSTEM achieves a lower noise floor and higher adversarial sensitivity than the NLI baseline" is currently stated as a Key Claim. This is a hypothesis — the data does not yet exist. Reclassify as hypothesis until Option B's evaluation (Section V) is run.
 
 ---
 

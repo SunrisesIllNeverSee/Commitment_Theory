@@ -2,7 +2,7 @@
 
 **Track:** MISC — Computational Linguistics
 **Layer:** 3 (Application)
-**Status:** Data complete — can write now
+**Status:** Data complete — REQUIRES circularity fix before writing (see Blocking Gap)
 **Target Venue:** Natural Language Engineering / Journal of Semantics
 **Est. Length:** 8,000–12,000 words
 **Dependencies:** Paper 0 published; CL-001 beneficial
@@ -40,6 +40,33 @@ VII. **Implications for NLP System Design** — Discusses how the regime taxonom
 - Compression-boundary signals exhibit a sharp, threshold-dependent conservation/loss boundary at the Compression-Fidelity Bound — consistent with Paper 2's theoretical prediction — making them predictably safe above the bound and predictably unsafe below it.
 - The regime taxonomy enables right-sized governance: systems can target governance resources at the specific vulnerability profile of each signal type rather than applying uniform constraint across all transformations.
 - A signal classification algorithm using extractable features assigns new signals to regimes with sufficient accuracy for practical deployment in AI governance systems.
+
+---
+
+## Blocking Gap — Circularity in Classification Algorithm
+
+**The problem:** Section VI describes a signal classification algorithm that is evaluated for accuracy "on the CT corpus." The CT corpus (EXP-001 through EXP-007) is also the dataset used to define and characterize the three regimes (Sections III–V). Training and evaluating on the same dataset produces a circularity: the algorithm is optimized to recover the categories it was built to discover, and the accuracy figure is not generalizable.
+
+NLE and Journal of Semantics reviewers will reject on this basis. It must be fixed before writing begins.
+
+**Fix — choose one of two approaches:**
+
+**Approach A: Held-out test partition (preferred)**
+- Split EXP-001 through EXP-007 corpus into train (70%), dev (15%), test (15%) before regime characterization begins
+- Define the three regimes using train+dev data only
+- Report algorithm accuracy exclusively on the held-out test partition
+- This partition must be documented in Section II and must be done before any regime analysis begins — it cannot be retrofitted after the fact
+- Practical note: with 20 signals in EXP-003 and smaller counts in other experiments, a 70/15/15 split yields roughly 14/3/3 signals — very small test set; accuracy figures will have high variance and must be reported with confidence intervals
+
+**Approach B: Cross-validation (acceptable alternative)**
+- Use k-fold cross-validation (k=5 recommended given corpus size) across all EXP-001 through EXP-007 signals
+- Report mean accuracy ± standard deviation across folds
+- Note in Section VI that cross-validation is used due to corpus size constraints; acknowledge generalizability limits
+- This avoids the circularity without requiring a separate test partition, but the small corpus size means results are still preliminary
+
+**Recommendation:** Approach B is more honest given the corpus size. Approach A is more rigorous but the test set will be too small for meaningful accuracy claims. Either way, the accuracy claim "sufficient for practical deployment" (Key Claim 5) must be hedged to "demonstrates regime-separability on the CT corpus, pending validation on external corpora."
+
+**Action before writing:** Implement whichever approach is chosen, compute the accuracy figure with uncertainty bounds, then update Section VI and Key Claim 5 with the actual numbers.
 
 ---
 

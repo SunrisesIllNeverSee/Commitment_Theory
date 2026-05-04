@@ -1,45 +1,46 @@
-# Paper 4 — Cross-System Fidelity: Conservation Law Generalization Across AI Architectures, Providers, and Modalities
+# Paper 4 — Cross-Provider Fidelity: Conservation Law Generalization Across AI Providers and Architectures
 
 **Track:** CT
 **Layer:** 2 (Measurement Science)
-**Status:** Planned
-**Target Venue:** ACL / EMNLP / Applied AI venues
+**Status:** Planned — scoped to cross-provider + cross-architecture only (8–10 pages)
+**Target Venue:** ACL / EMNLP
 **Est. Length:** 8–10 pages
 **Dependencies:** Papers 1–3
+**Deferred to companion papers:** cross-language, cross-domain, cross-modality (see Scope Note)
 
 ---
 
 ## Abstract
 
-The Conservation Law of Commitment makes a strong model-agnostic claim: C(T_gov(S)) = C(S) governs the transformation, not the model performing the transformation. This paper tests that claim empirically across multiple AI providers (GPT-4, Claude, Gemini, Llama), architectures (autoregressive transformers of varying scale), languages (English, Spanish, French, Mandarin), domain types (legal, medical, contractual, bureaucratic), and modalities (text, structured data, speech-to-text). We apply the CT measurement harness (Paper 5 framework) with the Six-Gate Protocol governance structure and measure commitment conservation rates across each dimension. The central prediction of CT's model-agnosticism is that conservation rates under governance should be statistically indistinguishable across providers and architectures, while ungoverned decay rates may vary by architecture. We report results for each cross-system dimension, test the model-agnosticism prediction, and characterize the cases where conservation fails to generalize — identifying which failure modes (from the nine-mode taxonomy) are architecture-sensitive and which are governance-sensitive. The paper also tests cross-language generalization: does the Conservation Law hold when the semantic object is transformed across language boundaries? Results have implications for the deployment of CT governance in multilingual and multimodal AI systems and confirm or bound the scope of CT's model-agnostic claim.
+The Conservation Law of Commitment makes a strong model-agnostic claim: C(T_gov(S)) = C(S) governs the transformation, not the model performing the transformation. This paper tests that claim empirically across AI providers (GPT-4, Claude, Gemini, Llama) and architectures (autoregressive transformers of varying scale). We apply the CT measurement harness with the Six-Gate Protocol governance structure and measure commitment conservation rates across providers and architectures on a shared signal corpus. The central prediction is that conservation rates under governance should be statistically indistinguishable across providers and architectures, while ungoverned decay rates may vary. We test the model-agnosticism prediction, characterize architecture-sensitive vs. governance-sensitive failure modes, and bound the scope conditions under which CT's model-agnostic claim holds. Cross-language, cross-domain, and cross-modality generalization are deferred to a companion paper — each is a full experimental program that warrants independent treatment.
 
 ---
 
 ## Outline
 
-I. **Introduction** — States CT's model-agnosticism claim and motivates the need for cross-system empirical evidence.
+I. **Introduction** — States CT's model-agnosticism claim; motivates cross-provider/architecture empirical evidence as the first test; notes deferred dimensions.
 
-II. **Experimental Design** — Describes the signal corpus, provider selection, architecture range, language selection, and domain types; explains the cross-modality protocol for speech-to-text inputs.
+II. **Experimental Design** — Describes the shared signal corpus; provider selection (GPT-4, Claude, Gemini, Llama); architecture range (varying scale within and across providers); governance protocol (Six-Gate Protocol, fixed ρ_g for cross-system comparability); confound controls (separating architecture effect from training data effect).
 
-III. **Cross-Provider Results** — Reports commitment conservation rates under governance across GPT-4, Claude, Gemini, and Llama; tests the model-agnosticism prediction statistically.
+III. **Cross-Provider Results** — Conservation rates under governance across four providers; ungoverned decay rates across four providers; statistical test of model-agnosticism prediction; failure mode frequency distribution per provider.
 
-IV. **Cross-Architecture Results** — Reports conservation rates across architectures of varying scale; tests whether governance density requirements (ρ*) vary by architecture.
+IV. **Cross-Architecture Results** — Conservation rates across model scales (7B, 13B, 70B, 175B parameter ranges); tests whether ρ* varies by scale; identifies architecture-sensitive vs. governance-sensitive failure modes.
 
-V. **Cross-Language and Cross-Domain Results** — Reports conservation rates across languages and domain types; identifies failure modes that are language-sensitive or domain-sensitive.
+V. **Confound Analysis** — Separates architecture effect from training data effect; tests whether conservation differences across providers are attributable to architecture or corpus; discusses limitations.
 
-VI. **Cross-Modality Results** — Reports conservation rates for speech-to-text modality transitions; characterizes the additional governance requirements for modality-crossing transformations.
+VI. **Scope Conditions** — Characterizes the conditions under which model-agnosticism holds and does not hold; identifies which failure modes require architecture-specific governance extensions; discusses implications for CT's generality claim.
 
-VII. **Implications for CT's Model-Agnosticism Claim** — Assesses the overall evidence for and against model-agnosticism; identifies the scope conditions under which the Conservation Law generalizes and the conditions under which it requires extension.
+VII. **Toward Companion Papers** — Summarizes what cross-language, cross-domain, and cross-modality extensions would require; positions this paper as Paper 4a in a multi-paper cross-system program.
 
 ---
 
 ## Key Claims
 
-- Under governance (Six-Gate Protocol, ρ_g ≥ ρ*), commitment conservation rates are statistically indistinguishable across AI providers and architectures — supporting CT's model-agnosticism claim.
+- Under governance (Six-Gate Protocol, ρ_g ≥ ρ*), commitment conservation rates are statistically indistinguishable across AI providers and architectures — supporting CT's model-agnosticism claim within the cross-provider/architecture scope of this paper.
 - Ungoverned commitment decay rates vary by architecture: some architectures are more semantically conservative than others, but none achieve conservation without governance.
-- Cross-language commitment conservation holds for languages with robust modal and deontic vocabulary but degrades for languages or registers with underspecified modal systems.
-- Cross-modality transitions (speech-to-text, structured-to-prose) require higher governance density (ρ_g > ρ*_text) to achieve conservation — the modality boundary introduces additional entropy.
-- The nine-mode failure taxonomy from Paper 0 generalizes cross-architecturally: the same failure modes appear across providers, though their frequency distribution varies.
+- The nine-mode failure taxonomy from Paper 0 generalizes cross-architecturally: the same failure modes appear across providers, though their frequency distribution varies by provider and scale.
+- Architecture effect and training data effect are separable confounds in cross-provider conservation rate differences; the paper characterizes the relative contribution of each.
+- Cross-language, cross-domain, and cross-modality generalization are deferred to companion papers; this paper provides the cross-provider/architecture foundation on which those extensions build.
 
 ---
 

@@ -2,10 +2,11 @@
 
 **Track:** Legal_Theory
 **Layer:** 3 (Application — Empirical)
-**Status:** Planned — Summer 2026
+**Status:** Planned — Summer 2026 — corpus construction is the critical path item
 **Target Venue:** Journal of Empirical Legal Studies / Jurimetrics
 **Est. Length:** 8,000–12,000 words
-**Dependencies:** L-001 submitted; legal signal corpus needed; legal collaborator beneficial
+**Dependencies:** L-001 submitted; legal signal corpus (see Corpus Plan below); legal collaborator beneficial
+**Downstream dependents:** L-003, L-005, L-007, L-010 all require L-002 data — corpus slip = four papers slip
 
 ---
 
@@ -40,6 +41,60 @@ VII. **Conclusion** — Summarizes the evidence and its implications for L-003 (
 - Negation-carrying provisions (the core of antidiscrimination law: "shall not discriminate") are specifically vulnerable to negation reversal — the failure mode identified in EXP-007 — which is invisible to surface-level lexical analysis.
 - Compression-boundary provisions (complex statutory provisions with multiple exception clauses) show the sharpest conservation/loss boundary and the highest rate of exception dropping under compression.
 - The empirical record maps directly onto established legal harm categories: each failure mode corresponds to a measurable legal harm type that existing doctrine already recognizes.
+
+---
+
+## Corpus Plan — Must Be Executed Before Writing Begins
+
+This is the highest-priority planning gap in the entire Legal Theory track. L-003, L-005, L-007, and L-010 all depend on this corpus. Build it first.
+
+### Target Size
+40–60 provisions across five statutes. Minimum 8 provisions per statute to ensure statistical power for failure mode distribution analysis.
+
+### Selection Criteria
+Include all provisions that contain at least one of the following modal/deontic markers:
+- "shall" / "shall not"
+- "must" / "must not"
+- "is entitled to" / "is not entitled to"
+- "may not" / "may"
+- "is prohibited from"
+- "is required to"
+- "unless" (as a commitment-qualifying exception clause)
+
+Exclude purely definitional provisions (those that define terms without imposing obligations or prohibitions) and procedural provisions (those governing filing deadlines, jurisdictional rules, etc.) unless they contain the above markers.
+
+### Statute Coverage
+| Statute | Target Provisions | Priority Sections |
+|---------|-------------------|-------------------|
+| Title VII (42 U.S.C. § 2000e et seq.) | 10–12 | §703 (unlawful employment practices), §704 (discrimination against applicant) |
+| ADA (42 U.S.C. §§ 12101–12213) | 10–12 | §12112 (discrimination prohibited), §12111(9) (reasonable accommodation definition) |
+| Fair Housing Act (42 U.S.C. §§ 3601–3631) | 8–10 | §3604 (prohibited practices), §3605 (financial practices) |
+| Voting Rights Act (52 U.S.C. §§ 10301–10314) | 8–10 | §10301 (denial of voting rights), §10302 (remedies) |
+| Section 1983 (42 U.S.C. § 1983) | 6–8 | The provision itself + leading interpretive standards from case law (Monell, qualified immunity) |
+
+### Classification Protocol (Three-Regime Taxonomy from CL-002)
+Each provision is classified into one of three regimes before running through the harness:
+1. **Modal-anchored** — kernel carried by modal operators ("shall not," "must," "is entitled to")
+2. **Relational-structural** — kernel carried by relational predicates ("discriminates against," "has a right to")
+3. **Compression-boundary** — kernel carried by exception clauses or threshold specifications sensitive to length
+
+Classification is performed before harness runs to avoid contamination. Use two independent classifiers; resolve disagreements through discussion before running.
+
+### Harness Protocol
+For each provision:
+- 5 governed transformation iterations (Six-Gate Protocol)
+- 5 ungoverned transformation iterations (same model, no gates)
+- 3 models minimum (GPT-4, Claude, one open-source model)
+- Record: C(S) before, C(S) after each iteration, NLI score, failure mode if applicable
+
+### L-002 / L-005 Merge Decision
+Decide before corpus construction begins: are these one paper or two?
+- If **merged**: L-002 includes the full failure mode taxonomy in Section V; L-005 is dropped
+- If **separate**: L-002's Section V reports failure mode distribution only; L-005 is a standalone paper with extended legal framing per mode
+- Recommendation: merge for now (scope L-002 to include failure modes); split only if the paper runs over 12,000 words
+
+### Collaborator Requirements
+For JELS submission, the corpus selection methodology and statutory interpretation should be reviewed by a legal collaborator. Specifically: the classification of provisions into regimes requires legal judgment about what constitutes the "commitment kernel" of a given civil rights provision. This is not purely a computational task.
 
 ---
 

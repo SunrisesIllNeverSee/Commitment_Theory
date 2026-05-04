@@ -2,7 +2,7 @@
 
 **Track:** MISC — Capstone
 **Layer:** 4 (Extension — Capstone)
-**Status:** Long-term
+**Status:** Long-term — BLOCKED until Papers 1–5 complete AND C(S) info-theoretic formalization resolved
 **Target Venue:** IEEE Transactions on Information Theory
 **Est. Length:** TBD
 **Dependencies:** Papers 1–5 complete; CL-001; IS-001
@@ -40,6 +40,26 @@ VII. **Implications and the CT-Shannon Correspondence** — Presents the full CT
 - CT is a formal extension of Shannon's framework to the domain of semantic commitment: Shannon's source coding theorem, channel coding theorem, and noisy channel theorem have exact semantic analogs in CT.
 - The theorem is empirically testable using Papers 1–5 data; the empirical capacity estimates are consistent with the theoretical predictions, providing evidence for the theorem's correctness.
 - The CT-Shannon correspondence reveals CT's deepest theoretical contribution: CT sidesteps "what is meaning?" the same way Shannon sidestepped "what is information?" — by defining it as what survives the governed channel.
+
+---
+
+## Blocking Gap — Must Resolve Before Writing
+
+**Inherited from Papers 2 and 3:** The channel capacity theorem C_s = f(ρ_g, h_s, κ) requires both h_s (Paper 1) and ρ* (Paper 3) to be formally defined as information-theoretic quantities. Both depend on C(S) being formalized as a random variable over a probability space (see Paper 2's Blocking Gap).
+
+**Additional gap specific to CAP-001:** The functional form C_s = f(ρ_g, h_s, κ) must be specified before writing begins. This is not a stylistic choice — the functional form determines:
+- Whether the three corollaries (Papers 1, 2, 3 as special cases) are mathematically recoverable
+- Whether the theorem is an achievability result, a converse, or both
+- What the proof strategy is (random coding argument? typical sequences? operational proof?)
+
+**Candidate functional forms to evaluate:**
+- Additive: C_s = h_s − α·(ρ* − ρ_g) for ρ_g < ρ*, C_s = h_s for ρ_g ≥ ρ*
+- Log-linear: C_s = h_s · log(ρ_g / ρ*) (normalized)
+- Threshold: C_s = κ for ρ_g ≥ ρ*, 0 for ρ_g < ρ* (hard cutoff version)
+
+The additive form recovers Papers 1–3 most naturally and should be evaluated first against the EXP-003 empirical data.
+
+**Near-term action:** Publish the Shannon–CT correspondence table (Section II of this paper) as a standalone position paper or arXiv note. It is the program's most immediately publishable contribution from this paper and does not depend on the full proof machinery.
 
 ---
 

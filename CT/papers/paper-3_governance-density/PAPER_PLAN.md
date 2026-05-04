@@ -2,7 +2,7 @@
 
 **Track:** CT
 **Layer:** 2 (Measurement Science)
-**Status:** Planned
+**Status:** BLOCKED — depends on Paper 2's C(S) info-theoretic formalization
 **Target Venue:** AAMAS / FAccT / AIES
 **Est. Length:** 8–10 pages
 **Dependencies:** Papers 1–2
@@ -40,6 +40,19 @@ VII. **Implications for AI System Engineering** — Discusses the practical impl
 - The Six-Gate Protocol is one valid governance instance, not the unique sufficient governance structure; the paper characterizes the full space of valid instances.
 - CT-compliant systems can be minimally constrained rather than maximally constrained: governance overhead can be reduced to ρ* without sacrificing conservation guarantees.
 - The minimum governance set construction algorithm is computationally tractable for realistic transformation pipelines, making the results applicable to deployed AI systems.
+
+---
+
+## Blocking Gap — Must Resolve Before Writing
+
+**Inherited from Paper 2:** The governance sparsity bound ρ* is derived as a function of h_s and the Compression-Fidelity Bound. Both of those depend on C(S) being formalized as an information-theoretic object with a probability space (see Paper 2's Blocking Gap). Until that formalization exists, the derivation of ρ* in Section III cannot be stated formally.
+
+**Additional gap specific to Paper 3:** The algorithm for constructing a minimum governance set (Section V) operates on a "transformation pipeline" — but the plan does not define what a transformation pipeline is formally. This must be specified before the algorithm can be described:
+- What are the atomic transformation operations?
+- What is the domain over which ρ_g is computed (token operations? semantic operations? gate invocations)?
+- Is ρ_g a ratio over a fixed pipeline or over a stochastic transformation process?
+
+**Resolution dependency:** Paper 2's C(S) formalization resolves the ρ* derivation. The transformation pipeline definition is independent and can be resolved separately — it is the more tractable of the two gaps and should be addressed first.
 
 ---
 

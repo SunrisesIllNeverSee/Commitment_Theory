@@ -2,7 +2,7 @@
 
 **Track:** CT
 **Layer:** 2 (Measurement Science)
-**Status:** Data exists; formal proof needed
+**Status:** BLOCKED — formal proof needed; C(S) info-theoretic formalization required first
 **Target Venue:** NeurIPS / ICML / IEEE Transactions on Information Theory
 **Est. Length:** 8–12 pages
 **Dependencies:** Paper 1
@@ -40,6 +40,23 @@ VII. **Conclusion** — Summarizes the bound, its proof, and its operational sig
 - Empirical evidence from the CT measurement harness shows a sharp transition from commitment conservation to monotonic decay at the compression boundary, consistent with the theoretical bound.
 - The bound is operationally estimable for any given semantic object using the public CT harness, making it practically applicable to AI system design and evaluation.
 - AI systems that compress text below the Compression-Fidelity Bound cannot guarantee commitment preservation regardless of governance protocol — the bound is a physical constraint, not a design choice.
+
+---
+
+## Blocking Gap — Must Resolve Before Writing
+
+**The problem:** C(S) as currently defined is a deterministic function of a specific text. Shannon's source coding theorem requires a *random variable* drawn from a *probability distribution* over a source alphabet. The proof in Section III cannot be constructed until C(S) is formalized as an information-theoretic object.
+
+**What needs to be defined:**
+1. **The semantic source** — a probability distribution P over semantic objects in a domain D (e.g., legal provisions drawn uniformly from a statutory corpus). S is then a random variable S ~ P.
+2. **The commitment kernel distribution** — C(S) for S ~ P defines a distribution over commitment kernels. This is the "source" in the Shannon analog.
+3. **The semantic entropy** — H(C(S)) under P, which should equal h_s as defined operationally in Paper 1 (this equality must be proven, not assumed).
+4. **The coding scheme** — a function mapping semantic objects to "compressed representations," with a well-defined length measure. This is not token count — it must be defined in terms meaningful to the commitment kernel.
+5. **The theorem statement** — once these four items are defined, the Compression-Fidelity Bound becomes: the expected codeword length for any commitment-lossless code is at least H(C(S)).
+
+**Path forward:** Define P as a corpus distribution (matching the EXP-003 signal corpus). Show h_s = H(C(S)) under P empirically using the existing data. State the bound as an expected-length result. The "minimum representation length" becomes the Shannon entropy of the commitment kernel distribution under P. This sidesteps the need for a universal coding theorem over all possible semantic objects and makes the claim empirically grounded.
+
+**Who resolves this:** This is the paper's central theoretical contribution. It must be worked out before Section III can be written. No writing should begin on Paper 2 until this formalization exists.
 
 ---
 

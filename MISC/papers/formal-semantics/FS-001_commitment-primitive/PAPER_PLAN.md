@@ -2,7 +2,7 @@
 
 **Track:** MISC — Formal Semantics
 **Layer:** 3 (Application)
-**Status:** Requires theoretical development
+**Status:** BLOCKED — canonical invariant formal definition must be worked out before writing begins
 **Target Venue:** Linguistics and Philosophy / Journal of Semantics / Natural Language Semantics
 **Est. Length:** TBD
 **Dependencies:** Paper 0 published
@@ -40,6 +40,37 @@ VII. **Conclusion: An Invitation to Formal Semantics** — Invites formal semant
 - Conservation IS isolation: the canonical invariant is not defined prior to transformation but revealed by it — the same move Shannon made when he defined information as what survives the channel.
 - The canonical invariant is not reducible to propositional content, illocutionary force, presupposition, or any existing formal semantic primitive; it deserves status as a new primitive in formal semantics.
 - Formal semantics' intensional framework (possible worlds, accessibility relations, deontic modality) provides the right tools for formalizing the canonical invariant; no new formal machinery is required.
+
+---
+
+## Blocking Gap — Formal Definition Must Exist Before Writing
+
+The entire paper rests on Section IV. Until the canonical invariant has a workable formal definition, writing cannot begin.
+
+**Candidate definition (to be confirmed or revised):**
+
+Let W be a set of possible worlds and let T_gov be a governed transformation that induces an accessibility relation R_gov on W, where wR_gov w' iff w' is reachable from w via a transformation satisfying the Six-Gate Protocol.
+
+The canonical invariant of a semantic object S at world w is:
+
+CI(S, w) = {φ ∈ DEON | for all w' such that wR_gov w', w' ⊨ φ}
+
+where DEON is the set of deontic propositions (obligations, prohibitions, permissions, modal constraints) expressible in the object language.
+
+In plain terms: CI(S, w) is the set of deontic propositions that hold in every world reachable from w via a governed transformation of S. It is the deontic content that survives all governed transformations — the invariant core.
+
+**Why this definition works:**
+- It is entirely within the intensional semantics framework — no new formal machinery required
+- It connects directly to deontic modality (von Fintel, Kratzer): deontic operators (shall, must, may not) scope over accessible worlds; CI(S,w) is the intersection of the deontic extensions across all governed-transformation-accessible worlds
+- It recovers the CT empirical result: EXP-003's NLI=1.00 result means the NLI oracle is detecting logical entailment in both directions — consistent with CI(S,w) being preserved across transformations
+- It makes the non-reducibility argument tractable: CI(S,w) ≠ propositional content (which spans all worlds, not just governed-transformation-accessible ones), ≠ presupposition (which is speaker-relative), ≠ illocutionary force (which is act-relative)
+
+**What still needs to be confirmed before writing:**
+1. Does the definition recover the failure modes correctly? (Exception dropping = a deontic proposition exits CI(S,w) after ungoverned transformation — check this formally)
+2. Does R_gov satisfy the right modal axioms? (Reflexivity is guaranteed by identity transformation; transitivity corresponds to composability of governed transformations — both should hold by the Six-Gate Protocol design)
+3. Is DEON separable from the non-deontic content in natural language? (The claim is that it is — this is the empirical claim Paper 0 supports, and FS-001 should reference EXP-007 as evidence)
+
+**Decision gate:** Confirm or revise the definition above. Run it through one example (a legal provision with a "shall not unless" exception). If it correctly identifies the exception as part of CI(S,w) and correctly predicts that exception dropping produces a world where CI(S,w') ≠ CI(S,w), the definition is workable. Then begin writing.
 
 ---
 

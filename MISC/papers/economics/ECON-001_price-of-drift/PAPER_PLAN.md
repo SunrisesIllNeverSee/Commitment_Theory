@@ -2,8 +2,8 @@
 
 **Track:** MISC — Economics
 **Layer:** 3 (Application)
-**Status:** Requires economic modeling
-**Target Venue:** Information Economics and Policy / Journal of Economic Theory
+**Status:** BLOCKED — formal model type must be specified before writing
+**Target Venue:** Information Economics and Policy / RAND Journal of Economics / Journal of Law, Economics & Organization
 **Est. Length:** TBD
 **Dependencies:** Paper 0 published; L-002 empirical data beneficial
 
@@ -40,6 +40,43 @@ VII. **Implications for AI Governance Policy** — Discusses the policy implicat
 - CCR compliance eliminates ex ante contracting costs (parties can rely on meaning preservation), reduces ex post enforcement costs, and restores institutional trust — generating an economic value premium for CCR-compliant systems.
 - Commitment drift is analogous to information asymmetry but cannot be corrected by ex ante disclosure: the asymmetry between intended and actual commitment cannot be eliminated without governance-level intervention.
 - The economic case for the CCR is a market failure argument: commitment drift is a negative externality, and without regulatory intervention, it will be underaddressed by market mechanisms.
+
+---
+
+## Blocking Gap — Model Type Must Be Decided First
+
+The paper cannot be written until Section II ("Formal Setup") specifies which class of economic model generates the three cost results. The choice is not stylistic — it determines the proof structure and what data is needed.
+
+**Three candidate model families — pick one:**
+
+**Option A: Incomplete contracting model (Hart & Moore 1988 / Holmstrom & Milgrom)**
+- Models commitment drift as a non-contractible contingency — parties cannot write complete contracts because the meaning of their agreement will be transformed by an AI system not under their control
+- Ex ante cost: underinvestment in relationship-specific assets (Holmstrom-style)
+- Ex post cost: renegotiation inefficiency when drifted text is enforced
+- Systemic cost: equilibrium incompleteness of AI-mediated contracts
+- Strength: connects directly to Hart's Nobel-recognized framework; IEP and RAND JE audiences know it
+- Data needed: estimate ρ (probability of commitment drift) from EXP-003; no L-002 data required for core model
+
+**Option B: Principal-agent model with moral hazard**
+- AI system operator = agent; parties relying on AI-mediated legal processes = principals
+- Commitment drift = hidden action (operator chooses governance density ρ_g; principals observe output not governance)
+- Ex ante cost: adverse selection (principals cannot distinguish CCR-compliant from non-compliant operators)
+- Ex post cost: monitoring cost + enforcement failure probability
+- Systemic cost: market for AI governance collapses to low-governance equilibrium (Akerlof lemons)
+- Strength: cleanest connection to Akerlof analogy in abstract; most legible to information economics audience
+- Data needed: governance density ρ_g distribution across deployed AI systems (not currently available — would need to be modeled parametrically)
+
+**Option C: Repeated game / institutional trust model**
+- Models the systemic cost first, treats ex ante and ex post as special cases
+- AI-mediated legal process = long-run game between state/institutions and parties
+- Commitment drift rate = defection probability in a cooperation game
+- Trust equilibrium: derived from Folk Theorem — trust is sustained iff drift rate < critical threshold
+- Strength: makes the systemic cost claim (Section V) the paper's centerpiece, which is the most original contribution
+- Data needed: EXP-003 drift rate data sufficient for parametric illustration
+
+**Recommendation:** Option A (incomplete contracting) for IEP/RAND JE; Option B (principal-agent) if the goal is maximum connection to Akerlof framing in the abstract. Option C is structurally the most original but requires the most technical machinery.
+
+**Decision gate:** Choose the model type, specify the formal setup in Section II (2-3 equations), confirm the three cost results follow from that setup — then begin writing.
 
 ---
 
