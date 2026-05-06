@@ -173,7 +173,7 @@ The following papers constitute the core empirical and theoretical extensions of
 
 ## Proposition 9. Cross-Domain Applications
 
-**Proposition 9.1 (Legal: Semantic Continuity Requirement).** CT provides the foundation for a "semantic continuity requirement" in legal AI systems—a fidelity mandate that the commitment kernel of governing law survives the AI pipeline. The SLRO essay and full legal theory paper develop this application.[^12]
+**Proposition 9.1 (Legal: Semantic Continuity Requirement).** CT provides the foundation for a "semantic continuity requirement" in legal AI systems—a fidelity mandate that the commitment kernel of governing law survives the AI pipeline. A companion legal essay and a full legal theory paper develop this application; both are in preparation and will be deposited separately when complete.
 
 **Proposition 9.2 (Cloud Storage: Semantic Deduplication).** The Blackhole Law, applied to data storage, addresses data bloat through semantic deduplication without loss of meaningful information.
 
@@ -278,7 +278,6 @@ No results meeting the collision criteria were found for the nine terms listed i
 
 [^11]: Lorenz Kuhn et al., *Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation*, 2023 ADVANCES NEURAL INFO. PROCESSING SYS. (NeurIPS 2023).
 
-[^12]: [Author], *The Uncertainty That Invites Building: Civil Rights in an Age of Neutral Machines* (forthcoming Stan. L. Rev. Online) (submitted Apr. 2026).
 
 ---
 
