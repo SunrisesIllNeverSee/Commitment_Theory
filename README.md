@@ -24,6 +24,8 @@ Each track has a `CLAUDE.md` with full context, paper pipeline, immediate todos,
 - Active todos: [TODO.md](TODO.md)
 - 31-paper roadmap: [CT/workspace/roadmap/cct-paper-roadmap-v2.md](CT/workspace/roadmap/cct-paper-roadmap-v2.md)
 - Genesis source threads: [source-threads/](source-threads/)
+- Author profiles, deposits, and patent log: [publishing/](publishing/)
+- Academic writing pipeline hub: [academic-research/](academic-research/)
 
 ---
 
