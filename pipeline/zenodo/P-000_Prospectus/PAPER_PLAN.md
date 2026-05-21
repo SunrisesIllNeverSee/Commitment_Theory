@@ -60,3 +60,11 @@ P-000 is the citation root for the entire program. Multiple downstream papers (L
 
 - **Cites:** McHenry Axioms (Layer -1); Six-Gate Protocol (Layer 0); MO§ES™ architecture (Layer 0.5); EXP-001 through EXP-007 experimental record; Paper 0 (Zenodo DOI: 10.5281/zenodo.18792459)
 - **Cited by:** All CT papers (P-000 is the citation root for CT definitions); all Legal_Theory papers (alongside L-000); all MISC papers; Paper 0 (bidirectional citation relationship)
+
+---
+
+## Pending External Inputs (deal-with-later)
+
+External materials related to the broader CT prospectus scope, parked here for later integration into the appropriate downstream paper. Not P-000 content itself.
+
+- **ChatGPT peer review — "Commitment Conservation in Financial Signals: A Constitutional Framework for Stability Under Transformation"** (Mar 2026 draft, McHenry / Ello Cello, references provisional patent 63/877,177). Source: `../../../inbox/ChatGPT-Paper_review_request.md`. Contains the full draft, ChatGPT's structured review, and downstream meta-discussion. Status: **pending — not yet slotted into a roadmap paper.** Likely belongs to a future MISC-track applications paper (finance/markets) rather than CT-track. Key review asks to carry forward whenever the financial-signals paper is opened: (i) tone down "universal law" language; (ii) formalize the definition of "commitment" with ontology, invariance conditions, measurable thresholds; (iii) reframe Betley et al. emergent-misalignment link as interpretive, not evidentiary; (iv) replace two-row proof-of-concept table with real-corpus test (e.g., EDGAR filings); (v) add literature review engaging model-risk validation (SR 11-7, Basel III), hash-based document integrity (Merkle trees), and NLP-based contract analysis.
