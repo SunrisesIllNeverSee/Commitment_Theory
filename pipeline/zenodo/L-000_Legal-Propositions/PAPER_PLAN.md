@@ -2,7 +2,7 @@
 
 **Track:** Legal_Theory
 **Layer:** Root (citation root for all Legal_Theory papers)
-**Status:** Draft exists; needs CCT→CT naming update before SSRN/Zenodo deposit
+**Status:** Draft complete; CCT→CT naming fixed; ready for SSRN + Zenodo deposit
 **Target Venue:** SSRN + Zenodo
 **Est. Length:** 1,500–2,000 words
 **Dependencies:** P-000 deposited first

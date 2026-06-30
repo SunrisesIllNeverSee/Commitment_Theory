@@ -93,7 +93,7 @@ The framework operates at the level of record integrity, not substantive adjudic
 
 Taken together, these propositions point toward a conclusion this research program is designed to reach: that the Conservation Law of Commitment constitutes the foundation for a new jurisprudence of the record — a constitutional framework for ensuring that legal meaning survives the systems that process it.
 
-No existing AI governance framework makes this claim because no existing framework has a law to ground it in. The Conservation Law of Commitment is not a policy recommendation. It is not an ethical guideline. It is not a set of best practices. It is a falsifiable, empirically tested physical law with a public harness, a documented experimental record, and a patent-pending enforcement architecture. It is the only governance foundation that operates as physics rather than policy.
+No existing AI governance framework makes this claim because no existing framework has a law to ground it in. The Conservation Law of Commitment is not a policy recommendation. It is not an ethical guideline. It is not a set of best practices. It is a falsifiable, empirically tested physical law with a public harness, a documented experimental record, and a patent-pending enforcement architecture. It is the first governance foundation that operates as physics rather than policy.
 
 The claim that this law supports a new jurisprudence is not argued here. It is the destination. The research program mapped below is the path.
 
@@ -101,7 +101,7 @@ The claim that this law supports a new jurisprudence is not argued here. It is t
 
 ## Research Program
 
-The following papers develop, test, and apply the propositions above. Each paper is identified by its track number, and full details are maintained in the CCT Publication Roadmap.
+The following papers develop, test, and apply the propositions above. Each paper is identified by its track number, and full details are maintained in the CT Publication Roadmap.
 
 **L-001 | Stanford Law Review Online Essay.** Introduces the commitment conservation framework to legal academia through a 4,500-word essay applying it to civil rights enforcement — disparate impact, due process, and evidentiary reliability. Develops Propositions 4 and 5 in compressed form. (Submitted to SLRO Special Collection: Technology, AI, and the Future of Civil Rights. Deadline: May 1, 2026.)
 

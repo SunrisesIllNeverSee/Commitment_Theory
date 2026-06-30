@@ -4,14 +4,14 @@
 - **Primary:** SSRN (legal audience — Law, Technology, AI classification)
 - **Secondary:** Zenodo (general academic audience, DOI for cross-track citation)
 
-## Status: NEEDS CCT→CT UPDATE BEFORE DEPOSIT
-Draft exists and is complete. Must rename all CCT/Commitment Conservation Theory references to CT/Commitment Theory before deposit.
+## Status: READY FOR DEPOSIT (CCT→CT naming fixed)
+Draft complete. CCT→CT naming fix applied. Ready for deposit.
 
 ## Pre-Deposit Checklist
 - [x] Full draft in folder (156 lines, 6 propositions + research program)
-- [ ] CCT→CT naming update throughout
-- [ ] Line 96: "only governance foundation" → "first governance foundation"
-- [ ] Research program section: "CCT Publication Roadmap" → "CT Publication Roadmap"
+- [x] CCT→CT naming update throughout
+- [x] Line 96: "only governance foundation" → "first governance foundation"
+- [x] Research program section: "CCT Publication Roadmap" → "CT Publication Roadmap"
 - [ ] Add P-000 DOI to footnote area (once P-000 is deposited)
 - [ ] Format title page, abstract, keywords for SSRN
 - [ ] Generate PDF for upload

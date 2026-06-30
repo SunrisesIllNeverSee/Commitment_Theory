@@ -24,7 +24,7 @@ All legal papers cite P-000 and Paper 0 (Zenodo DOI: 10.5281/zenodo.18792459) as
 
 | ID | Title | Status | Venue | Next Action |
 |----|-------|--------|-------|-------------|
-| L-000 | Legal Propositions deposit | Draft exists | SSRN + Zenodo | CCT→CT naming update, then deposit |
+| L-000 | Legal Propositions deposit | Ready | SSRN + Zenodo | Deposit via academic-sync CLI |
 | L-001 | SLRO Essay | **Submitted May 1, 2026** | Stanford Law Review Online Vol. 79 | Await outcome |
 | L-002 | Empirical Legal Study | Planned | JELS / Jurimetrics | Summer 2026 — build legal signal corpus |
 | L-003 | Technical Standard | Planned | Yale JL&T / Stanford TLR | After L-001 + L-002 |
@@ -41,7 +41,7 @@ All legal papers cite P-000 and Paper 0 (Zenodo DOI: 10.5281/zenodo.18792459) as
 ## Immediate Todos
 
 - [ ] Await L-001 SLRO decision (submitted May 1, 2026)
-- [ ] L-000: update CCT→CT naming, then deposit to SSRN and Zenodo
+- [x] L-000: CCT→CT naming fixed, ready to deposit to SSRN and Zenodo
 - [ ] L-002: plan legal signal corpus (needs legal collaborator)
 - [ ] L-002 corpus planning: identify 20–30 civil rights statutory provisions for drift testing
 
