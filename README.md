@@ -1,12 +1,29 @@
 # Commitment Theory
 
-**Author:** Deric J. McHenry / Ello Cello LLC
+**Author:** Deric J. McHenry / Ello Cello LLC · [ORCID](https://orcid.org/0009-0002-9904-5390)
 **Patent:** Serial No. 63/877,177 (Provisional)
-**Root DOI:** [10.5281/zenodo.18792459](https://doi.org/10.5281/zenodo.18792459) (Conservation Law Preprint)
+
+## Published Deposits
+
+| Paper | DOI | Version |
+|-------|-----|---------|
+| [Conservation Law](https://doi.org/10.5281/zenodo.20029607) | `10.5281/zenodo.20029607` | V.05 |
+| [Experimental Record](https://doi.org/10.5281/zenodo.19105225) | `10.5281/zenodo.19105225` | 1.0.0 |
+| [Transformation Harness](https://doi.org/10.5281/zenodo.19109397) | `10.5281/zenodo.19109397` | 1.0.0 |
+| [Propositions Prospectus (P-000)](https://doi.org/10.5281/zenodo.20031715) | `10.5281/zenodo.20031715` | V.1 |
+| [Financial Signals](https://doi.org/10.5281/zenodo.19102589) | `10.5281/zenodo.19102589` | v1.0 |
+| [Floating Moat Standard (FMS-2.0)](https://doi.org/10.5281/zenodo.18841110) | `10.5281/zenodo.18841110` | FMS-2.0 |
+
+## Live Implementations
+
+- **[SigRank](https://signalaf.com)** — privacy-preserving AI operator leaderboard built on Conservation Law principles. See [/science](https://signalaf.com/science).
+- **[SIGNOMY / CIVITAE](https://signomy.xyz)** — governed agent marketplace under MO§ES™ constitutional constraints.
+- **[MO§ES™](https://mos2es.com)** — the enforcement engine. Patent-pending governance architecture.
+- **[Conservation Law repo](https://github.com/SunrisesIllNeverSee/commitment-conservation)** — paper, harness, experiments, corpus.
 
 ---
 
-## Three Tracks — 31 Papers
+## Three Tracks — 34 Papers
 
 | Track | Papers | Status |
 |-------|--------|--------|
