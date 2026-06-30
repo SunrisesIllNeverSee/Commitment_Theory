@@ -8,12 +8,16 @@ Chronological record of every preprint, repository, or journal deposit. Add new 
 
 | Date | Item | Version | Venue | DOI / URL | License | Source File | ORCID Synced |
 |------|------|---------|-------|-----------|---------|-------------|--------------|
-| 2026-04-20 | P-000 — Propositions Prospectus | V.1 | Zenodo + SSRN | [10.5281/zenodo.20031715](https://doi.org/10.5281/zenodo.20031715) / [10.2139/ssrn.6734283](https://doi.org/10.2139/ssrn.6734283) | CC-BY 4.0 | [CT/papers/P-000_prospectus/](../CT/papers/P-000_prospectus/) | Y (manually added to ORCID) |
-| 2026-03-19 | Paper 0 — Public Recursive Transformation Harness | 1.0.0 | Zenodo | [10.5281/zenodo.19109397](https://doi.org/10.5281/zenodo.19109397) | CC-BY 4.0 | (external — Commitment_Conservation/harness/) | Y (manually added to ORCID) |
-| 2026-03-19 | Paper 0 — Conservation Law preprint | v.05 | Zenodo | [10.5281/zenodo.20029607](https://doi.org/10.5281/zenodo.20029607) | CC-BY 4.0 | (external — Commitment_Conservation/paper/v05/main.md) | Y (ORCID correct, verified via academic-sync audit) |
-| 2026-03-19 | Paper 0 — Experimental Record (EXP-001 to EXP-007) | 1.0.0 | Zenodo | [10.5281/zenodo.19105225](https://doi.org/10.5281/zenodo.19105225) | CC-BY 4.0 | (external — experimental data) | Y (manually added to ORCID) |
-| 2026-03-18 | Commitment Conservation in Financial Signals | v1.0 | Zenodo | [10.5281/zenodo.19102589](https://doi.org/10.5281/zenodo.19102589) | CC-BY 4.0 | (external) | Y (on ORCID, but Zenodo has WRONG ORCID — needs fix via web UI) |
-| 2026-03-02 | Floating Moat Standard (FMS-2.0) | FMS-2.0 | Zenodo | [10.5281/zenodo.18841110](https://doi.org/10.5281/zenodo.18841110) | CC-BY 4.0 | (external) | Y (manually added to ORCID) |
+| 2026-06-30 | SignalAF — Web Application DOI | 1.0.0 | Zenodo | [10.5281/zenodo.21069753](https://doi.org/10.5281/zenodo.21069753) | CC-BY 4.0 | https://signalaf.com | Y |
+| 2026-06-30 | MO§ES — Web Application DOI | 1.0.0 | Zenodo | [10.5281/zenodo.21069876](https://doi.org/10.5281/zenodo.21069876) | CC-BY 4.0 | https://mos2es.com | Y |
+| 2026-06-30 | SigNomy — Web Application DOI | 1.0.0 | Zenodo | [10.5281/zenodo.21069899](https://doi.org/10.5281/zenodo.21069899) | CC-BY 4.0 | https://signomy.xyz | Y |
+| 2026-06-30 | Conservation Law (v2 — fixed ORCID + cross-links) | v2 | Zenodo | [10.5281/zenodo.21070002](https://doi.org/10.5281/zenodo.21070002) | CC-BY 4.0 | concept: [10.5281/zenodo.20029607](https://doi.org/10.5281/zenodo.20029607) | Y |
+| 2026-06-30 | Experimental Record (v2 — fixed cross-links) | v2 | Zenodo | [10.5281/zenodo.21069607](https://doi.org/10.5281/zenodo.21069607) | CC-BY 4.0 | concept: [10.5281/zenodo.19105225](https://doi.org/10.5281/zenodo.19105225) | Y |
+| 2026-06-30 | Harness (v2 — fixed ORCID + cross-links) | v2 | Zenodo | [10.5281/zenodo.21069647](https://doi.org/10.5281/zenodo.21069647) | CC-BY 4.0 | concept: [10.5281/zenodo.19109397](https://doi.org/10.5281/zenodo.19109397) | Y |
+| 2026-06-30 | P-000 (v2 — fixed cross-links) | V.1.1 | Zenodo | [10.5281/zenodo.21069704](https://doi.org/10.5281/zenodo.21069704) | CC-BY 4.0 | concept: [10.5281/zenodo.20031715](https://doi.org/10.5281/zenodo.20031715) | Y |
+| 2026-06-30 | Financial Signals (v2 — fixed ORCID) | v2 | Zenodo | [10.5281/zenodo.21069978](https://doi.org/10.5281/zenodo.21069978) | CC-BY 4.0 | concept: [10.5281/zenodo.19102589](https://doi.org/10.5281/zenodo.19102589) | Y |
+| 2026-03-02 | Floating Moat Standard (FMS-2.0) | FMS-2.0 | Zenodo | [10.5281/zenodo.18841110](https://doi.org/10.5281/zenodo.18841110) | CC-BY 4.0 | (external) | Y |
+| 2026-04-20 | P-000 — also on SSRN | V.1 | SSRN | [10.2139/ssrn.6734283](https://doi.org/10.2139/ssrn.6734283) | CC-BY 4.0 | — | Y |
 | 2026-05-01 | L-001 — SLRO Essay | Submitted | Stanford Law Review Online (Vol. 79) | _[pending publication]_ | _[publisher TBD]_ | [Legal_Theory/papers/L-001_SLRO/Slro_paper_final.md](../Legal_Theory/papers/L-001_SLRO/Slro_paper_final.md) | _[N — flips Y after publication via Crossref]_ |
 
 ---
@@ -65,20 +69,22 @@ After deposit:
 
 Verified via `academic-sync audit` (5 surfaces: Zenodo, ORCID, Crossref, DataCite, OpenAIRE).
 
-| Deposit | Issue | Fix | Method |
+**Status: All ORCID and cross-link issues FIXED via API (new versions created).**
+
+| Deposit | Was | Now | Method |
 |---------|-------|-----|--------|
-| 19102589 (Financial Signals) | Wrong ORCID on creator (`0009-0007-3367-9864`) | Fix to `0009-0002-9904-5390` | Zenodo web UI (API has format migration issue) |
-| 19109397 (Harness) | Missing ORCID on creator | Add `0009-0002-9904-5390` | Zenodo web UI |
-| All 6 deposits | Zero related identifiers (cross-links) | Add 10 cross-links across 4 deposits | Zenodo web UI or `academic-sync fix-crosslinks` |
-| All 6 deposits | Not in any Zenodo community | Join communities (see below) | Zenodo web UI |
+| Financial Signals | Wrong ORCID | ✅ Fixed (v2: 21069978) | API new version |
+| Harness | Missing ORCID | ✅ Fixed (v2: 21069647) | API new version |
+| Conservation Law | No cross-links | ✅ Fixed (v2: 21070002) | API new version |
+| Experimental Record | No cross-links | ✅ Fixed (v2: 21069607) | API new version |
+| P-000 | No cross-links | ✅ Fixed (v2: 21069704) | API new version |
+| All deposits | No website DOIs | ✅ 3 new DOIs minted | API new deposits |
 
-**Note:** The Zenodo API has a metadata format migration issue — old records use
-`name`/`affiliation` format, new version drafts need `person_or_org.family_name`
-format. The API doesn't auto-convert, causing 500 errors. The Zenodo web UI
-handles this automatically. Use the web UI for metadata edits until Zenodo
-fixes the API.
+**Remaining: Communities.** Zenodo community membership requires approval
+from community curators — can't be done via API alone. Use the Zenodo web UI
+to request membership in each community, then add deposits.
 
-### Communities to Join
+### Communities to Join (via web UI)
 
 | Community | UUID | Relevance |
 |-----------|------|-----------|
@@ -88,8 +94,16 @@ fixes the API.
 | Machine Learning | `a08bc0ac-2893-4afd-870a-a77bd348c84c` | Conservation Law, Harness |
 | Open Science | `8b1df34a-6496-448c-b109-7cff4f9572b1` | All deposits |
 
-### OpenAIRE Status
+### Website DOIs (NEW — 2026-06-30)
 
-All 6 deposits are indexed in OpenAIRE. Resource types are correct (Dataset,
-Software, Preprint). ORCID not yet picked up by OpenAIRE (harvesting lag —
-will resolve on next harvest cycle after Zenodo ORCID fixes are applied).
+Three website DOIs minted to give each site a persistent identifier in the
+academic citation graph:
+
+| Site | DOI | Zenodo URL |
+|------|-----|------------|
+| signalaf.com | 10.5281/zenodo.21069753 | https://zenodo.org/records/21069753 |
+| mos2es.com | 10.5281/zenodo.21069876 | https://zenodo.org/records/21069876 |
+| signomy.xyz | 10.5281/zenodo.21069899 | https://zenodo.org/records/21069899 |
+
+Each deposit links to the live URL, GitHub repo, and relevant academic deposits
+via related identifiers.
