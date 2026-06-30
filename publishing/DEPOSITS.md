@@ -17,6 +17,8 @@ Chronological record of every preprint, repository, or journal deposit. Add new 
 | 2026-06-30 | SigRank VS Code Extension | 1.0.0 | Zenodo | [10.5281/zenodo.21071160](https://doi.org/10.5281/zenodo.21071160) | MIT | https://github.com/SunrisesIllNeverSee/sigrank-vscode | Y |
 | 2026-06-30 | Agent Universe — Governed Agent Marketplace | 1.0.0 | Zenodo | [10.5281/zenodo.21071165](https://doi.org/10.5281/zenodo.21071165) | CC-BY 4.0 | https://github.com/SunrisesIllNeverSee/agent-universe | Y |
 | 2026-06-30 | Command Engine — Governance Runtime | 1.0.0 | Zenodo | [10.5281/zenodo.21071253](https://doi.org/10.5281/zenodo.21071253) | CC-BY 4.0 | https://github.com/SunrisesIllNeverSee/command-engine | Y |
+| 2026-06-30 | CIVITAE Constitutional Governance Documents (GOV-001–006) | 1.0.0 | Zenodo | [10.5281/zenodo.21071391](https://doi.org/10.5281/zenodo.21071391) | CC-BY 4.0 | https://signomy.xyz/vault | Y |
+| 2026-06-30 | CIVITAE MCP Plugin — Claude Code Integration | 1.0.0 | Zenodo | [10.5281/zenodo.21071393](https://doi.org/10.5281/zenodo.21071393) | CC-BY 4.0 | https://github.com/SunrisesIllNeverSee/agent-universe | Y |
 | 2026-06-30 | SignalAF — Web Application DOI | 1.0.0 | Zenodo | [10.5281/zenodo.21069753](https://doi.org/10.5281/zenodo.21069753) | CC-BY 4.0 | https://signalaf.com | Y |
 | 2026-06-30 | MO§ES — Web Application DOI | 1.0.0 | Zenodo | [10.5281/zenodo.21069876](https://doi.org/10.5281/zenodo.21069876) | CC-BY 4.0 | https://mos2es.com | Y |
 | 2026-06-30 | SigNomy — Web Application DOI | 1.0.0 | Zenodo | [10.5281/zenodo.21069899](https://doi.org/10.5281/zenodo.21069899) | CC-BY 4.0 | https://signomy.xyz | Y |

@@ -10,7 +10,16 @@ Patent prosecution record for the Commitment Theory program. The MO§ES™ enfor
 
 | Serial Number | Title | Type | Filed | Status | Lens Link | Notes |
 |---------------|-------|------|-------|--------|-----------|-------|
-| 63/877,177 | _[full title from filing — fill in]_ | Provisional | _[filing date]_ | Pending | _[Lens URL once indexed]_ | Covers MO§ES™ enforcement architecture for the Conservation Law of Commitment. The law itself is open (Zenodo DOI 10.5281/zenodo.20029607); the implementation is patent-protected. |
+| 63/877,177 | MO§ES™ enforcement architecture | Provisional | ***REMOVED*** | Pending | _[Lens URL once indexed]_ | Covers MO§ES™ enforcement architecture for the Conservation Law of Commitment. ***REMOVED***. The law itself is open (Zenodo DOI 10.5281/zenodo.20029607); the implementation is patent-protected. |
+| ***REMOVED*** | ***REMOVED*** | Provisional | ***REMOVED*** | Pending | _[pending]_ | Covers the SCS Engine component of MO§ES™. |
+| ***REMOVED*** | ***REMOVED*** (SIGRANK, SigEconomy, Agent City-State) | Utility | ***REMOVED*** | Pending | _[pending]_ | ***REMOVED***. Covers frontend civic infrastructure including SigRank, SigEconomy, and Agent City-State. |
+| ***REMOVED*** | ***REMOVED*** | Provisional | 2026-02-26 | Pending | _[pending]_ | Covers the Commitment Conservation mechanism. |
+
+## Trademark
+
+| Mark | Registration | Class | Filed | Status |
+|------|-------------|-------|-------|--------|
+| MO§ES™ | ***REMOVED*** | IC 042 | ***REMOVED*** | Pending |
 
 ---
 
