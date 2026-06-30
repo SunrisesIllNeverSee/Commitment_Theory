@@ -8,6 +8,10 @@ Chronological record of every preprint, repository, or journal deposit. Add new 
 
 | Date | Item | Version | Venue | DOI / URL | License | Source File | ORCID Synced |
 |------|------|---------|-------|-----------|---------|-------------|--------------|
+| 2026-06-30 | KASSA — K-Governed Voice Architecture | 1.0.0 | Zenodo | [10.5281/zenodo.21070813](https://doi.org/10.5281/zenodo.21070813) | CC-BY 4.0 | https://github.com/SunrisesIllNeverSee/KASSA | Y |
+| 2026-06-30 | AQUA — Application Workflow Tooling | 1.0.0 | Zenodo | [10.5281/zenodo.21070821](https://doi.org/10.5281/zenodo.21070821) | CC-BY 4.0 | (MO§ES stack layer) | Y |
+| 2026-06-30 | Medium article — signal artifact | 1.0.0 | Zenodo | [10.5281/zenodo.21070827](https://doi.org/10.5281/zenodo.21070827) | CC-BY 4.0 | https://medium.com/@burnmydays/12-million-tokens-later-... | Y |
+| 2026-06-30 | Experimental Corpora Dataset (EXP-001–007) | 1.0.0 | Zenodo | [10.5281/zenodo.21070838](https://doi.org/10.5281/zenodo.21070838) | CC-BY 4.0 | https://github.com/SunrisesIllNeverSee/commitment-conservation | Y |
 | 2026-06-30 | SignalAF — Web Application DOI | 1.0.0 | Zenodo | [10.5281/zenodo.21069753](https://doi.org/10.5281/zenodo.21069753) | CC-BY 4.0 | https://signalaf.com | Y |
 | 2026-06-30 | MO§ES — Web Application DOI | 1.0.0 | Zenodo | [10.5281/zenodo.21069876](https://doi.org/10.5281/zenodo.21069876) | CC-BY 4.0 | https://mos2es.com | Y |
 | 2026-06-30 | SigNomy — Web Application DOI | 1.0.0 | Zenodo | [10.5281/zenodo.21069899](https://doi.org/10.5281/zenodo.21069899) | CC-BY 4.0 | https://signomy.xyz | Y |
