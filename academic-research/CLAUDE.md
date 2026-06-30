@@ -51,7 +51,7 @@ Layer  4: Extensions — SIGSYSTEM, Post-Turing Test, Channel Capacity
 | What | Where | Purpose |
 |------|-------|---------|
 | P-000 | CT/papers/P-000_prospectus/ | All CT definitions, terms, disambiguation |
-| Paper 0 | CT/papers/paper-0_conservation-law/ + Zenodo DOI: 10.5281/zenodo.18792459 | Conservation Law + empirical record |
+| Paper 0 | CT/papers/paper-0_conservation-law/ + Zenodo DOI: 10.5281/zenodo.20029607 | Conservation Law + empirical record |
 | L-000 | Legal_Theory/papers/L-000_legal-propositions/ | Six legal propositions (cite in all legal papers) |
 
 **Naming:** Commitment Theory (CT). The law within it is the Conservation Law of Commitment. All prior "CCT" references are superseded.

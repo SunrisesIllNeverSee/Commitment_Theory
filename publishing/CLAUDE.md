@@ -29,7 +29,7 @@ Commitment Theory has an unusual publication shape: a **patent** (Serial No. 63/
 Set up in this order:
 
 1. **ORCID** — canonical iD (https://orcid.org). Everything else connects to this.
-2. **DataCite** — auto-pushes Zenodo DOIs to ORCID. Required if Paper 0 (Zenodo DOI 10.5281/zenodo.18792459) is to flow into ORCID at all.
+2. **DataCite** — auto-pushes Zenodo DOIs to ORCID. Required if Paper 0 (Zenodo DOI 10.5281/zenodo.20029607) is to flow into ORCID at all.
 3. **OpenAIRE** — broader catchment than DataCite alone. Pulls Zenodo + SSRN + EU sources. Free.
 4. **The Lens** — only service that handles patents. Profile Builder tier (free, doesn't expire). Connect both researcher and inventor profiles.
 5. **Crossref Metadata Search** — flip on after L-001 publishes in Stanford Law Review Online (or any journal).
@@ -72,7 +72,7 @@ For the patent track:
 ## Common Mistakes to Avoid
 
 - **Don't deposit before ORCID iD is on the deposit form.** If you forget, the work won't auto-push to ORCID and you'll have to manually claim it later.
-- **Don't deposit Paper 0 again on Zenodo.** It already has DOI 10.5281/zenodo.18792459. New versions go on the existing record as version updates, not as new deposits.
+- **Don't deposit Paper 0 again on Zenodo.** It already has DOI 10.5281/zenodo.20029607. New versions go on the existing record as version updates, not as new deposits.
 - **Don't put SSRN deposits before they have CT naming.** L-000 was drafted under "CCT" — must be CT before depositing or the deposit becomes a permanent record of outdated naming.
 - **Don't store passwords here.** Account login info goes in your password manager. PROFILES.md tracks IDs and URLs only.
 

@@ -10,7 +10,7 @@ Patent prosecution record for the Commitment Theory program. The MO§ES™ enfor
 
 | Serial Number | Title | Type | Filed | Status | Lens Link | Notes |
 |---------------|-------|------|-------|--------|-----------|-------|
-| 63/877,177 | _[full title from filing — fill in]_ | Provisional | _[filing date]_ | Pending | _[Lens URL once indexed]_ | Covers MO§ES™ enforcement architecture for the Conservation Law of Commitment. The law itself is open (Zenodo DOI 10.5281/zenodo.18792459); the implementation is patent-protected. |
+| 63/877,177 | _[full title from filing — fill in]_ | Provisional | _[filing date]_ | Pending | _[Lens URL once indexed]_ | Covers MO§ES™ enforcement architecture for the Conservation Law of Commitment. The law itself is open (Zenodo DOI 10.5281/zenodo.20029607); the implementation is patent-protected. |
 
 ---
 

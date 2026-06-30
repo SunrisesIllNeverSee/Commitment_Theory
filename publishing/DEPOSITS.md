@@ -8,8 +8,12 @@ Chronological record of every preprint, repository, or journal deposit. Add new 
 
 | Date | Item | Version | Venue | DOI / URL | License | Source File | ORCID Synced |
 |------|------|---------|-------|-----------|---------|-------------|--------------|
-| 2026-03-19 | Paper 0 — Conservation Law preprint | v.05 | Zenodo | [10.5281/zenodo.18792459](https://doi.org/10.5281/zenodo.18792459) | CC-BY 4.0 | (external — Commitment_Conservation/paper/v05/main.md) | _[Y / N — verify]_ |
-| 2026-03-19 | Paper 0 — Experimental Record (EXP-001 to EXP-007) | — | Zenodo | [10.5281/zenodo.19105225](https://doi.org/10.5281/zenodo.19105225) | CC-BY 4.0 | (external — experimental data) | _[Y / N — verify]_ |
+| 2026-04-20 | P-000 — Propositions Prospectus | V.1 | Zenodo + SSRN | [10.5281/zenodo.20031715](https://doi.org/10.5281/zenodo.20031715) / [10.2139/ssrn.6734283](https://doi.org/10.2139/ssrn.6734283) | CC-BY 4.0 | [CT/papers/P-000_prospectus/](../CT/papers/P-000_prospectus/) | Y (manually added to ORCID) |
+| 2026-03-19 | Paper 0 — Public Recursive Transformation Harness | 1.0.0 | Zenodo | [10.5281/zenodo.19109397](https://doi.org/10.5281/zenodo.19109397) | CC-BY 4.0 | (external — Commitment_Conservation/harness/) | Y (manually added to ORCID) |
+| 2026-03-19 | Paper 0 — Conservation Law preprint | v.05 | Zenodo | [10.5281/zenodo.20029607](https://doi.org/10.5281/zenodo.20029607) | CC-BY 4.0 | (external — Commitment_Conservation/paper/v05/main.md) | _[Y / N — verify]_ |
+| 2026-03-19 | Paper 0 — Experimental Record (EXP-001 to EXP-007) | 1.0.0 | Zenodo | [10.5281/zenodo.19105225](https://doi.org/10.5281/zenodo.19105225) | CC-BY 4.0 | (external — experimental data) | Y (manually added to ORCID) |
+| 2026-03-18 | Commitment Conservation in Financial Signals | v1.0 | Zenodo | [10.5281/zenodo.19102589](https://doi.org/10.5281/zenodo.19102589) | CC-BY 4.0 | (external) | _[N — not on ORCID]_ |
+| 2026-03-02 | Floating Moat Standard (FMS-2.0) | FMS-2.0 | Zenodo | [10.5281/zenodo.18841110](https://doi.org/10.5281/zenodo.18841110) | _[verify]_ | (external) | _[N — not on ORCID]_ |
 | 2026-05-01 | L-001 — SLRO Essay | Submitted | Stanford Law Review Online (Vol. 79) | _[pending publication]_ | _[publisher TBD]_ | [Legal_Theory/papers/L-001_SLRO/Slro_paper_final.md](../Legal_Theory/papers/L-001_SLRO/Slro_paper_final.md) | _[N — flips Y after publication via Crossref]_ |
 
 ---
@@ -18,7 +22,6 @@ Chronological record of every preprint, repository, or journal deposit. Add new 
 
 | Item | Target Venue | Blocking Action | Owner |
 |------|--------------|-----------------|-------|
-| P-000 — Propositions Prospectus | Zenodo + arXiv | Final review of [P-000-propositions-of-commitment-theory-prospectus.md](../CT/papers/P-000_prospectus/P-000-propositions-of-commitment-theory-prospectus.md); declaration / funder / ethics statements drafted; ORCID iD on deposit form | User |
 | Paper 0 — v.06 update | Zenodo (existing record, new version) | Apply CCT→CT naming update across the v.05 source; add v.06 note | User |
 | L-000 — Legal Propositions | SSRN + Zenodo | CCT→CT naming update; ensure P-000 is deposited first so L-000 can cite the P-000 DOI | User |
 

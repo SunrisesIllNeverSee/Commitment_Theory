@@ -9,7 +9,7 @@
 
 | Service | Status | ID / URL | ORCID-Connected | Notes |
 |---------|--------|----------|-----------------|-------|
-| ORCID | _[in progress]_ | _[paste your ORCID iD here, format: 0000-0000-0000-0000]_ | — (this IS the canonical iD) | The root identity. Every other service connects to this. |
+| ORCID | ✅ Set up | https://orcid.org/0009-0002-9904-5390 | — (this IS the canonical iD) | The root identity. 5 works on record (manually added). Zenodo deposits do NOT yet carry ORCID in creator metadata — add ORCID to each Zenodo deposit to enable auto-push. |
 | The Lens | _[in progress]_ | _[paste Lens Profile URL here]_ | _[Y / N]_ | Profile Builder tier. **Combined researcher + inventor profile.** Only ORCID service that covers patents. Set up 2026-05-05. |
 | DataCite | _[pending]_ | — | _[Y / N]_ | Auto-handles Zenodo DOIs once ORCID is on the deposit. No separate account needed — it's a passive integration. |
 | OpenAIRE | _[pending]_ | _[OpenAIRE profile URL]_ | _[Y / N]_ | Pulls Zenodo + SSRN + EU sources. Free. Recommended. |
@@ -53,7 +53,7 @@ To verify a sync worked: visit `orcid.org/[your-iD]`, check the "Works" section,
 When fully set up, your ORCID record should display:
 
 **Works:**
-- Paper 0 — Conservation Law preprint (Zenodo DOI 10.5281/zenodo.18792459) — source: DataCite
+- Paper 0 — Conservation Law preprint (Zenodo DOI 10.5281/zenodo.20029607) — source: DataCite
 - P-000 — Propositions Prospectus (when deposited to Zenodo) — source: DataCite
 - L-000 — Legal Propositions (when deposited to SSRN + Zenodo) — source: OpenAIRE / DataCite
 - L-001 — SLRO Essay (when published) — source: Crossref
