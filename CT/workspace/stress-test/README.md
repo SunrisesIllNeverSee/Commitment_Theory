@@ -14,19 +14,23 @@ stress-test/
 ├── test/
 │   └── LANGUAGE_AS_MATTER_TEST.md     the external validity test (5 reqs, 23 questions, 69 max)
 ├── answers/
-│   ├── pass1/CT_ANSWERS_V1.md         ~38 (frame, not law)
-│   ├── pass2/CT_ANSWERS_V1_PASS2.md   ~49 (promising)
-│   ├── pass3/CT_ANSWERS_V1_PASS3.md   ~59 (established)
-│   └── final/CT_ANSWERS_FINAL.md      ~55 (established floor — deep-dive loop, attack pattern corrected)
+│   ├── pass1/CT_ANSWERS_V1.md                  ~38 (frame, not law)
+│   ├── pass1/CT_ANSWERS_FRESH_PASS1_SOLO.md    ~35 (frame, not law) — fresh solo run, all 23 answered
+│   ├── pass2/CT_ANSWERS_V1_PASS2.md            ~49 (promising)
+│   ├── pass2/CT_ANSWERS_FRESH_PASS2_GUIDED.md  ~50-55 (promising to established floor) — fresh guided run + Phase 6 follow-ups
+│   ├── pass3/CT_ANSWERS_V1_PASS3.md            ~59 (established)
+│   └── final/CT_ANSWERS_FINAL.md               ~55 (established floor — deep-dive loop, attack pattern corrected)
 ├── scoring/
 │   ├── CT_SCORING_PASS2.md            blank sheet for outside review of Pass 2
 │   ├── CT_SCORING_PASS3.md            blank sheet for outside review of Pass 3
-│   └── CT_SCORING_FINAL.md            blank sheet for outside review of FINAL pass
+│   ├── CT_SCORING_FINAL.md            blank sheet for outside review of FINAL pass
+│   └── CT_SCORING_FRESH.md            blank sheet for outside review of Fresh Pass 2
 ├── analysis/
 │   ├── EXPERT_NOTES.md                internalized framework notes (20 sections) — the expertise base
+│   ├── EXPERT_NOTES_FRESH.md          fresh synthesis after reading all 28 primary sources
 │   ├── STRESS_TEST_GAP_AUDIT.md       audit of what Pass 2 missed
 │   ├── DEEP_DIVE_LOOP.md              structured session plan — 5 sessions, strongest to weakest
-│   └── COMPETITION_ANALYSIS.md        who else is doing this (6-agent web research)
+│   └── COMPETITION_ANALYSIS.md        who else is doing this (7-agent web research)
 ├── prompts/
 │   ├── FULL_WORKFLOW_PROMPT.md        self-contained prompt for a fresh Devin session
 │   └── CT_ANSWERS_V2_PROMPT.md        prompt for a solo Devin session
@@ -58,6 +62,15 @@ stress-test/
 | `answers/pass2/CT_ANSWERS_V1_PASS2.md` | ~49 (promising) | + re-read primary sources; all 23 answered; corrected over-conservative scoring on Req 1-3 |
 | `answers/pass3/CT_ANSWERS_V1_PASS3.md` | ~59 (established) | + Commitment_Conservation repo: three-method extraction, v2 boundary calibration, pre-registered F2-F5, attractor/operator-out tests, `language_as_matter.md` two-layer framing, 0.94 vs 0.42 quantification, Hawking radiation / ghost-token accounting. Gold set removed (would contaminate the principle — humans don't define matter). |
 | `answers/final/CT_ANSWERS_FINAL.md` | ~55 (established floor) | Deep-dive loop: verified raw data against paper's headline number. Found metric mismatch (paper error, not law failure): 0.94 ± 0.03 (published as Jaccard) matches NLI for 13 stable signals only (0.973 ± 0.023 SEM), not Jaccard for all 20 (actual: 0.333). 7/20 gate failures are instrument failures (EXP-005 proved this), not law failures. Fix designed (ANCH+ESCL+voice). After EXP-008: 57-61. Initial FINAL score of 50 was the attack pattern (inflated criticism); corrected to 55. |
+
+### Fresh Run (from FULL_WORKFLOW_PROMPT.md)
+
+| File | Score | What it is |
+|------|-------|------------|
+| `analysis/EXPERT_NOTES_FRESH.md` | — | Fresh synthesis of CT after reading all 28 primary sources. 12 sections covering core, architecture, conserved quantity, symmetry, instrument, falsifiability, asymmetry, scope, gaps, failure modes, Shannon parallel, non-tautology. |
+| `answers/pass1/CT_ANSWERS_FRESH_PASS1_SOLO.md` | ~35 (frame, not law) | Fresh solo Pass 1: all 23 questions answered best-effort with self-scoring. Honest about gaps: no Lagrangian, aggregate asymmetry reversed, no independent replication. |
+| `answers/pass2/CT_ANSWERS_FRESH_PASS2_GUIDED.md` | ~50-55 (promising to established floor) | Fresh guided Pass 2: honest-only answers with [SKIP] where appropriate. Includes gap analysis, yes/no summary, final assessment, and all Phase 6 follow-ups (verdict + competition matrix, 5 remaining actions, troubleshooting plan, academic requirements, data verification, attack pattern awareness). Numbers verified against raw data in `convergence_v2_234059.json`. |
+| `scoring/CT_SCORING_FRESH.md` | — | Blank scoring sheet for outside review of Fresh Pass 2. |
 
 ---
 
@@ -133,6 +146,8 @@ stress-test/
 | V2 Solo | 43 | Promising | Independent single-pass run from Commitment_Theory repo only (no Commitment_Conservation harness code). See `v2-solo-run/` for full documentation. |
 | **FINAL (initial, attack pattern)** | **~50** | **Promising** | **Deep-dive loop found metric mismatch; inflated into 9-point drop — this was the attack pattern, not honest assessment** |
 | **FINAL (corrected)** | **~55** | **Established (floor)** | **Metric mismatch is paper error (-2-3). 7/20 are instrument failures, not law failures (EXP-005 proved this). After EXP-008 (fixed gate): 57-61.** |
+| **Fresh Pass 1 (solo)** | **~35** | **Frame, not law** | **Fresh solo run from FULL_WORKFLOW_PROMPT.md. All 23 answered best-effort. Honest about gaps: no Lagrangian, aggregate asymmetry reversed, no independent replication.** |
+| **Fresh Pass 2 (guided)** | **~50-55** | **Promising to Established floor** | **Fresh guided run. Honest-only answers with [SKIP]. Numbers verified against raw data. Includes Phase 6: competition matrix, 5 actions, troubleshooting, academic requirements, data verification, attack pattern check.** |
 
 **Thresholds:**
 - 55-69: Established as a conservation law by hard science standards
