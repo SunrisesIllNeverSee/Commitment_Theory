@@ -1,8 +1,8 @@
 # CT Scoring Sheet — Fresh Run (Blank for Outside Review)
 
-**Date:** 2026-07-08
+**Date:** 2026-07-08 (regenerated)
 **Purpose:** Blank scoring sheet for an outside reviewer to score the Pass 2 guided answers blind.
-**File being scored:** `CT_ANSWERS_FRESH_PASS2_GUIDED.md`
+**File being scored:** `CT_ANSWERS_FRESH_PASS2_GUIDED.md` (regenerated fresh run from FULL_WORKFLOW_PROMPT.md)
 **Scale:** 0-3 per question (0 = not met / no evidence; 1 = claimed but not demonstrated; 2 = partially met / demonstrated within limits; 3 = fully met / externally verifiable)
 
 ---

@@ -1,11 +1,62 @@
 # Session Resume — Where We Left Off
 
-**Last session:** 2026-07-08
+**Last session:** 2026-07-08 (review session)
 **Next session:** Pick up from here
 
 ---
 
-## What Was Done This Session
+## What Was Done This Session (Review Session)
+
+### 1. Fresh Run Reviewed and Accepted
+
+A fresh run of `FULL_WORKFLOW_PROMPT.md` was implemented by another agent and reviewed for correctness, security, completion, and shortcuts. **Verdict: ACCEPT.**
+
+The fresh run produced four files (all in `Commitment_Theory` repo):
+- `stress-test/analysis/EXPERT_NOTES_FRESH.md` (262 lines, 12 sections, 9 gaps)
+- `stress-test/answers/pass1/CT_ANSWERS_FRESH_PASS1_SOLO.md` (394 lines, all 23 answered, self-score 43/69)
+- `stress-test/answers/pass2/CT_ANSWERS_FRESH_PASS2_GUIDED.md` (658 lines, 5 skips, gap analysis, all 6 Phase 6 follow-ups)
+- `stress-test/scoring/CT_SCORING_FRESH.md` (116 lines, blank for outside review)
+
+### 2. Data Verification Independently Confirmed
+
+The review independently recomputed all metrics from `convergence_v2_234059.json` and confirmed the agent's numbers **exactly**:
+
+| Metric | Agent's claim | Reviewer's computation | Match |
+|--------|--------------|------------------------|-------|
+| Gate Jaccard @ i10 | 0.333 | 0.3328 | ✓ |
+| Baseline Jaccard @ i10 | 0.464 | 0.4642 | ✓ |
+| Gate NLI @ i10 | 0.775 | 0.7750 | ✓ |
+| Baseline NLI @ i10 | 0.875 | 0.8750 | ✓ |
+| Stable-13 count | 13 | 13 | ✓ |
+| Stable-13 Gate NLI (all iters) | 0.973 ± 0.010 | 0.9731, SEM 0.0099 | ✓ |
+| Stable-13 Baseline NLI | 0.892 ± 0.018 | 0.8923, SEM 0.0181 | ✓ |
+| Delta (stable-13) | +0.081 | +0.0808 | ✓ |
+| Delta (all 20) | -0.10 (reversed) | -0.1000 | ✓ |
+
+The paper error is confirmed: `paper/v05/main.tex` line 754 defines the metric as "Jaccard similarity" and line 773 reports 0.94, but actual Jaccard is 0.333. The 0.94 matches NLI for the stable-13 subset only. The agent correctly classified this as a **paper error (-2 to -3 points)**, not a law failure (-9 points).
+
+### 3. Fresh Run Score: 43/69 (Promising)
+
+The fresh run's self-score is **43/69 (Promising band, 40-54)**. This is more conservative than the prior session's corrected FINAL score of ~55. The difference:
+
+- The fresh run scored Q5.2 (asymmetry demonstrated) as 2, citing the aggregate reversal (gate worse than baseline for all 20 signals). The prior session scored this higher after arguing the 7/20 are instrument failures (EXP-005 evidence).
+- The fresh run scored Q5.4 (effect size) as 1, citing the paper metric error. The prior session treated this as already corrected.
+- The fresh run is honest that the 7/20 → instrument-failure attribution is an *inference* from EXP-005, not a *demonstration* (EXP-008 not run).
+
+Both scores are defensible. The fresh run is the more conservative/honest reading; the prior session's 55 assumes EXP-008 will confirm the instrument-failure attribution.
+
+### 4. Uncommitted Changes in Commitment_Theory Repo
+
+Three files have uncommitted modifications (refinements made during the fresh run):
+- `CT/workspace/stress-test/README.md` — score table updated to reflect fresh run scores
+- `CT/workspace/stress-test/answers/pass2/CT_ANSWERS_FRESH_PASS2_GUIDED.md` — regenerated with Phase 6 follow-ups
+- `CT/workspace/stress-test/scoring/CT_SCORING_FRESH.md` — date/header updated
+
+These are the current, correct versions. The committed versions are the older pre-refinement state.
+
+---
+
+## What Was Done in the Prior Session (2026-07-08, original)
 
 ### 1. Stress-Test Folder Reorganized
 The `stress-test/` folder was cleaned up into subfolders:
@@ -29,14 +80,17 @@ Five-session deep-dive loop verified the paper's headline numbers against raw da
 ### 3. Attack Pattern Identified and Corrected
 The initial FINAL score of 50 was the attack pattern (inflating real findings into a 9-point drop). Corrected to 55 — the honest score. The 7/20 are instrument failures, not law failures. The metric mismatch is a paper error, not a law failure.
 
-**Score trajectory:**
+**Score trajectory (all runs):**
 | Pass | Score | Band |
 |------|-------|------|
-| Pass 1 | ~38 | Frame, not law |
-| Pass 2 | ~49 | Promising |
-| Pass 3 | ~59 | Established |
+| Pass 1 (original) | ~38 | Frame, not law |
+| Pass 2 (original) | ~49 | Promising |
+| Pass 3 (original) | ~59 | Established |
 | FINAL (attack pattern) | ~50 | Promising |
-| **FINAL (corrected)** | **~55** | **Established (floor)** |
+| FINAL (corrected) | ~55 | Established (floor) |
+| V2 Solo | 43 | Promising |
+| **Fresh Pass 1 (solo)** | **43** | **Promising** |
+| **Fresh Pass 2 (guided)** | **43-48** | **Promising** |
 | After EXP-008 (predicted) | 57-61 | Established |
 
 ### 4. FIX_IMMEDIATELY.md Created
@@ -49,6 +103,8 @@ Three issues, three fixes:
 
 ### 5. Competition Analysis Completed
 Seven parallel research agents investigated who else is doing this. Result: **no one has set out to establish language as matter.** CT is the only work with all six criteria (conservation + empirical + falsifiable + public harness + deontic + claims language is matter).
+
+The fresh run expanded this to 8 candidates (added Hatton & Warr CoHSI and Barwise & Cooper determiner conservativity).
 
 **Closest competitors (ranked):**
 1. CT (McHenry) — the only full claim
@@ -69,23 +125,22 @@ Seven parallel research agents investigated who else is doing this. Result: **no
 
 **Location:** `stress-test/prompts/FULL_WORKFLOW_PROMPT.md` (copy also in Commitment_Conservation `working/`)
 
-### 7. V2 Solo Run Marked Complete
-
 ---
 
 ## What Needs to Happen Next
 
 ### Immediate (before any submission)
-1. **Fix the paper metric mismatch** — correct the metric definition or the numbers in `paper/v05/main.tex` (line 754, line 773). See `FIX_IMMEDIATELY.md`.
-2. **Run EXP-008** — combined ANCH+ESCL gate + Step C voice constraint on all 20 signals. Save as `run_convergence_v3.py` (don't overwrite v2). EXP-005 predicts 5-6 of the 7 instrument failures recover.
-3. **Write the addendum** — Section 7.7 in the paper reporting both original (EXP-003) and refined (EXP-008) numbers.
+1. **Commit the uncommitted changes** in `Commitment_Theory` repo (3 files: README, Pass 2, scoring sheet)
+2. **Fix the paper metric mismatch** — correct the metric definition or the numbers in `paper/v05/main.tex` (line 754, line 773). See `FIX_IMMEDIATELY.md`.
+3. **Run EXP-008** — combined ANCH+ESCL gate + Step C voice constraint on all 20 signals. Save as `run_convergence_v3.py` (don't overwrite v2). EXP-005 predicts 5-6 of the 7 instrument failures recover.
+4. **Write the addendum** — Section 7.7 in the paper reporting both original (EXP-003) and refined (EXP-008) numbers.
 
-### Then (the remaining actions)
-4. Run the v2 boundary calibration (invariance/perturbation/null pairs)
-5. Run F2-F5 on the canonical corpus with both NLI oracles
-6. Run operator-out test with a second, architecturally different model
-7. Close the Lagrangian gap (CAP-001 — long-term, possibly via Marcolli collaboration)
-8. Get independent replication
+### Then (the remaining actions from the fresh run's Step 13)
+5. Compute formal measurement uncertainty (Wilson CIs on existing data — hours)
+6. Get one independent reproduction (days, if a willing researcher is found)
+7. Construct a calibration corpus (20-30 signals with known commitment kernels)
+8. Formalize C(S) as an information-theoretic object (months — Paper 2's blocking gap)
+9. Derive the conservation from a symmetry principle (years — CAP-001 / FS-001)
 
 ### People to contact
 1. **Matilde Marcolli (Caltech)** — highest priority. Physics machinery + syntactic conservation. Collaboration could close the Lagrangian gap.
@@ -96,8 +151,17 @@ Seven parallel research agents investigated who else is doing this. Result: **no
 
 ---
 
-## Key Files Created/Modified This Session
+## Key Files
 
+### Fresh run (this session, reviewed and accepted)
+| File | What it is | Location |
+|------|-----------|----------|
+| `EXPERT_NOTES_FRESH.md` | Fresh synthesis of CT, 12 sections, 9 gaps | `stress-test/analysis/` |
+| `CT_ANSWERS_FRESH_PASS1_SOLO.md` | Fresh solo Pass 1, all 23 answered, self-score 43/69 | `stress-test/answers/pass1/` |
+| `CT_ANSWERS_FRESH_PASS2_GUIDED.md` | Fresh guided Pass 2, 5 skips, gap analysis, all Phase 6 follow-ups | `stress-test/answers/pass2/` |
+| `CT_SCORING_FRESH.md` | Blank scoring sheet for outside review | `stress-test/scoring/` |
+
+### Prior session files
 | File | What it is | Location |
 |------|-----------|----------|
 | `FIX_IMMEDIATELY.md` | Three issues, three fixes — the fix plan | Commitment_Conservation repo root |
@@ -116,12 +180,13 @@ Seven parallel research agents investigated who else is doing this. Result: **no
 | Paper's headline (Jaccard) | 0.94 ± 0.03 vs 0.42 ± 0.12 | `paper/v05/main.tex` line 773 — **WRONG (metric mismatch)** |
 | Actual Jaccard @10 (all 20) | Gate 0.333, Baseline 0.464 | `convergence_v2_234059.json` — baseline higher |
 | Actual NLI @10 (all 20) | Gate 0.775, Baseline 0.875 | same run file — baseline higher (7/20 instrument failures) |
-| NLI stable-13 (all iterations) | Gate 0.973 ± 0.023 SEM, Baseline 0.892 ± 0.057 SEM | same run file — **gate higher (the real asymmetry)** |
+| NLI stable-13 (all iterations) | Gate 0.973 ± 0.010 SEM, Baseline 0.892 ± 0.018 SEM | same run file — **gate higher (the real asymmetry)** |
 | The 0.94 matches | NLI for 13 stable signals (0.973) | not Jaccard for all 20 (0.333) |
 | Run 001 (depth=20) | Gate 55%, Baseline 40% (+15pp) | deeper recursion, gate wins |
 | EXP-005 ESCL recovery | legal_qualifier 0.50 → 1.00 | proves instrument failure, not law failure |
 | EXP-005 ANCH fixpoint | quantified_temporal = 1.00 all 10 iterations | proves anchor-preserving Step A works |
-| Corrected FINAL score | ~55/69 (established floor) | after metric mismatch (-2-3) and unfixed instrument (-1-2) |
+| Fresh run self-score | 43/69 (Promising) | conservative/honest reading |
+| Prior corrected FINAL score | ~55/69 (established floor) | assumes EXP-008 confirms instrument-failure attribution |
 | Predicted score after EXP-008 | 57-61/69 (established) | if 5-6 of 7 instrument failures recover |
 
 ---
@@ -129,10 +194,10 @@ Seven parallel research agents investigated who else is doing this. Result: **no
 ## The Bottom Line
 
 - **The law is not falsified.** The 7/20 failures are instrument failures (EXP-005 proved this). The metric mismatch is a paper error.
-- **The score is 55 (established floor), not 50 (promising).** The 50 was the attack pattern.
+- **The fresh run scored 43 (Promising), the prior session scored 55 (Established floor).** The difference is how much credit to give the instrument-failure attribution before EXP-008 confirms it. Both are defensible.
 - **No one else is doing this.** CT is the only work claiming language is matter with evidence.
 - **The window is open but closing.** Fix the paper, run EXP-008, get into a peer-reviewed venue.
 
 ---
 
-*Resume here. Start with FIX_IMMEDIATELY.md — the fix plan is ready, it just needs to be executed.*
+*Resume here. Start with committing the uncommitted changes, then FIX_IMMEDIATELY.md — the fix plan is ready, it just needs to be executed.*

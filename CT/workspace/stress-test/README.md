@@ -67,9 +67,9 @@ stress-test/
 
 | File | Score | What it is |
 |------|-------|------------|
-| `analysis/EXPERT_NOTES_FRESH.md` | — | Fresh synthesis of CT after reading all 28 primary sources. 12 sections covering core, architecture, conserved quantity, symmetry, instrument, falsifiability, asymmetry, scope, gaps, failure modes, Shannon parallel, non-tautology. |
-| `answers/pass1/CT_ANSWERS_FRESH_PASS1_SOLO.md` | ~35 (frame, not law) | Fresh solo Pass 1: all 23 questions answered best-effort with self-scoring. Honest about gaps: no Lagrangian, aggregate asymmetry reversed, no independent replication. |
-| `answers/pass2/CT_ANSWERS_FRESH_PASS2_GUIDED.md` | ~50-55 (promising to established floor) | Fresh guided Pass 2: honest-only answers with [SKIP] where appropriate. Includes gap analysis, yes/no summary, final assessment, and all Phase 6 follow-ups (verdict + competition matrix, 5 remaining actions, troubleshooting plan, academic requirements, data verification, attack pattern awareness). Numbers verified against raw data in `convergence_v2_234059.json`. |
+| `analysis/EXPERT_NOTES_FRESH.md` | — | Fresh synthesis of CT after reading all 28 primary sources. 12 sections covering core, architecture, conserved quantity, symmetry, instrument, falsifiability, asymmetry, scope, gaps, failure modes, Shannon parallel, non-tautology. Includes 9 identified gaps from Step 4 stress test. |
+| `answers/pass1/CT_ANSWERS_FRESH_PASS1_SOLO.md` | ~43 (promising) | Fresh solo Pass 1: all 23 questions answered best-effort with self-scoring. Honest about gaps: no Lagrangian (Q2.3=0), aggregate asymmetry reversed (Q5.2=2), no independent replication (Q3.3=1). Paper metric error identified (Q5.4=1). |
+| `answers/pass2/CT_ANSWERS_FRESH_PASS2_GUIDED.md` | ~43-48 (promising) | Fresh guided Pass 2: honest-only answers with [SKIP] where appropriate (Q2.3, Q3.3, Q3.4, Q4.3, Q5.3 skipped). Includes gap analysis, yes/no summary, final assessment, and all Phase 6 follow-ups (verdict + competition matrix with 8 candidates, 5 remaining actions, troubleshooting plan, academic requirements, data verification against `convergence_v2_234059.json`, attack pattern awareness). |
 | `scoring/CT_SCORING_FRESH.md` | — | Blank scoring sheet for outside review of Fresh Pass 2. |
 
 ---
@@ -146,8 +146,8 @@ stress-test/
 | V2 Solo | 43 | Promising | Independent single-pass run from Commitment_Theory repo only (no Commitment_Conservation harness code). See `v2-solo-run/` for full documentation. |
 | **FINAL (initial, attack pattern)** | **~50** | **Promising** | **Deep-dive loop found metric mismatch; inflated into 9-point drop — this was the attack pattern, not honest assessment** |
 | **FINAL (corrected)** | **~55** | **Established (floor)** | **Metric mismatch is paper error (-2-3). 7/20 are instrument failures, not law failures (EXP-005 proved this). After EXP-008 (fixed gate): 57-61.** |
-| **Fresh Pass 1 (solo)** | **~35** | **Frame, not law** | **Fresh solo run from FULL_WORKFLOW_PROMPT.md. All 23 answered best-effort. Honest about gaps: no Lagrangian, aggregate asymmetry reversed, no independent replication.** |
-| **Fresh Pass 2 (guided)** | **~50-55** | **Promising to Established floor** | **Fresh guided run. Honest-only answers with [SKIP]. Numbers verified against raw data. Includes Phase 6: competition matrix, 5 actions, troubleshooting, academic requirements, data verification, attack pattern check.** |
+| **Fresh Pass 1 (solo)** | **~43** | **Promising** | **Regenerated fresh solo run from FULL_WORKFLOW_PROMPT.md. All 23 answered best-effort. Honest about gaps: no Lagrangian (Q2.3=0), aggregate asymmetry reversed (Q5.2=2), no independent replication (Q3.3=1). Paper metric error identified (Q5.4=1).** |
+| **Fresh Pass 2 (guided)** | **~43-48** | **Promising** | **Regenerated fresh guided run. Honest-only answers with [SKIP] (Q2.3, Q3.3, Q3.4, Q4.3, Q5.3). Numbers verified against raw data. Includes Phase 6: competition matrix (8 candidates), 5 actions, troubleshooting, academic requirements, data verification, attack pattern check.** |
 
 **Thresholds:**
 - 55-69: Established as a conservation law by hard science standards
