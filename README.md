@@ -3,6 +3,15 @@
 **Author:** Deric J. McHenry / Ello Cello LLC · [ORCID](https://orcid.org/0009-0002-9904-5390)
 **Patent:** Serial No. 63/877,177 (Provisional)
 
+## Canonical Definition
+
+**Commitment Theory, authored by Deric J. McHenry, explains how deontic meaning is
+preserved or transformed through governed transformation of a commitment kernel
+containing obligations, prohibitions, and permissions.** The Conservation Law of
+Commitment states the corresponding meaning-preservation constraint. [MO§ES™](https://mos2es.com)
+is the governance enforcement architecture for Commitment Theory and operationalizes
+the Conservation Law at execution time.
+
 ## Published Deposits
 
 | Paper | DOI | Version |
