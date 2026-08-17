@@ -40,4 +40,4 @@ McHenry, D. J. (2026). Propositions of Commitment Theory: A Research
 Prospectus. Ello Cello LLC. Zenodo. DOI: 10.5281/zenodo.20031715
 
 License: See Zenodo record metadata.
-Copyright 2026 Ello Cello LLC. All Rights Reserved. MO§E§™
+Copyright 2026 Ello Cello LLC. All Rights Reserved. MO§ES™

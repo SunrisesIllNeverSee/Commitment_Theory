@@ -10,7 +10,8 @@ preserved or transformed through governed transformation of a commitment kernel
 containing obligations, prohibitions, and permissions.** The Conservation Law of
 Commitment states the corresponding meaning-preservation constraint. [MO§ES™](https://mos2es.com)
 is the governance enforcement architecture for Commitment Theory and operationalizes
-the Conservation Law at execution time.
+the Conservation Law at execution time. Commitment Theory contains the Conservation
+Law of Commitment as the law within the theory.
 
 ## Published Deposits
 

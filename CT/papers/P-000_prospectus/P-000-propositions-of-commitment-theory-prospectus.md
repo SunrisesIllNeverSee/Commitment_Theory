@@ -1,6 +1,6 @@
 # Propositions of Commitment Theory: A Research Prospectus
 
-**Author:** Deric J. McHenry
+**Author:** Deric J. McHenry · [ORCID](https://orcid.org/0009-0002-9904-5390)
 **Affiliation:** Ello Cello LLC
 **Date:** April 20, 2026
 **Status:** Preprint / Foundational Prospectus
@@ -10,7 +10,7 @@
 
 ## Abstract
 
-This document presents the foundational propositions of **Commitment Theory (CT)**, a falsifiable, operational framework for understanding and enforcing the preservation of deontic meaning under transformation. CT is built upon an empirically supported conservation law—the **Conservation Law of Commitment**—which states that under governed transformation, the commitment kernel of a signal (its obligations, prohibitions, permissions, and modal constraints) is conserved: *C(T_gov(S)) = C(S)*. The law is offered for adversarial replication via a public test harness. A second law describes the irreversible semantic entropy that accumulates under ungoverned transformation. These laws are grounded in constitutional axioms—the McHenry Axioms—and operationalized through a six-gate governance protocol and the MO§E§™ enforcement architecture. This prospectus outlines the theory's definitions, propositions, empirical research program, cross-domain applications, and open challenges. It establishes clean conceptual territory for CT, disambiguates its core terms from existing usage in adjacent fields, and maps nine novel concepts introduced by the framework. This document is intended as a foundational reference and an invitation to the research community to replicate, falsify, extend, and apply the framework.
+This document presents the foundational propositions of **Commitment Theory (CT)**, a falsifiable, operational framework for understanding and enforcing the preservation of deontic meaning under transformation. CT is built upon an empirically supported conservation law—the **Conservation Law of Commitment**—which states that under governed transformation, the commitment kernel of a signal (its obligations, prohibitions, permissions, and modal constraints) is conserved: *C(T_gov(S)) = C(S)*. The law is offered for adversarial replication via a public test harness. A second law describes the irreversible semantic entropy that accumulates under ungoverned transformation. These laws are grounded in constitutional axioms—the McHenry Axioms—and operationalized through a six-gate governance protocol and the MO§ES™ enforcement architecture. This prospectus outlines the theory's definitions, propositions, empirical research program, cross-domain applications, and open challenges. It establishes clean conceptual territory for CT, disambiguates its core terms from existing usage in adjacent fields, and maps nine novel concepts introduced by the framework. This document is intended as a foundational reference and an invitation to the research community to replicate, falsify, extend, and apply the framework.
 
 ---
 
@@ -30,7 +30,7 @@ During the development of this framework, the working name was "Commitment Conse
 
 **Proposition 1.3 (Commitment Kernel).** The *commitment kernel* \( C(S) \) of a signal \( S \) is the minimal identity-preserving deontic invariant of the signal—the set of obligations, prohibitions, permissions, and modal constraints that must survive transformation for the signal to be considered semantically continuous with its source. \( C(S) \) is operationally defined and measurable via independent oracles. The kernel is not a summary; it is the irreducible core of operative meaning.
 
-**Proposition 1.4 (Governed Transformation).** A transformation \( T \) is *governed* if and only if it satisfies a set of constitutional constraints designed to preserve the commitment kernel. The specific constraints are defined by the McHenry Axioms and operationalized through the six-gate protocol and the MO§E§™ architecture. **Governed transformation** is a novel term introduced by CT; it has no prior use in this sense in any academic literature.
+**Proposition 1.4 (Governed Transformation).** A transformation \( T \) is *governed* if and only if it satisfies a set of constitutional constraints designed to preserve the commitment kernel. The specific constraints are defined by the McHenry Axioms and operationalized through the six-gate protocol and the MO§ES™ architecture. **Governed transformation** is a novel term introduced by CT; it has no prior use in this sense in any academic literature.
 
 **Proposition 1.5 (Ungoverned Transformation).** A transformation is *ungoverned* if it lacks such constraints. Ungoverned transformations are subject to semantic entropy and commitment decay. **Ungoverned transformation** is likewise a novel term introduced by CT.
 
@@ -82,7 +82,7 @@ Each of these terms is formally defined, operationally measurable, and occupies 
 
 ## Proposition 4. The McHenry Axioms: Constitutional Foundation
 
-*In this prospectus, "constitutional" refers to system-level governing constraints on permissible transformation within the MO§E§™ ecology—analogous to a constitution's function in a legal order, not exclusively to constitutional law.*
+*In this prospectus, "constitutional" refers to system-level governing constraints on permissible transformation within the MO§ES™ ecology—analogous to a constitution's function in a legal order, not exclusively to constitutional law.*
 
 **Proposition 4.1 (Axiom I: Compression Precedes Ignition).** No signal may be output, transmitted, or acted upon unless it has first undergone compression to its commitment kernel. Compression is a prerequisite, not an optimization.
 
@@ -140,7 +140,7 @@ Each failure mode has direct legal, operational, or ethical consequences. The ta
 
 ---
 
-## Proposition 7. The Six-Gate Protocol and MO§E§™ (Operational Layer)
+## Proposition 7. The Six-Gate Protocol and MO§ES™ (Operational Layer)
 
 **Proposition 7.1 (Protocol).** The McHenry Axioms are operationalized through a sequential six-gate protocol:
 
@@ -151,7 +151,7 @@ Each failure mode has direct legal, operational, or ethical consequences. The ta
 5. **Consumption and Metabolism:** Failed signals consumed; recoverable meaning purified and re-emitted.
 6. **Custodial Sovereignty:** Verified artifacts cryptographically bound to origin.
 
-**Proposition 7.2 (MO§E§™).** MO§E§™ is the enforcement architecture that instantiates the six-gate protocol. It is the adaptive transmission layer through which CT enters legal, technical, and governance domains. MO§E§™ is protected by U.S. Patent Serial No. 63/877,177 (Provisional). The law itself is published and open.
+**Proposition 7.2 (MO§ES™).** MO§ES™ is the enforcement architecture that instantiates the six-gate protocol. It is the adaptive transmission layer through which CT enters legal, technical, and governance domains. MO§ES™ is protected by U.S. Patent Serial No. 63/877,177 (Provisional). The law itself is published and open.
 
 **Proposition 7.3 (Vault Artifacts and Fidelity Seal).** A signal that passes all six gates becomes a Vault Artifact, carrying a cryptographic lineage hash, a Fidelity Seal attesting to commitment conservation, and a custody anchor. Vault Artifacts are the persistent, auditable records of governed meaning.
 
