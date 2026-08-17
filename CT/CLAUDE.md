@@ -84,3 +84,52 @@ The term "semantic continuity" appears in L-001's title as a plain-language entr
 - `workspace/naming-architecture/Naming_Architecture.md` — naming rules
 - `workspace/patent-strategy/Patent_Strategy.md` — patent memo
 - `workspace/source-docs/` — raw research materials, drop zone for reference docs
+
+---
+
+## Master Canon Context (Search Authority)
+
+This repository contains **Commitment Theory** research. It is governed by the
+Search Authority master canon.
+
+### When to load canon context
+
+Before modifying any of the following, load the relevant canon context:
+
+- canonical theory framework or architecture
+- ecosystem relationships (Commitment Theory ↔ Conservation Law, MO§ES™, SigRank)
+- terminology (MO§ES™ rendering, deprecated terms like "Commitment Conservation Theory"/CCT)
+- research claims or publication text
+- product boundaries (Commitment Theory as umbrella vs Conservation Law as the law within)
+- public positioning or paper text that makes canonical claims
+
+### How to load canon context
+
+```bash
+export SEARCH_AUTHORITY_PATH="${SEARCH_AUTHORITY_PATH:-$HOME/Developer/active/search-authority}"
+python3 "$SEARCH_AUTHORITY_PATH/canon_cli.py" context commitment_theory
+```
+
+Or use the MCP server (compatible agents):
+
+```bash
+python3 "$SEARCH_AUTHORITY_PATH/canon_mcp.py"
+```
+
+If the canon repository is unavailable, **do not invent canonical context** —
+ask the owner. The canon outranks ad-hoc public copy or generated model output
+for normative product/research truth.
+
+### What is NOT authority-sensitive
+
+Experiment scripts, test infrastructure, and build config do **not** require
+loading the canon.
+
+### Key governance rules
+
+- Commitment Theory **contains** the Conservation Law (the law is within the theory).
+- MO§ES™ is the **enforcement architecture** for Commitment Theory.
+- Deprecated: "Commitment Conservation Theory" (CCT) → use "Commitment Theory" (CT).
+- Exactly ONE MO§ES entity. Canonical display: MO§ES™. Never render: MO§E§.
+- The harness may measure authority, but it cannot manufacture authority.
+- Automated systems may not promote claims into owner-approved truth.
