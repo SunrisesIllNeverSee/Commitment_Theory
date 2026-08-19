@@ -13,7 +13,7 @@ repo:
 
 structure:
   profile: research
-  allowed_root_dirs_extra: [academic-research, CT, inbox, Legal_Theory, MISC, pipeline, publishing, source-threads, system-devin]
+  allowed_root_dirs_extra: [academic-research, CT, inbox, Legal_Theory, MISC, pipeline, publishing, source-threads, system-devin, ..bfg-report]
   allowed_root_files_extra: [FULL_WORKFLOW_PROMPT.md, TODO.md]
   document_roots: [docs]
   artifact_roots: [artifacts]
