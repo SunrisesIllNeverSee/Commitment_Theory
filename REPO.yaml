@@ -9,15 +9,15 @@ repo:
   lifecycle: research
   repo_id: commitment_theory
   family: commitment-theory
-  purpose: Commitment Theory (CT) — the 34-paper research program built on the Conservation Law of Commitment. AI governance grounded in a falsifiable, empirically tested conservation law. CC-BY-4.0.
+  purpose: 'Commitment Theory — authored by Deric J. McHenry. Explains how deontic meaning is preserved or transformed through governed transformation of a commitment kernel containing obligations, prohibitions, and permissions. Contains the Conservation Law of Commitment. Patent Serial No. 63/877,177 (Provisional).'
 
 structure:
   profile: research
-  allowed_root_dirs_extra: [academic-research, CT, inbox, Legal_Theory, MISC, pipeline, publishing, source-threads, system-devin, ..bfg-report]
-  allowed_root_files_extra: [FULL_WORKFLOW_PROMPT.md, TODO.md]
-  document_roots: [docs]
-  artifact_roots: [artifacts]
-  archive_roots: [archive, docs/archive]
+  allowed_root_dirs_extra: [academic-research, CT, inbox, Legal_Theory, MISC, pipeline, publishing, source-threads, system-devin, ..bfg-report, docs]
+  allowed_root_files_extra: [FULL_WORKFLOW_PROMPT.md, TODO.md, CT.zip]
+  document_roots: [docs, CT, publishing]
+  artifact_roots: [CT, MISC, artifacts]
+  archive_roots: [MISC, inbox, archive, docs/archive]
 
 naming:
   forbid_version_suffixes: true
@@ -25,7 +25,7 @@ naming:
 
 knowledge:
   okf_enabled: true
-  okf_roots: [docs, .coord]
+  okf_roots: [docs, CT, publishing]
   okf_severity: warn
 
 coordination:

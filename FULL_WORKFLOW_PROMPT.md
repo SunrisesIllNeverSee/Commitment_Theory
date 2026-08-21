@@ -1,3 +1,11 @@
+---
+type: Runbook
+title: Full Workflow Prompt — Language as Matter
+description: 'Self-contained prompt for a fresh Devin session to execute the full Commitment Theory research workflow. Active.'
+tags: [commitment-theory, workflow, runbook, devin]
+timestamp: 2026-08-21
+---
+
 # Language as Matter — Full Workflow Prompt
 
 **Purpose:** This is a self-contained prompt for a fresh Devin session. The session must:

@@ -1,3 +1,11 @@
+---
+type: Reference
+title: Commitment Theory
+description: 'Commitment Theory — authored by Deric J. McHenry. Explains how deontic meaning is preserved or transformed through governed transformation of a commitment kernel. Contains the Conservation Law of Commitment. Active.'
+tags: [commitment-theory, conservation-law, moses, deontic, reference]
+timestamp: 2026-08-21
+---
+
 # Commitment Theory
 
 **Author:** Deric J. McHenry / Ello Cello LLC · [ORCID](https://orcid.org/0009-0002-9904-5390)

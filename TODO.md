@@ -1,3 +1,11 @@
+---
+type: Roadmap
+title: TODO — Commitment Theory
+description: 'Global task list across all Commitment Theory tracks. Update as tasks complete or new ones emerge. Active.'
+tags: [commitment-theory, todo, roadmap, tasks]
+timestamp: 2026-08-21
+---
+
 # TODO — Commitment Theory
 
 Global task list across all three tracks. Update as tasks complete or new ones emerge.
