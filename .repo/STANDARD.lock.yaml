@@ -1,8 +1,8 @@
 standard_name: ello-repo-standard
-version: "1.0.0"
-source: "ello-repo-control/standard/versions/1.0.0"
-package_hash: "af6f2a2b67b75abe964565631e5bfb5a08667ddd622d337e36d2065d4e7a9ff5"
-install_date: "2026-08-18"
+version: "1.1.0"
+source: ello-repo-control/standard/versions/1.1.0
+package_hash: 25028f4b47159c4a5d926f7143ada454fa72d0962a34aa9042217d2e0ed6811e
+install_date: 2026-10-24
 installed_profile: "research"
 mode: "migrate"
 local_overrides:

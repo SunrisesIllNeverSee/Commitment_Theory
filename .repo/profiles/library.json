@@ -3,6 +3,8 @@
   "allowed_root_directories": [
     ".git",
     ".github",
+    ".claude",
+    ".codex",
     ".devin",
     ".repo",
     ".coord",

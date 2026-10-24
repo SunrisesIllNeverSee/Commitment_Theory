@@ -13,6 +13,5 @@ _submission_only.md
 .coord/micro/state/.role-*
 .coord/micro/state/ACTIVITY.log
 .coord/micro/state/snapshots/
-.coord/micro/scratchpad-archive/
 .repo/.cache/
 .DS_Store

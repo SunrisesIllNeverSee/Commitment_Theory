@@ -5,7 +5,7 @@ from repo_lib import repo_root, config, profile, deepget
 
 DOC_EXT={'.md','.pdf','.docx','.pptx','.xlsx','.csv','.txt','.rtf'}
 DUP_RE=re.compile(r'(?i)(?:[_ .-](?:final\d*|new|updated|revised|copy\d*)|\s*\(\d+\))(?=\.[^.]+$|$)')
-SKIP={'.git','node_modules','.next','dist','build','coverage','.venv','venv','vendor'}
+SKIP={'.git','node_modules','.next','dist','build','coverage','.venv','venv','vendor','.pytest_cache'}
 
 def changed_since(root, base):
     if not base: return set()
@@ -36,12 +36,28 @@ def main():
             if top and top not in allowed_dirs:
                 issue(f'REPO.yaml structure.{key} points to root not allowed by profile: {configured}')
 
+    roles=root/'.coord'/'micro'/'ROLES'
+    if roles.is_file():
+        seen=set(); bad=[]
+        for ln,raw in enumerate(roles.read_text(encoding='utf-8',errors='replace').splitlines(),1):
+            t=raw.strip()
+            if not t or t.startswith('#'): continue
+            key,_,val=t.partition('=')
+            key=key.strip(); val=val.strip()
+            if not re.fullmatch(r'slot[1-9]',key): bad.append(f'line {ln} is not slotN=NAME'); continue
+            if val.upper()=='OWNER': bad.append(f'line {ln}: OWNER is reserved for the human'); continue
+            if not re.fullmatch(r'[A-Za-z0-9_-]+',val): bad.append(f'line {ln}: invalid role name'); continue
+            if key in seen or val.upper() in seen: bad.append(f'line {ln}: duplicate slot or name'); continue
+            seen.add(key); seen.add(val.upper())
+        if bad: warnings.append('.coord/micro/ROLES: '+'; '.join(bad)+' (kit ignores these lines)')
+
     for req in prof.get('required_files',[]):
         if not (root/req).exists(): issue(f'missing required root file: {req}')
 
     for p in sorted(root.iterdir(), key=lambda x:x.name.lower()):
         n=p.name
         if p.is_dir():
+            if n in SKIP: continue
             if n not in allowed_dirs: issue(f'unapproved root directory: {n}/')
         else:
             if n in allowed_files: continue
